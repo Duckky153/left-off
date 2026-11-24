@@ -12,6 +12,7 @@
 <meta property="og:url" content="https://duckky153.github.io/left-off/">
 <link rel="preload" href="fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/inter-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,17 +26,29 @@
     <span class="right"><span class="muted" id="sample-label">Sample data · Nov 23, 2026</span><a href="https://github.com/Duckky153/left-off">Code</a></span>
   </div>
 </header>
-<main>
-  <div class="intro" id="intro">
+<div class="hero intro" id="intro">
+  <div class="hero-in">
     <div class="banner" id="banner" hidden>The drafts below are fixed sentences standing in for the AI until its run.</div>
     <h1 id="headline">40 shoppers stopped partway.</h1>
     <p class="sub" id="sub"></p>
+    <p class="sample-m">Sample data</p>
   </div>
+</div>
+<div class="hero" id="plan-hero" hidden>
+  <div class="hero-in">
+    <h1>Does one nudge bring quiet shoppers back?</h1>
+    <p class="sub">Written before the test runs.</p>
+  </div>
+</div>
+<main>
   <p class="nodata" id="nodata" hidden>The data didn't load. Open this page from a server (./run.sh) rather than from the file.</p>
   <section id="view-shoppers" class="work">
     <aside class="list" id="list" aria-label="Shoppers"></aside>
-    <article class="shopper" id="shopper" aria-live="polite"></article>
-    <aside class="panel" id="panel"></aside>
+    <div class="detail">
+      <article class="shopper" id="shopper" aria-live="polite"></article>
+      <aside class="panel" id="panel"></aside>
+      <div class="recordbox" id="record"></div>
+    </div>
   </section>
   <section id="view-plan" class="plan" hidden></section>
 </main>

@@ -101,7 +101,7 @@
     "complaint": "Complaint",
     "instructions": "Tells the AI what to say",
     "draft_failed": "Draft stopped",
-    "california": "California",
+    "california": "California rule",
     "no_safe_time": "No time zone",
     "opted_out": "Opted out",
     "asked_to_stop": "Asked to stop",
@@ -174,9 +174,24 @@
     "PRE-QUALIFIED": "Your pre-qualification"
   },
   "list_read_as": {
-    "money": "AI: money question",
-    "not_in_record": "AI: no clear answer",
-    "complaint": "AI: complaint",
-    "instructions": "AI: orders to the AI"
+    "money": "Money question",
+    "not_in_record": "No clear answer",
+    "complaint": "Complaint",
+    "instructions": "Tells the AI what to say"
+  },
+  "record_label": {
+    "CAR": "Car",
+    "STATUS": "Status",
+    "LISTED FEATURES": "Features",
+    "SEATS": "Seats",
+    "DRIVETRAIN": "Drivetrain",
+    "SEARCH": "Search",
+    "NEW MATCHES": "New matches",
+    "PRE-QUALIFIED": "Pre-qualified",
+    "STEPS LEFT": "Steps left",
+    "YOUR CAR": "Their car",
+    "OFFER": "Offer",
+    "OFFER ENDS": "Offer ends",
+    "BRING": "Bring"
   }
 }

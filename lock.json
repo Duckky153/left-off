@@ -561,6 +561,24 @@
    "when": "2026-11-24T00:51:32",
    "sha256": "be01b1803ce5e2ddaf3759fb3562a61351d306498bc141e43605cc08c419d992",
    "why": "'run' says a second-check reading as a reading; an unknown --source is refused."
+  },
+  {
+   "file": "wording.json",
+   "when": "2026-11-24T01:05:01",
+   "sha256": "b11d3ee1e39c5a5c60c68cf9c37626430e6b37c2de2b6ed6ce280b75a3320239",
+   "why": "Redesign after his note that the page looked AI-generated: record labels for the 'From their record' list. Display only."
+  },
+  {
+   "file": "leftoff.py",
+   "when": "2026-11-24T01:05:01",
+   "sha256": "fcdc4981fe12d28a8ed7a44ebe7b6c67c6babd2e369e68fa24d8f1f9c4e78230",
+   "why": "Page rows carry the record lines the writer saw and which one the draft used. Display only."
+  },
+  {
+   "file": "wording.json",
+   "when": "2026-11-24T01:15:32",
+   "sha256": "b671aab97f44bd5ca281d7aec6af16368172dd159d0bf37d39023395d70fbad7",
+   "why": "Design review 5: list reasons plain (the 'AI check:' reading stays on the shopper's screen); 'California rule'. Display only."
   }
  ],
  "before_scored_run": {

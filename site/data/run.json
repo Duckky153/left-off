@@ -44,7 +44,22 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Offer",
+     "an offer to buy your car"
+    ],
+    [
+     "Offer ends",
+     "Nov 26"
+    ],
+    [
+     "Bring",
+     "the title; both keys; your driver's license"
+    ]
+   ],
+   "used": "Bring"
   },
   {
    "id": "S-1010",
@@ -86,7 +101,22 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Offer",
+     "a trade-in offer on your car"
+    ],
+    [
+     "Offer ends",
+     "Nov 26"
+    ],
+    [
+     "Bring",
+     "the title; both keys; your driver's license"
+    ]
+   ],
+   "used": "Bring"
   },
   {
    "id": "S-1003",
@@ -128,7 +158,26 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Status",
+     "still for sale, with 32,496 miles"
+    ],
+    [
+     "Features",
+     "Third-row seating; Power liftgate; Leather seats; Heated front seats; Apple CarPlay; Blind spot monitor"
+    ],
+    [
+     "Seats",
+     "7 seats"
+    ],
+    [
+     "Drivetrain",
+     "FWD or AWD"
+    ]
+   ],
+   "used": "Seats"
   },
   {
    "id": "S-1004",
@@ -170,7 +219,18 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Search",
+     "SUVs under 60,000 miles"
+    ],
+    [
+     "New matches",
+     "3 new cars match, all with AWD"
+    ]
+   ],
+   "used": "New matches"
   },
   {
    "id": "S-1018",
@@ -207,7 +267,22 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Offer",
+     "a trade-in offer on your car"
+    ],
+    [
+     "Offer ends",
+     "Nov 27"
+    ],
+    [
+     "Bring",
+     "the title; both keys"
+    ]
+   ],
+   "used": "Offer ends"
   },
   {
    "id": "S-1013",
@@ -250,7 +325,26 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Status",
+     "still for sale, with 38,234 miles"
+    ],
+    [
+     "Features",
+     "Heated front seats; Apple CarPlay; Android Auto; Blind spot monitor; Backup camera"
+    ],
+    [
+     "Seats",
+     "5 seats"
+    ],
+    [
+     "Drivetrain",
+     "FWD"
+    ]
+   ],
+   "used": "Status"
   },
   {
    "id": "S-1014",
@@ -293,7 +387,26 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Status",
+     "still for sale, with 12,577 miles"
+    ],
+    [
+     "Features",
+     "Power moonroof; Heated front seats; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera"
+    ],
+    [
+     "Seats",
+     "5 seats"
+    ],
+    [
+     "Drivetrain",
+     "AWD"
+    ]
+   ],
+   "used": "Status"
   },
   {
    "id": "S-1019",
@@ -331,7 +444,22 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Offer",
+     "an offer to buy your car"
+    ],
+    [
+     "Offer ends",
+     "ended on Nov 21"
+    ],
+    [
+     "Bring",
+     "the title; both keys; your driver's license"
+    ]
+   ],
+   "used": "Offer ends"
   },
   {
    "id": "S-1005",
@@ -376,7 +504,18 @@
    "caught": [
     "available"
    ],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Search",
+     "Three-row SUVs from 2019 or newer"
+    ],
+    [
+     "New matches",
+     "2 new cars match, all with third-row seating"
+    ]
+   ],
+   "used": "New matches"
   },
   {
    "id": "S-1029",
@@ -409,7 +548,22 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. Money questions go to a person."
+   "strip": "No draft. Money questions go to a person.",
+   "record": [
+    [
+     "Offer",
+     "a trade-in offer on your car"
+    ],
+    [
+     "Offer ends",
+     "Nov 28"
+    ],
+    [
+     "Bring",
+     "the title; both keys"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1027",
@@ -431,7 +585,7 @@
    "outcome": "person",
    "label": "Needs a person",
    "reason": "AI check: money question",
-   "list_reason": "AI: money question",
+   "list_reason": "Money question",
    "reply_by": "Mon 7:15 pm Mountain",
    "channel": "text",
    "send_at": "Mon, Nov 23, 6:15 pm Mountain",
@@ -442,7 +596,26 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. The AI check read this as about money, so a person answers."
+   "strip": "No draft. The AI check read this as about money, so a person answers.",
+   "record": [
+    [
+     "Features",
+     "Third-row seating; Power liftgate; Leather seats; Wireless phone charging; Blind spot monitor; Adaptive cruise control"
+    ],
+    [
+     "Seats",
+     "8 seats"
+    ],
+    [
+     "Drivetrain",
+     "FWD or AWD"
+    ],
+    [
+     "Steps left",
+     "Upload your driver's license"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1026",
@@ -475,7 +648,14 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. Money questions go to a person."
+   "strip": "No draft. Money questions go to a person.",
+   "record": [
+    [
+     "Pre-qualified",
+     "you finished pre-qualifying on Nov 18"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1024",
@@ -508,7 +688,18 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. Money questions go to a person."
+   "strip": "No draft. Money questions go to a person.",
+   "record": [
+    [
+     "Search",
+     "SUVs under 60,000 miles"
+    ],
+    [
+     "New matches",
+     "2 new cars match"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1002",
@@ -555,7 +746,26 @@
     }
    ],
    "caught": [],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Status",
+     "sold on Nov 21"
+    ],
+    [
+     "Features",
+     "Heated front seats; Apple CarPlay; Android Auto; Blind spot monitor; Adaptive cruise control; Backup camera"
+    ],
+    [
+     "Seats",
+     "5 seats"
+    ],
+    [
+     "Drivetrain",
+     "FWD or AWD"
+    ]
+   ],
+   "used": "Status"
   },
   {
    "id": "S-1032",
@@ -578,7 +788,7 @@
    "outcome": "person",
    "label": "Needs a person",
    "reason": "AI check: money question",
-   "list_reason": "AI: money question",
+   "list_reason": "Money question",
    "reply_by": "Mon 6:15 pm Pacific",
    "channel": "text",
    "send_at": "Mon, Nov 23, 5:15 pm Pacific",
@@ -589,7 +799,22 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. The AI check read this as about money, so a person answers."
+   "strip": "No draft. The AI check read this as about money, so a person answers.",
+   "record": [
+    [
+     "Offer",
+     "an offer to buy your car"
+    ],
+    [
+     "Offer ends",
+     "Nov 26"
+    ],
+    [
+     "Bring",
+     "the title; both keys; your driver's license"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1021",
@@ -611,7 +836,7 @@
    "outcome": "person",
    "label": "Needs a person",
    "reason": "AI check: no clear answer in their record",
-   "list_reason": "AI: no clear answer",
+   "list_reason": "No clear answer",
    "reply_by": "Mon 7:15 pm Mountain",
    "channel": "email",
    "send_at": "Mon, Nov 23, 6:15 pm Mountain",
@@ -622,7 +847,26 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. The AI check didn't find the answer in their record."
+   "strip": "No draft. The AI check didn't find the answer in their record.",
+   "record": [
+    [
+     "Status",
+     "still for sale, with 24,266 miles"
+    ],
+    [
+     "Features",
+     "Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera"
+    ],
+    [
+     "Seats",
+     "5 seats"
+    ],
+    [
+     "Drivetrain",
+     "FWD"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1030",
@@ -644,7 +888,7 @@
    "outcome": "person",
    "label": "Needs a person",
    "reason": "AI check: money question",
-   "list_reason": "AI: money question",
+   "list_reason": "Money question",
    "reply_by": "Tue 9:00 am Central",
    "channel": "email",
    "send_at": "Mon, Nov 23, 7:15 pm Central",
@@ -655,7 +899,22 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. The AI check read this as about money, so a person answers."
+   "strip": "No draft. The AI check read this as about money, so a person answers.",
+   "record": [
+    [
+     "Offer",
+     "a trade-in offer on your car"
+    ],
+    [
+     "Offer ends",
+     "Nov 26"
+    ],
+    [
+     "Bring",
+     "the title; both keys"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1009",
@@ -677,7 +936,7 @@
    "outcome": "person",
    "label": "Needs a person",
    "reason": "AI check: money question",
-   "list_reason": "AI: money question",
+   "list_reason": "Money question",
    "reply_by": "Tue 9:00 am Central",
    "channel": "email",
    "send_at": "Mon, Nov 23, 7:15 pm Central",
@@ -688,7 +947,22 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. The AI check thought this might be about money, so a person answers."
+   "strip": "No draft. The AI check thought this might be about money, so a person answers.",
+   "record": [
+    [
+     "Offer",
+     "a trade-in offer on your car"
+    ],
+    [
+     "Offer ends",
+     "ended on Nov 21"
+    ],
+    [
+     "Bring",
+     "the title; both keys"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1008",
@@ -710,7 +984,7 @@
    "outcome": "person",
    "label": "Needs a person",
    "reason": "AI check: no clear answer in their record",
-   "list_reason": "AI: no clear answer",
+   "list_reason": "No clear answer",
    "reply_by": "Mon 7:15 pm Arizona",
    "channel": "text",
    "send_at": "Mon, Nov 23, 6:15 pm Arizona",
@@ -721,7 +995,22 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. The AI check didn't find the answer in their record."
+   "strip": "No draft. The AI check didn't find the answer in their record.",
+   "record": [
+    [
+     "Offer",
+     "a trade-in offer on your car"
+    ],
+    [
+     "Offer ends",
+     "Nov 27"
+    ],
+    [
+     "Bring",
+     "the title; both keys"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1007",
@@ -762,7 +1051,26 @@
     }
    ],
    "caught": [],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Features",
+     "Third-row seating; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera"
+    ],
+    [
+     "Seats",
+     "8 seats"
+    ],
+    [
+     "Drivetrain",
+     "FWD or AWD"
+    ],
+    [
+     "Steps left",
+     "Upload proof of insurance"
+    ]
+   ],
+   "used": "Steps left"
   },
   {
    "id": "S-1006",
@@ -784,7 +1092,7 @@
    "outcome": "person",
    "label": "Needs a person",
    "reason": "AI check: no clear answer in their record",
-   "list_reason": "AI: no clear answer",
+   "list_reason": "No clear answer",
    "reply_by": "Tue 9:00 am Central",
    "channel": "email",
    "send_at": "Mon, Nov 23, 7:15 pm Central",
@@ -795,7 +1103,26 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. The AI check didn't find the answer in their record."
+   "strip": "No draft. The AI check didn't find the answer in their record.",
+   "record": [
+    [
+     "Features",
+     "Third-row seating; Power liftgate; Power moonroof; Heated front seats; Blind spot monitor; Apple CarPlay"
+    ],
+    [
+     "Seats",
+     "7 seats"
+    ],
+    [
+     "Drivetrain",
+     "AWD"
+    ],
+    [
+     "Pre-qualified",
+     "you finished pre-qualifying on Nov 18"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1022",
@@ -817,7 +1144,7 @@
    "outcome": "person",
    "label": "Needs a person",
    "reason": "AI check: no clear answer in their record",
-   "list_reason": "AI: no clear answer",
+   "list_reason": "No clear answer",
    "reply_by": "Mon 6:15 pm Pacific",
    "channel": "text",
    "send_at": "Mon, Nov 23, 5:15 pm Pacific",
@@ -828,7 +1155,26 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. The AI check didn't find the answer in their record."
+   "strip": "No draft. The AI check didn't find the answer in their record.",
+   "record": [
+    [
+     "Status",
+     "still for sale, with 50,881 miles"
+    ],
+    [
+     "Features",
+     "Power moonroof; Heated front seats; Remote start; Apple CarPlay; Android Auto; Blind spot monitor"
+    ],
+    [
+     "Seats",
+     "5 seats"
+    ],
+    [
+     "Drivetrain",
+     "FWD"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1020",
@@ -850,7 +1196,7 @@
    "outcome": "person",
    "label": "Needs a person",
    "reason": "AI check: money question",
-   "list_reason": "AI: money question",
+   "list_reason": "Money question",
    "reply_by": "Tue 9:00 am Central",
    "channel": "text",
    "send_at": "Mon, Nov 23, 7:15 pm Central",
@@ -861,7 +1207,26 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. The AI check read this as about money, so a person answers."
+   "strip": "No draft. The AI check read this as about money, so a person answers.",
+   "record": [
+    [
+     "Status",
+     "still for sale, with 15,644 miles"
+    ],
+    [
+     "Features",
+     "Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera"
+    ],
+    [
+     "Seats",
+     "5 seats"
+    ],
+    [
+     "Drivetrain",
+     "FWD or AWD"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1023",
@@ -883,7 +1248,7 @@
    "outcome": "person",
    "label": "Needs a person",
    "reason": "AI check: tells the AI what to say",
-   "list_reason": "AI: orders to the AI",
+   "list_reason": "Tells the AI what to say",
    "reply_by": "Tue 9:00 am Central",
    "channel": "text",
    "send_at": "Mon, Nov 23, 7:15 pm Central",
@@ -894,7 +1259,26 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. It tells the AI what to write, so a person answers."
+   "strip": "No draft. It tells the AI what to write, so a person answers.",
+   "record": [
+    [
+     "Status",
+     "still for sale, with 22,201 miles"
+    ],
+    [
+     "Features",
+     "Apple CarPlay; Android Auto; Adaptive cruise control; Wireless phone charging"
+    ],
+    [
+     "Seats",
+     "5 seats"
+    ],
+    [
+     "Drivetrain",
+     "RWD or 4WD"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1001",
@@ -916,7 +1300,7 @@
    "outcome": "person",
    "label": "Needs a person",
    "reason": "AI check: no clear answer in their record",
-   "list_reason": "AI: no clear answer",
+   "list_reason": "No clear answer",
    "reply_by": "Mon 7:15 pm Mountain",
    "channel": "text",
    "send_at": "Mon, Nov 23, 6:15 pm Mountain",
@@ -927,7 +1311,26 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. The AI check was nearly sure their record answers this, but not sure enough."
+   "strip": "No draft. The AI check was nearly sure their record answers this, but not sure enough.",
+   "record": [
+    [
+     "Status",
+     "still for sale, with 77,947 miles"
+    ],
+    [
+     "Features",
+     "Power liftgate; Heated front seats; Blind spot monitor; Adaptive cruise control; Backup camera"
+    ],
+    [
+     "Seats",
+     "5 seats"
+    ],
+    [
+     "Drivetrain",
+     "AWD"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1011",
@@ -969,7 +1372,22 @@
     }
    ],
    "caught": [],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Offer",
+     "an offer to buy your car"
+    ],
+    [
+     "Offer ends",
+     "Nov 26"
+    ],
+    [
+     "Bring",
+     "the title; both keys; your driver's license"
+    ]
+   ],
+   "used": "Bring"
   },
   {
    "id": "S-1031",
@@ -991,7 +1409,7 @@
    "outcome": "person",
    "label": "Needs a person",
    "reason": "AI check: complaint",
-   "list_reason": "AI: complaint",
+   "list_reason": "Complaint",
    "reply_by": "Mon 6:15 pm Mountain",
    "channel": "text",
    "send_at": "Mon, Nov 23, 6:15 pm Mountain",
@@ -1002,7 +1420,22 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. A person answers complaints first."
+   "strip": "No draft. A person answers complaints first.",
+   "record": [
+    [
+     "Offer",
+     "a trade-in offer on your car"
+    ],
+    [
+     "Offer ends",
+     "Nov 25"
+    ],
+    [
+     "Bring",
+     "the title; both keys"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1028",
@@ -1024,7 +1457,7 @@
    "outcome": "person",
    "label": "Needs a person",
    "reason": "AI check: no clear answer in their record",
-   "list_reason": "AI: no clear answer",
+   "list_reason": "No clear answer",
    "reply_by": "Tue 9:00 am Central",
    "channel": "text",
    "send_at": "Mon, Nov 23, 7:15 pm Central",
@@ -1035,7 +1468,26 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. The AI check didn't find the answer in their record."
+   "strip": "No draft. The AI check didn't find the answer in their record.",
+   "record": [
+    [
+     "Features",
+     "Power moonroof; Heated front seats; Remote start; Apple CarPlay; Blind spot monitor; Adaptive cruise control"
+    ],
+    [
+     "Seats",
+     "5 seats"
+    ],
+    [
+     "Drivetrain",
+     "FWD or AWD"
+    ],
+    [
+     "Steps left",
+     "Upload proof of insurance"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1025",
@@ -1068,7 +1520,14 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "No draft. Money questions go to a person."
+   "strip": "No draft. Money questions go to a person.",
+   "record": [
+    [
+     "Pre-qualified",
+     "you finished pre-qualifying on Nov 18"
+    ]
+   ],
+   "used": null
   },
   {
    "id": "S-1033",
@@ -1089,8 +1548,8 @@
    "kind": "quiet",
    "outcome": "person",
    "label": "Needs a person",
-   "reason": "California",
-   "list_reason": "California",
+   "reason": "California rule",
+   "list_reason": "California rule",
    "reply_by": "Tue 10:00 am Pacific",
    "channel": "email",
    "send_at": "Tue, Nov 24, 10:00 am Pacific",
@@ -1101,7 +1560,9 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "California needs a person to add required wording to a first message."
+   "strip": "California needs a person to add required wording to a first message.",
+   "record": [],
+   "used": null
   },
   {
    "id": "S-1015",
@@ -1152,7 +1613,26 @@
    "caught": [
     "ready"
    ],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Features",
+     "Apple CarPlay; Android Auto; Blind spot monitor; Adaptive cruise control; Remote start"
+    ],
+    [
+     "Seats",
+     "5 seats"
+    ],
+    [
+     "Drivetrain",
+     "FWD or AWD"
+    ],
+    [
+     "Steps left",
+     "Pick a delivery time"
+    ]
+   ],
+   "used": "Steps left"
   },
   {
    "id": "S-1016",
@@ -1193,7 +1673,14 @@
     }
    ],
    "caught": [],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Pre-qualified",
+     "you finished pre-qualifying on Nov 13"
+    ]
+   ],
+   "used": "Pre-qualified"
   },
   {
    "id": "S-1034",
@@ -1226,7 +1713,9 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "Their time zone is unknown, so no sending time can be picked."
+   "strip": "Their time zone is unknown, so no sending time can be picked.",
+   "record": [],
+   "used": null
   },
   {
    "id": "S-1017",
@@ -1277,7 +1766,26 @@
    "caught": [
     "ready"
    ],
-   "strip": null
+   "strip": null,
+   "record": [
+    [
+     "Features",
+     "Power liftgate; Power moonroof; Leather seats; Heated front seats; Blind spot monitor; Adaptive cruise control"
+    ],
+    [
+     "Seats",
+     "5 seats"
+    ],
+    [
+     "Drivetrain",
+     "FWD or AWD"
+    ],
+    [
+     "Steps left",
+     "Pick a delivery time"
+    ]
+   ],
+   "used": "Steps left"
   },
   {
    "id": "S-1040",
@@ -1311,7 +1819,9 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "They asked us to stop."
+   "strip": "They asked us to stop.",
+   "record": [],
+   "used": null
   },
   {
    "id": "S-1037",
@@ -1344,7 +1854,9 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "They have no channel we can use: none agreed to, or it bounced."
+   "strip": "They have no channel we can use: none agreed to, or it bounced.",
+   "record": [],
+   "used": null
   },
   {
    "id": "S-1038",
@@ -1377,7 +1889,9 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "They're already talking with customer care."
+   "strip": "They're already talking with customer care.",
+   "record": [],
+   "used": null
   },
   {
    "id": "S-1039",
@@ -1410,7 +1924,9 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "They opted out."
+   "strip": "They opted out.",
+   "record": [],
+   "used": null
   },
   {
    "id": "S-1035",
@@ -1443,7 +1959,9 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "They opted out."
+   "strip": "They opted out.",
+   "record": [],
+   "used": null
   },
   {
    "id": "S-1036",
@@ -1476,7 +1994,9 @@
    "stopped_because": [],
    "stopped": [],
    "caught": [],
-   "strip": "We messaged them this week."
+   "strip": "We messaged them this week.",
+   "record": [],
+   "used": null
   }
  ],
  "stand_in": false,

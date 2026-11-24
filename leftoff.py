@@ -197,7 +197,9 @@ def page_row(rec, r, log=None):
            "stopped": stopped_list(r.get("failed", []), W, (log or {}).get(f"{rec['id']}:draft")),
            "caught": sorted({w for f, ws in r.get("failed", []) for w in ws if isinstance(w, str) and w and not w[0].isdigit()
                              and not w.startswith("sentence") and " sentences" not in w}),
-           "strip": None}
+           "strip": None,
+           "record": [[W["record_label"].get(k, k.title()), v] for k, v in (r.get("view") or {}).get("lines", []) if k not in ("CAR", "YOUR CAR")],
+           "used": W["record_label"].get((r.get("view") or {}).get("answer_label") or (r.get("view") or {}).get("true_label") or "", None) if r.get("draft") else None}
     if reason in ("california", "no_safe_time"):  # the strip says why; the status line stays short
         row["reason"] = W["list_reason"][reason]
     if r["outcome"] == "do_not_contact":
