@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "set": "fresh5",
+  "prompt": "v9",
+  "prompt_sha256": "c5258183a44348fe754d33b5f5e26e829334f67fc64e478abb113b6bd4753fdd",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 8,
+  "at": "2026-11-23T22:56:16"
+ },
+ "rows": [
+  {
+   "id": "K-7001",
+   "user": "CHANNEL: text\nCAR: 2019 Mazda CX-5 Grand Touring, Gray, 75,624 miles\nSTATUS: still for sale, with 75,624 miles\nLISTED FEATURES: Power liftgate; Power moonroof; Leather seats; Heated front seats; Blind spot monitor; Adaptive cruise control\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: Does the car I saved have adaptive cruise control? I can't remember if I saw that listed.\nANSWER (from LISTED FEATURES): Adaptive cruise control",
+   "raw": "{first_name}, yes, it has adaptive cruise control.",
+   "text": "{first_name}, yes, it has adaptive cruise control.",
+   "done_reason": "stop",
+   "prompt_tokens": 563,
+   "output_tokens": 13,
+   "seconds": 0.69
+  },
+  {
+   "id": "K-7002",
+   "user": "CHANNEL: email\nCAR: 2024 Honda Pilot EX-L, Blue, 59,158 miles\nSTATUS: still for sale, with 59,158 miles\nLISTED FEATURES: Third-row seating; Power liftgate; Leather seats; Wireless phone charging; Blind spot monitor; Adaptive cruise control\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: How many people can the SUV I saved seat?\nANSWER (from SEATS): 8 seats",
+   "raw": "{first_name}, the 2024 Honda Pilot EX-L can seat 8 people.",
+   "text": "{first_name}, the 2024 Honda Pilot EX-L can seat 8 people.",
+   "done_reason": "stop",
+   "prompt_tokens": 548,
+   "output_tokens": 21,
+   "seconds": 0.86
+  },
+  {
+   "id": "K-7004",
+   "user": "CHANNEL: text\nCAR: 2023 Hyundai Elantra Hybrid Blue, White, 19,276 miles\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Blind spot monitor; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD\nSTEPS LEFT: Upload your driver's license; Pick a delivery time\nQUESTION: I started buying the car, what do I still need to do to finish up?\nANSWER (from STEPS LEFT): Upload your driver's license; Pick a delivery time",
+   "raw": "{first_name}, you still need to upload your driver\u2019s license and pick a delivery time.",
+   "text": "{first_name}, you still need to upload your driver\u2019s license and pick a delivery time.",
+   "done_reason": "stop",
+   "prompt_tokens": 557,
+   "output_tokens": 20,
+   "seconds": 0.86
+  },
+  {
+   "id": "K-7005",
+   "user": "CHANNEL: text\nYOUR CAR: 2016 Subaru Forester 2.5i, Silver, 121,404 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 27\nBRING: the title; both keys\nQUESTION: When does my trade-in offer run out? I've got the title and both keys ready.\nANSWER (from OFFER ENDS): Nov 27",
+   "raw": "{first_name}, your trade-in offer ends on Nov 27.",
+   "text": "{first_name}, your trade-in offer ends on Nov 27.",
+   "done_reason": "stop",
+   "prompt_tokens": 535,
+   "output_tokens": 16,
+   "seconds": 0.77
+  },
+  {
+   "id": "K-7006",
+   "user": "CHANNEL: email\nYOUR CAR: 2016 Honda Civic LX, Green, 119,552 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: For the offer on my car, should I bring the title, both keys, and my license?\nANSWER (from BRING): the title; both keys; your driver's license",
+   "raw": "{first_name}, for the offer on your 2016 Honda Civic LX, bring the title, both keys, and your driver\u2019s license.",
+   "text": "{first_name}, for the offer on your 2016 Honda Civic LX, bring the title, both keys, and your driver\u2019s license.",
+   "done_reason": "stop",
+   "prompt_tokens": 539,
+   "output_tokens": 32,
+   "seconds": 1.19
+  },
+  {
+   "id": "K-7007",
+   "user": "CHANNEL: email\nCAR: 2023 Mazda CX-50 2.5 S Preferred Package, Green, 20,105 miles\nSTATUS: still for sale, with 20,105 miles\nLISTED FEATURES: Power liftgate; Heated front seats; Blind spot monitor; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: AWD\nTRUE THING (from STATUS): still for sale, with 20,105 miles",
+   "raw": "{first_name}, the 2023 Mazda CX-50 2.5 S Preferred Package is still for sale, with 20,105 miles.",
+   "text": "{first_name}, the 2023 Mazda CX-50 2.5 S Preferred Package is still for sale, with 20,105 miles.",
+   "done_reason": "stop",
+   "prompt_tokens": 548,
+   "output_tokens": 38,
+   "seconds": 1.31
+  },
+  {
+   "id": "K-7008",
+   "user": "CHANNEL: text\nYOUR CAR: 2015 Toyota Camry LE, White, 124,620 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): ended on Nov 21",
+   "raw": "{first_name}, the offer ended on Nov 21.",
+   "text": "{first_name}, the offer ended on Nov 21.",
+   "done_reason": "stop",
+   "prompt_tokens": 519,
+   "output_tokens": 14,
+   "seconds": 0.67
+  },
+  {
+   "id": "K-7009",
+   "user": "CHANNEL: text\nCAR: 2021 Subaru Outback Premium, Blue, 43,759 miles\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: AWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): Pick a delivery time",
+   "raw": "{first_name}, the 2021 Subaru Outback Premium is ready for you to pick a delivery time.",
+   "text": "{first_name}, the 2021 Subaru Outback Premium is ready for you to pick a delivery time.",
+   "done_reason": "stop",
+   "prompt_tokens": 525,
+   "output_tokens": 25,
+   "seconds": 0.9
+  }
+ ]
+}

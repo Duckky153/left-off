@@ -1,0 +1,9 @@
+{"sentence": "You can choose how you'd like to handle the pickup.", "truth": "no", "judge": "yes"}
+{"sentence": "Luis, you can come pick the car up.", "truth": "no", "judge": "no"}
+{"sentence": "You can come back and let us know if you'd like to pick up the car or drop it off.", "truth": "no", "judge": "yes"}
+{"sentence": "Priya, you're halfway through your purchase.", "truth": "no", "judge": "yes"}
+{"sentence": "We'll keep it in mind as we review your interest.", "truth": "no", "judge": "yes"}
+{"sentence": "Luis, you stopped at the offer to sell your 2017 Ford Escape SE.", "truth": "yes", "judge": "yes"}
+{"sentence": "Priya, you still need to upload your driver's license and choose a delivery date.", "truth": "yes", "judge": "yes"}
+{"sentence": "Dana, you saved the 2018 Subaru Outback 2.5i Premium in Wilderness Green.", "truth": "yes", "judge": "yes"}
+{"sentence": "Pick up where you left off whenever you're ready.", "truth": "yes", "judge": "yes"}

@@ -1,0 +1,770 @@
+{
+ "questions": "lo-q7",
+ "checks": {
+  "L-8001": {
+   "router": {
+    "answered": true,
+    "answer_line": "LISTED FEATURES",
+    "state": "4d88310b7017b518"
+   },
+   "draft": {
+    "fails": [
+     [
+      "money (second check)",
+      []
+     ]
+    ],
+    "support": null,
+    "text": "{first_name}, yes, the one you saved has a power moonroof.",
+    "state": "c518c803b3da83b5"
+   }
+  },
+  "L-8002": {
+   "router": {
+    "answered": true,
+    "answer_line": "SEATS",
+    "state": "ea85ee90958ab123"
+   },
+   "draft": {
+    "fails": [],
+    "support": null,
+    "text": "{first_name}, the 2021 Toyota Sienna LE can seat 8 people.",
+    "state": "0780255b20012354"
+   }
+  },
+  "L-8003": {
+   "router": {
+    "answered": true,
+    "answer_line": "NEW MATCHES",
+    "state": "30e1269f9e3479ae"
+   },
+   "draft": {
+    "fails": [
+     [
+      "promise (second check)",
+      []
+     ]
+    ],
+    "support": "NEW MATCHES",
+    "text": "{first_name}, three AWD SUVs under 60,000 miles have been added to your saved search.",
+    "state": "a49fd4fd9c1be458"
+   }
+  },
+  "L-8004": {
+   "router": {
+    "answered": true,
+    "answer_line": "STEPS LEFT",
+    "state": "8f91b893de690de5"
+   },
+   "draft": {
+    "fails": [],
+    "support": "STEPS LEFT",
+    "text": "{first_name}, you still need to upload your driver\u2019s license and pick a delivery time.",
+    "state": "37c6ee6242ca2c8d"
+   }
+  },
+  "L-8005": {
+   "router": {
+    "answered": true,
+    "answer_line": "OFFER ENDS",
+    "state": "e33ea5e2ad7ee0f3"
+   },
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS",
+    "text": "{first_name}, the offer on your 2018 Nissan Rogue SV ends Nov 27.",
+    "state": "f1c80e46c57a38dc"
+   }
+  },
+  "L-8006": {
+   "router": {
+    "answered": true,
+    "answer_line": "BRING",
+    "state": "c12136ee18133e43"
+   },
+   "draft": {
+    "fails": [],
+    "support": "BRING",
+    "text": "{first_name}, you need the title, both keys, and your license when you bring in the 2018 Kia Soul Plus.",
+    "state": "7b841065359a4099"
+   }
+  },
+  "L-8010": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": "NEXT STEP",
+    "state": "206a5f71dfc57dc1"
+   }
+  },
+  "L-8011": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null,
+    "state": "e93a2fc4c1869fff"
+   }
+  },
+  "L-8012": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": "PRE-QUALIFIED",
+    "state": "11b9ae1465e17bec"
+   }
+  },
+  "L-8013": {
+   "router": {
+    "answered": false,
+    "answer_line": "LISTED FEATURES",
+    "state": "a204b1018ce4a744"
+   }
+  },
+  "L-8014": {
+   "router": {
+    "answered": false,
+    "answer_line": null,
+    "state": "18a89d3b55b95204"
+   }
+  },
+  "L-8015": {
+   "router": {
+    "reason": "instructions",
+    "answered": true,
+    "answer_line": "NEW MATCHES",
+    "state": "54be9ae99151a72f"
+   }
+  },
+  "L-8016": {
+   "router": {
+    "reason": "complaint",
+    "answered": false,
+    "answer_line": "NEXT STEP",
+    "state": "d85137df63862e8a"
+   }
+  },
+  "L-8007": {
+   "draft": {
+    "fails": [],
+    "support": "STATUS",
+    "text": "{first_name}, the 2021 Nissan Rogue SV is still for sale, with 45,979 miles.",
+    "state": "645bfbd9a36c4888"
+   }
+  },
+  "L-8008": {
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS",
+    "text": "{first_name}, the offer for your car ended on Nov 21.",
+    "state": "74e1196bebca9676"
+   }
+  },
+  "L-8009": {
+   "draft": {
+    "fails": [
+     [
+      "not in the record (second check)",
+      [
+       "sentence 1"
+      ]
+     ],
+     [
+      "promise (second check)",
+      []
+     ]
+    ],
+    "support": null,
+    "text": "{first_name}, the 2022 Hyundai Tucson SEL is ready for your chosen delivery time.",
+    "state": "c0410b6e23805351"
+   }
+  }
+ },
+ "log": {
+  "L-8001:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.96,
+    0.96
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "L-8002:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.06
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.97,
+    0.97
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "L-8003:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.1,
+    0.09
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.81,
+    0.81
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "L-8004:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.09,
+    0.07
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.08,
+    0.08
+   ],
+   "answered": [
+    0.94,
+    0.94
+   ],
+   "answer_line": [
+    "F06",
+    "F06"
+   ]
+  },
+  "L-8005:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.04
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.12,
+    0.09
+   ],
+   "answered": [
+    0.92,
+    0.88
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "L-8006:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.06
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.92,
+    0.93
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "L-8010:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.2,
+    0.21
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.94,
+    0.95
+   ],
+   "answered": [
+    0.04,
+    0.03
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "L-8011:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.22,
+    0.23
+   ],
+   "complaint": [
+    0.03,
+    0.04
+   ],
+   "about_money": [
+    0.99,
+    0.99
+   ],
+   "answered": [
+    0.06,
+    0.07
+   ],
+   "answer_line": [
+    "F03",
+    "F01"
+   ]
+  },
+  "L-8012:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.13,
+    0.14
+   ],
+   "about_money": [
+    0.98,
+    0.98
+   ],
+   "answered": [
+    0.47,
+    0.5
+   ],
+   "answer_line": [
+    "F02",
+    "F02"
+   ]
+  },
+  "L-8013:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.08,
+    0.09
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.03,
+    0.03
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "L-8014:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.1,
+    0.1
+   ],
+   "answered": [
+    0.02,
+    0.02
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "L-8015:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.98,
+    0.99
+   ],
+   "complaint": [
+    0.15,
+    0.14
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.88,
+    0.88
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "L-8016:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.97,
+    0.97
+   ],
+   "about_money": [
+    0.3,
+    0.31
+   ],
+   "answered": [
+    0.07,
+    0.05
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "L-8001:draft": {
+   "D1_grounded": [
+    0.92,
+    0.86
+   ],
+   "money": [
+    0.16,
+    0.15
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.05,
+    0.04
+   ],
+   "answers": [
+    0.97,
+    0.96
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "L-8002:draft": {
+   "D1_grounded": [
+    0.82,
+    0.81
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "answers": [
+    0.95,
+    0.96
+   ],
+   "support": [
+    "F05",
+    "F05"
+   ]
+  },
+  "L-8004:draft": {
+   "D1_grounded": [
+    0.93,
+    0.92
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "answers": [
+    0.97,
+    0.97
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  },
+  "L-8005:draft": {
+   "D1_grounded": [
+    0.83,
+    0.86
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.06,
+    0.07
+   ],
+   "promise": [
+    0.04,
+    0.04
+   ],
+   "answers": [
+    0.83,
+    0.87
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "L-8006:draft": {
+   "D1_grounded": [
+    0.87,
+    0.86
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.04,
+    0.03
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "answers": [
+    0.95,
+    0.96
+   ],
+   "support": [
+    "F05",
+    "F05"
+   ]
+  },
+  "L-8007:draft": {
+   "D1_grounded": [
+    0.94,
+    0.94
+   ],
+   "money": [
+    0.02,
+    0.03
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.02,
+    0.02
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "L-8008:draft": {
+   "D1_grounded": [
+    0.95,
+    0.96
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.05,
+    0.05
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "L-8009:draft": {
+   "D1_grounded": [
+    0.68,
+    0.59
+   ],
+   "money": [
+    0.02,
+    0.03
+   ],
+   "pressure": [
+    0.03,
+    0.04
+   ],
+   "promise": [
+    0.39,
+    0.42
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  },
+  "L-8003:draft": {
+   "D1_grounded": [
+    0.84,
+    0.83
+   ],
+   "money": [
+    0.09,
+    0.04
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.25,
+    0.27
+   ],
+   "answers": [
+    0.93,
+    0.93
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  }
+ },
+ "runs": [
+  {
+   "stage": "router",
+   "calls": 26,
+   "spent_so_far_dollars": 0.02522,
+   "at": "2026-11-23T22:59:27"
+  },
+  {
+   "stage": "drafts",
+   "calls": 16,
+   "spent_so_far_dollars": 0.02576,
+   "at": "2026-11-23T22:59:39"
+  },
+  {
+   "stage": "router",
+   "calls": 26,
+   "spent_so_far_dollars": 0.03056,
+   "at": "2026-11-24T00:43:53"
+  },
+  {
+   "stage": "drafts",
+   "calls": 18,
+   "spent_so_far_dollars": 0.03115,
+   "at": "2026-11-24T00:44:06"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Left Off</title>
+<meta name="description" content="Car shoppers who stopped partway: one short reply or nudge each, drafted from their own record, with anything about money handed to a person. Sample data.">
+<meta property="og:title" content="Left Off">
+<meta property="og:description" content="Car shoppers who stopped partway: one short reply or nudge each, drafted from their own record. Sample data.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://duckky153.github.io/left-off/og.png">
+<meta property="og:url" content="https://duckky153.github.io/left-off/">
+<link rel="preload" href="fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <div class="bar-in">
+    <span class="brand">Left Off</span>
+    <nav class="nav" aria-label="Views">
+      <a href="#shoppers" id="tab-shoppers" aria-current="page">Shoppers</a>
+      <a href="#plan" id="tab-plan">Test plan</a>
+    </nav>
+    <span class="right"><span class="muted" id="sample-label">Sample data · Nov 23, 2026</span><a href="https://github.com/Duckky153/left-off">Code</a></span>
+  </div>
+</header>
+<main>
+  <div class="intro" id="intro">
+    <div class="banner" id="banner" hidden>The drafts below are fixed sentences standing in for the AI until its run.</div>
+    <h1 id="headline">40 shoppers stopped partway.</h1>
+    <p class="sub" id="sub"></p>
+  </div>
+  <p class="nodata" id="nodata" hidden>The data didn't load. Open this page from a server (./run.sh) rather than from the file.</p>
+  <section id="view-shoppers" class="work">
+    <aside class="list" id="list" aria-label="Shoppers"></aside>
+    <article class="shopper" id="shopper" aria-live="polite"></article>
+    <aside class="panel" id="panel"></aside>
+  </section>
+  <section id="view-plan" class="plan" hidden></section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

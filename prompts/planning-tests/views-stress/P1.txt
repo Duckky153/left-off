@@ -1,0 +1,11 @@
+CHANNEL: email
+NEXT STEP: take another look at the car
+VIEW:
+FIRST NAME: Maya
+WHERE THEY STOPPED: saved a car
+CAR: 2021 Honda CR-V EX, Platinum White, 38,412 miles
+PRICE: $24,990 (was $25,590)
+ESTIMATED PAYMENT: $431/mo
+LISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Blind spot monitoring; Power moonroof
+QUESTION: Does it have heated seats?
+ANSWER (from LISTED FEATURES): Heated front seats

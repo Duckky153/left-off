@@ -1,0 +1,7 @@
+CHANNEL: email
+NEXT STEP: Take another look at the car.
+VIEW:
+FIRST NAME: Dana
+WHERE THEY STOPPED: saved a car
+CAR: 2018 Subaru Outback 2.5i Premium, Wilderness Green, 64,310 miles
+LISTED FEATURES: All-wheel drive; Roof rails; Heated front seats

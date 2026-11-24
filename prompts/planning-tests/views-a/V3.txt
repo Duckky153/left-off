@@ -1,0 +1,10 @@
+CHANNEL: sms
+NEXT STEP: Finish the steps left.
+VIEW:
+FIRST NAME: Priya
+WHERE THEY STOPPED: started a purchase
+CAR: 2019 Toyota Camry SE, Celestial Silver, 51,206 miles
+STEPS DONE: Picked the car; Added contact details
+STEPS LEFT: Upload driver's license; Choose a delivery date
+QUESTION: What do I still need to do to finish?
+ANSWER (from STEPS LEFT): Upload driver's license; Choose a delivery date

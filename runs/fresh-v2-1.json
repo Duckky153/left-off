@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "set": "fresh",
+  "prompt": "v2",
+  "prompt_sha256": "2abd074695a70e7d10e8b13567363574abcfa85baf89eb6ab364630e01311586",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 8,
+  "at": "2026-11-23T21:40:55"
+ },
+ "rows": [
+  {
+   "id": "F-3001",
+   "user": "CHANNEL: text\nNEXT STEP: take another look at your car\nCAR: 2019 Mazda CX-5 Grand Touring, Red, 76,974 miles\nSTATUS: still listed\nLISTED FEATURES: Power liftgate; Power moonroof; Leather seats; Heated front seats; Blind spot monitor; Adaptive cruise control\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: Does the CX-5 I saved have a power liftgate?\nANSWER (from LISTED FEATURES): Power liftgate",
+   "raw": "{first_name}, yes, it has a power liftgate.  \nTake another look at your car whenever you\u2019re ready.",
+   "text": "{first_name}, yes, it has a power liftgate. Take another look at your car whenever you\u2019re ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 527,
+   "output_tokens": 26,
+   "seconds": 0.97
+  },
+  {
+   "id": "F-3002",
+   "user": "CHANNEL: email\nNEXT STEP: take another look at your car\nCAR: 2020 Honda Odyssey EX, Gray, 65,802 miles\nSTATUS: still listed\nLISTED FEATURES: Power sliding doors; Heated front seats; Remote start; Blind spot monitor; Apple CarPlay; Third-row seating\nSEATS: 8 seats\nDRIVETRAIN: FWD\nQUESTION: How many people fit in the Odyssey?\nANSWER (from SEATS): 8 seats",
+   "raw": "{first_name}, this vehicle has 8 seats.  \nTake another look at your car whenever you are ready.",
+   "text": "{first_name}, this vehicle has 8 seats. Take another look at your car whenever you are ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 514,
+   "output_tokens": 24,
+   "seconds": 0.94
+  },
+  {
+   "id": "F-3004",
+   "user": "CHANNEL: text\nNEXT STEP: finish the steps left\nCAR: 2024 Honda Pilot EX-L, Beige, 42,002 miles\nLISTED FEATURES: Third-row seating; Power liftgate; Leather seats; Wireless phone charging; Blind spot monitor; Adaptive cruise control\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Upload your driver's license; Pick a delivery time\nQUESTION: I started the Pilot purchase; is uploading my license and picking a delivery time all I have left?\nANSWER (from STEPS LEFT): Upload your driver's license; Pick a delivery time",
+   "raw": "{first_name}, yes, you\u2019ve completed most of the steps.  \nFinish by uploading your license and choosing a delivery time whenever you\u2019re ready.",
+   "text": "{first_name}, yes, you\u2019ve completed most of the steps. Finish by uploading your license and choosing a delivery time whenever you\u2019re ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 546,
+   "output_tokens": 31,
+   "seconds": 1.13
+  },
+  {
+   "id": "F-3005",
+   "user": "CHANNEL: text\nNEXT STEP: use your offer when you buy\nYOUR CAR: 2016 Honda Civic LX, White, 96,836 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 27\nBRING: the title; both keys\nQUESTION: When does the trade-in offer on my Civic expire?\nANSWER (from OFFER ENDS): Nov 27",
+   "raw": "{first_name}, your trade-in offer ends Nov 27. Use your offer when you buy.",
+   "text": "{first_name}, your trade-in offer ends Nov 27. Use your offer when you buy.",
+   "done_reason": "stop",
+   "prompt_tokens": 503,
+   "output_tokens": 22,
+   "seconds": 0.81
+  },
+  {
+   "id": "F-3006",
+   "user": "CHANNEL: email\nNEXT STEP: accept your offer\nYOUR CAR: 2018 Kia Soul Plus, Silver, 122,695 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: What should I bring when I sell my Soul? I have the title, both keys and my license listed.\nANSWER (from BRING): the title; both keys; your driver's license",
+   "raw": "{first_name}, bring the title, both keys, and your driver\u2019s license.  \nAccept your offer whenever you are ready.",
+   "text": "{first_name}, bring the title, both keys, and your driver\u2019s license. Accept your offer whenever you are ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 520,
+   "output_tokens": 27,
+   "seconds": 1.01
+  },
+  {
+   "id": "F-3007",
+   "user": "CHANNEL: email\nNEXT STEP: take another look at your car\nCAR: 2021 Subaru Outback Premium, Green, 44,356 miles\nSTATUS: still listed\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: AWD\nTRUE THING (from STATUS): still listed",
+   "raw": "{first_name}, your car is still listed. Take another look at your car whenever you are ready.",
+   "text": "{first_name}, your car is still listed. Take another look at your car whenever you are ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 499,
+   "output_tokens": 22,
+   "seconds": 0.85
+  },
+  {
+   "id": "F-3008",
+   "user": "CHANNEL: text\nNEXT STEP: get a new offer\nYOUR CAR: 2017 Hyundai Elantra SE, Green, 125,653 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): ended on Nov 21",
+   "raw": "{first_name}, this offer ended on Nov 21.  \nGet a new offer whenever you are ready.",
+   "text": "{first_name}, this offer ended on Nov 21. Get a new offer whenever you are ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 500,
+   "output_tokens": 24,
+   "seconds": 0.95
+  },
+  {
+   "id": "F-3009",
+   "user": "CHANNEL: text\nNEXT STEP: finish the steps left\nCAR: 2022 Subaru Forester Premium, White, 49,294 miles\nLISTED FEATURES: Power moonroof; Heated front seats; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: AWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): Pick a delivery time",
+   "raw": "{first_name}, you can pick a delivery time whenever you are ready.  \nFinish the steps left.",
+   "text": "{first_name}, you can pick a delivery time whenever you are ready. Finish the steps left.",
+   "done_reason": "stop",
+   "prompt_tokens": 509,
+   "output_tokens": 22,
+   "seconds": 0.87
+  }
+ ]
+}

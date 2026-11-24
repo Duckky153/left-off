@@ -1,0 +1,897 @@
+{
+ "questions": "lo-q7",
+ "rederived_from": "lo-q6",
+ "checks": {
+  "P-2001": {
+   "router": {
+    "answered": true,
+    "answer_line": "LISTED FEATURES",
+    "state": "e65a5303f07fe2ae"
+   },
+   "draft": {
+    "fails": [],
+    "support": null,
+    "text": "{first_name}, yes, it has heated front seats.",
+    "state": "dee0bca5ecd4478e"
+   }
+  },
+  "P-2003": {
+   "router": {
+    "answered": true,
+    "answer_line": "NEW MATCHES",
+    "state": "07fdfdb5bfc817b0"
+   },
+   "draft": {
+    "fails": [],
+    "support": "NEW MATCHES",
+    "text": "{first_name}, you found two new cars with AWD.",
+    "state": "9a1d322b1ef92b0a"
+   }
+  },
+  "P-2005": {
+   "router": {
+    "answered": true,
+    "answer_line": "SEATS",
+    "state": "e6dcf99576eb011b"
+   },
+   "draft": {
+    "fails": [],
+    "support": "SEATS",
+    "text": "{first_name}, the 2024 Honda Pilot EX-L has 8 seats.",
+    "state": "699b72e2a6bb6892"
+   }
+  },
+  "P-2007": {
+   "router": {
+    "answered": true,
+    "answer_line": "STEPS LEFT",
+    "state": "9d5eb9d3926533bf"
+   },
+   "draft": {
+    "fails": [],
+    "support": null,
+    "text": "{first_name}, you still need to upload your driver's license and pick a delivery time.",
+    "state": "4940b6bd0d3e9b62"
+   }
+  },
+  "P-2009": {
+   "router": {
+    "answered": true,
+    "answer_line": "OFFER ENDS",
+    "state": "dd79585ee1992340"
+   },
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS",
+    "text": "{first_name}, your offer ends Nov 26.",
+    "state": "baa8e846aa37bcef"
+   }
+  },
+  "P-2011": {
+   "router": {
+    "answered": true,
+    "answer_line": "BRING",
+    "state": "33dcc654428b2718"
+   },
+   "draft": {
+    "fails": [],
+    "support": "BRING",
+    "text": "{first_name}, yes, you need to bring the title.",
+    "state": "b3c3b68e18966fe3"
+   }
+  },
+  "P-2013": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null,
+    "state": "fb87d350b3ee7ede"
+   }
+  },
+  "P-2014": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null,
+    "state": "a72e1531ff127945"
+   }
+  },
+  "P-2015": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": "NEXT STEP",
+    "state": "88f3c10583678ed5"
+   }
+  },
+  "P-2016": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null,
+    "state": "aa7fcd75a7247b90"
+   }
+  },
+  "P-2017": {
+   "router": {
+    "answered": false,
+    "answer_line": null,
+    "state": "ab30b3ad7839db4f"
+   }
+  },
+  "P-2018": {
+   "router": {
+    "answered": false,
+    "answer_line": null,
+    "state": "7a0efe3e8aa8510d"
+   }
+  },
+  "P-2019": {
+   "router": {
+    "reason": "instructions",
+    "answered": false,
+    "answer_line": null,
+    "state": "cfed727fbeef15f7"
+   }
+  },
+  "P-2020": {
+   "router": {
+    "reason": "complaint",
+    "answered": false,
+    "answer_line": "NEXT STEP",
+    "state": "d73c4ad104f53725"
+   }
+  },
+  "P-2002": {
+   "draft": {
+    "fails": [],
+    "support": null,
+    "text": "{first_name}, the 2021 Toyota Tacoma TRD Sport Double Cab is still for sale with 23,805 miles.",
+    "state": "1a8f410f64c2aea5"
+   }
+  },
+  "P-2004": {
+   "draft": {
+    "fails": [],
+    "support": "NEW MATCHES",
+    "text": "{first_name}, 4 new cars match your search for pickups from 2018 or newer.",
+    "state": "4d0dbef4dedfb442"
+   }
+  },
+  "P-2006": {
+   "draft": {
+    "fails": [
+     [
+      "money (second check)",
+      []
+     ]
+    ],
+    "support": "PRE-QUALIFIED",
+    "text": "{first_name}, you finished pre-qualifying on Nov 14.",
+    "state": "b3bdc97565712fa1"
+   }
+  },
+  "P-2008": {
+   "draft": {
+    "fails": [],
+    "support": "STEPS LEFT",
+    "text": "{first_name}, you still need to upload proof of insurance.",
+    "state": "eeedb3af4a056bc9"
+   }
+  },
+  "P-2010": {
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS",
+    "text": "{first_name}, your trade-in offer ended on Nov 21.",
+    "state": "2b812b79147efa1f"
+   }
+  },
+  "P-2012": {
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS",
+    "text": "{first_name}, the offer for your car ends Nov 27.",
+    "state": "42aee80d19f45776"
+   }
+  }
+ },
+ "log": {
+  "P-2001:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.98,
+    0.98
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2003:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.04,
+    0.03
+   ],
+   "answered": [
+    0.89,
+    0.9
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "P-2005:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.04
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.98,
+    0.98
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2007:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.09,
+    0.08
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.04,
+    0.03
+   ],
+   "answered": [
+    0.91,
+    0.9
+   ],
+   "answer_line": [
+    "F06",
+    "F06"
+   ]
+  },
+  "P-2009:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.08,
+    0.09
+   ],
+   "answered": [
+    0.97,
+    0.96
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2011:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.04,
+    0.05
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.97,
+    0.97
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "P-2013:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.1,
+    0.09
+   ],
+   "complaint": [
+    0.04,
+    0.04
+   ],
+   "about_money": [
+    0.83,
+    0.85
+   ],
+   "answered": [
+    0.04,
+    0.04
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2014:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.1,
+    0.1
+   ],
+   "complaint": [
+    0.31,
+    0.29
+   ],
+   "about_money": [
+    0.77,
+    0.77
+   ],
+   "answered": [
+    0.08,
+    0.06
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2015:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.04,
+    0.04
+   ],
+   "about_money": [
+    0.98,
+    0.97
+   ],
+   "answered": [
+    0.02,
+    0.02
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2016:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.99,
+    0.99
+   ],
+   "answered": [
+    0.01,
+    0.01
+   ],
+   "answer_line": [
+    "F02",
+    "F02"
+   ]
+  },
+  "P-2017:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.04,
+    0.05
+   ],
+   "complaint": [
+    0.05,
+    0.06
+   ],
+   "about_money": [
+    0.02,
+    0.03
+   ],
+   "answered": [
+    0.01,
+    0.01
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2018:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.06
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.07,
+    0.08
+   ],
+   "answered": [
+    0.07,
+    0.06
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "P-2019:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.99,
+    0.99
+   ],
+   "complaint": [
+    0.16,
+    0.14
+   ],
+   "about_money": [
+    0.06,
+    0.06
+   ],
+   "answered": [
+    0.04,
+    0.03
+   ],
+   "answer_line": [
+    "F01",
+    "F03"
+   ]
+  },
+  "P-2020:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.97,
+    0.98
+   ],
+   "about_money": [
+    0.13,
+    0.11
+   ],
+   "answered": [
+    0.03,
+    0.03
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2001:draft": {
+   "D1_grounded": [
+    0.88,
+    0.9
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.04,
+    0.04
+   ],
+   "answers": [
+    0.98,
+    0.97
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2002:draft": {
+   "D1_grounded": [
+    0.93,
+    0.92
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.03,
+    0.02
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "P-2003:draft": {
+   "D1_grounded": [
+    0.93,
+    0.95
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.02
+   ],
+   "promise": [
+    0.05,
+    0.06
+   ],
+   "answers": [
+    0.97,
+    0.97
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "P-2004:draft": {
+   "D1_grounded": [
+    0.93,
+    0.91
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.04,
+    0.04
+   ],
+   "promise": [
+    0.06,
+    0.06
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "P-2005:draft": {
+   "D1_grounded": [
+    0.9,
+    0.92
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.04,
+    0.04
+   ],
+   "answers": [
+    0.96,
+    0.97
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2006:draft": {
+   "D1_grounded": [
+    0.94,
+    0.93
+   ],
+   "money": [
+    0.3,
+    0.33
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "support": [
+    "F02",
+    "F02"
+   ]
+  },
+  "P-2007:draft": {
+   "D1_grounded": [
+    0.9,
+    0.92
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.03,
+    0.02
+   ],
+   "answers": [
+    0.97,
+    0.98
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  },
+  "P-2008:draft": {
+   "D1_grounded": [
+    0.89,
+    0.91
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.02,
+    0.03
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  },
+  "P-2009:draft": {
+   "D1_grounded": [
+    0.87,
+    0.88
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.06,
+    0.06
+   ],
+   "promise": [
+    0.03,
+    0.04
+   ],
+   "answers": [
+    0.95,
+    0.96
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2010:draft": {
+   "D1_grounded": [
+    0.95,
+    0.95
+   ],
+   "money": [
+    0.03,
+    0.04
+   ],
+   "pressure": [
+    0.07,
+    0.08
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2011:draft": {
+   "D1_grounded": [
+    0.9,
+    0.86
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.04,
+    0.04
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "answers": [
+    0.95,
+    0.94
+   ],
+   "support": [
+    "F05",
+    "F05"
+   ]
+  },
+  "P-2012:draft": {
+   "D1_grounded": [
+    0.95,
+    0.95
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.06,
+    0.06
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  }
+ },
+ "runs": [
+  {
+   "stage": "router",
+   "calls": 28,
+   "spent_so_far_dollars": 0.01611,
+   "at": "2026-11-23T22:18:56"
+  },
+  {
+   "stage": "drafts",
+   "calls": 24,
+   "spent_so_far_dollars": 0.01688,
+   "at": "2026-11-23T22:19:01"
+  },
+  {
+   "stage": "drafts",
+   "calls": 8,
+   "spent_so_far_dollars": 0.02072,
+   "at": "2026-11-23T22:25:40"
+  },
+  {
+   "stage": "drafts",
+   "calls": 8,
+   "spent_so_far_dollars": 0.02259,
+   "at": "2026-11-23T22:54:15"
+  },
+  {
+   "stage": "drafts",
+   "calls": 6,
+   "spent_so_far_dollars": 0.02447,
+   "at": "2026-11-23T22:57:58"
+  },
+  {
+   "stage": "router",
+   "calls": 28,
+   "spent_so_far_dollars": 0.03196,
+   "at": "2026-11-24T00:44:14"
+  },
+  {
+   "stage": "drafts",
+   "calls": 24,
+   "spent_so_far_dollars": 0.03273,
+   "at": "2026-11-24T00:44:29"
+  }
+ ]
+}

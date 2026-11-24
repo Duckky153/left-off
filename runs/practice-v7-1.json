@@ -1,0 +1,140 @@
+{
+ "meta": {
+  "set": "practice",
+  "prompt": "v7",
+  "prompt_sha256": "080b6c6afb4020d2a51f35f30a0ea901502f204fcda2beca177c6d7ef7c5ad7c",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 12,
+  "at": "2026-11-23T22:25:32"
+ },
+ "rows": [
+  {
+   "id": "P-2001",
+   "user": "CHANNEL: text\nCAR: 2023 Hyundai Elantra Hybrid Blue, Gray, 19,665 miles\nSTATUS: still listed\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Blind spot monitor; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD\nQUESTION: Does it have heated front seats?\nANSWER (from LISTED FEATURES): Heated front seats",
+   "raw": "{first_name}, yes, it has heated front seats.",
+   "text": "{first_name}, yes, it has heated front seats.",
+   "done_reason": "stop",
+   "prompt_tokens": 531,
+   "output_tokens": 13,
+   "seconds": 0.74
+  },
+  {
+   "id": "P-2002",
+   "user": "CHANNEL: email\nCAR: 2021 Toyota Tacoma TRD Sport Double Cab, Red, 23,805 miles\nSTATUS: still listed\nLISTED FEATURES: Apple CarPlay; Android Auto; Adaptive cruise control; Wireless phone charging\nSEATS: 5 seats\nDRIVETRAIN: RWD or 4WD\nTRUE THING (from STATUS): still listed",
+   "raw": "{first_name}, the 2021 Toyota Tacoma TRD Sport Double Cab is still listed.",
+   "text": "{first_name}, the 2021 Toyota Tacoma TRD Sport Double Cab is still listed.",
+   "done_reason": "stop",
+   "prompt_tokens": 520,
+   "output_tokens": 22,
+   "seconds": 0.79
+  },
+  {
+   "id": "P-2003",
+   "user": "CHANNEL: email\nSEARCH: Sedans under 50,000 miles\nNEW MATCHES: 2 new cars match, all with AWD\nQUESTION: Any new ones with AWD?\nANSWER (from NEW MATCHES): 2 new cars match, all with AWD",
+   "raw": "{first_name}, you found two new sedans with AWD.",
+   "text": "{first_name}, you found two new sedans with AWD.",
+   "done_reason": "stop",
+   "prompt_tokens": 498,
+   "output_tokens": 15,
+   "seconds": 0.57
+  },
+  {
+   "id": "P-2004",
+   "user": "CHANNEL: email\nSEARCH: Pickups from 2018 or newer\nNEW MATCHES: 4 new cars match\nTRUE THING (from NEW MATCHES): 4 new cars match",
+   "raw": "{first_name}, 4 new cars match your search for pickups from 2018 or newer.",
+   "text": "{first_name}, 4 new cars match your search for pickups from 2018 or newer.",
+   "done_reason": "stop",
+   "prompt_tokens": 479,
+   "output_tokens": 23,
+   "seconds": 0.76
+  },
+  {
+   "id": "P-2005",
+   "user": "CHANNEL: email\nCAR: 2024 Honda Pilot EX-L, Gray, 54,564 miles\nLISTED FEATURES: Third-row seating; Power liftgate; Leather seats; Wireless phone charging; Blind spot monitor; Adaptive cruise control\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nPRE-QUALIFIED: you finished pre-qualifying on Nov 18\nQUESTION: Does it seat 8?\nANSWER (from SEATS): 8 seats",
+   "raw": "{first_name}, the 2024 Honda Pilot EX-L has 8 seats.",
+   "text": "{first_name}, the 2024 Honda Pilot EX-L has 8 seats.",
+   "done_reason": "stop",
+   "prompt_tokens": 545,
+   "output_tokens": 20,
+   "seconds": 0.9
+  },
+  {
+   "id": "P-2006",
+   "user": "CHANNEL: email\nPRE-QUALIFIED: you finished pre-qualifying on Nov 14\nTRUE THING (from PRE-QUALIFIED): you finished pre-qualifying on Nov 14",
+   "raw": "{first_name}, you finished pre-qualifying on Nov 14.",
+   "text": "{first_name}, you finished pre-qualifying on Nov 14.",
+   "done_reason": "stop",
+   "prompt_tokens": 480,
+   "output_tokens": 17,
+   "seconds": 0.67
+  },
+  {
+   "id": "P-2007",
+   "user": "CHANNEL: text\nCAR: 2018 Honda Accord EX, Green, 28,116 miles\nLISTED FEATURES: Power moonroof; Heated front seats; Remote start; Apple CarPlay; Android Auto; Blind spot monitor\nSEATS: 5 seats\nDRIVETRAIN: FWD\nSTEPS LEFT: Upload your driver's license; Pick a delivery time\nQUESTION: What do I still need to do?\nANSWER (from STEPS LEFT): Upload your driver's license; Pick a delivery time",
+   "raw": "{first_name}, you still need to upload your driver\u2019s license and pick a delivery time.",
+   "text": "{first_name}, you still need to upload your driver\u2019s license and pick a delivery time.",
+   "done_reason": "stop",
+   "prompt_tokens": 549,
+   "output_tokens": 20,
+   "seconds": 0.86
+  },
+  {
+   "id": "P-2008",
+   "user": "CHANNEL: text\nCAR: 2021 Toyota Sienna LE, Green, 14,716 miles\nLISTED FEATURES: Power sliding doors; Power liftgate; Apple CarPlay; Blind spot monitor; Adaptive cruise control; Third-row seating\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Upload proof of insurance\nTRUE THING (from STEPS LEFT): Upload proof of insurance",
+   "raw": "{first_name}, you need to upload proof of insurance.",
+   "text": "{first_name}, you need to upload proof of insurance.",
+   "done_reason": "stop",
+   "prompt_tokens": 533,
+   "output_tokens": 13,
+   "seconds": 0.61
+  },
+  {
+   "id": "P-2009",
+   "user": "CHANNEL: text\nYOUR CAR: 2016 Subaru Forester 2.5i, Red, 92,010 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys\nQUESTION: When does my offer run out?\nANSWER (from OFFER ENDS): Nov 26",
+   "raw": "{first_name}, your offer ends Nov 26.",
+   "text": "{first_name}, your offer ends Nov 26.",
+   "done_reason": "stop",
+   "prompt_tokens": 522,
+   "output_tokens": 13,
+   "seconds": 0.6
+  },
+  {
+   "id": "P-2010",
+   "user": "CHANNEL: text\nYOUR CAR: 2015 Toyota Camry LE, Gray, 60,764 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys\nTRUE THING (from OFFER ENDS): ended on Nov 21",
+   "raw": "{first_name}, the trade-in offer ended on Nov 21.",
+   "text": "{first_name}, the trade-in offer ended on Nov 21.",
+   "done_reason": "stop",
+   "prompt_tokens": 514,
+   "output_tokens": 16,
+   "seconds": 0.68
+  },
+  {
+   "id": "P-2011",
+   "user": "CHANNEL: text\nYOUR CAR: 2017 Ford Escape SE, Black, 106,849 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: Do I need to bring the title?\nANSWER (from BRING): the title",
+   "raw": "{first_name}, yes, you need to bring the title.",
+   "text": "{first_name}, yes, you need to bring the title.",
+   "done_reason": "stop",
+   "prompt_tokens": 519,
+   "output_tokens": 14,
+   "seconds": 0.65
+  },
+  {
+   "id": "P-2012",
+   "user": "CHANNEL: text\nYOUR CAR: 2019 Chevrolet Malibu LT, White, 121,164 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 27\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): Nov 27",
+   "raw": "{first_name}, the offer ends on Nov 27.",
+   "text": "{first_name}, the offer ends on Nov 27.",
+   "done_reason": "stop",
+   "prompt_tokens": 515,
+   "output_tokens": 14,
+   "seconds": 0.66
+  }
+ ]
+}

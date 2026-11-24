@@ -1,0 +1,763 @@
+{
+ "questions": "lo-q7",
+ "checks": {
+  "K-7001": {
+   "router": {
+    "answered": true,
+    "answer_line": "LISTED FEATURES",
+    "state": "6007dafcbf185142"
+   },
+   "draft": {
+    "fails": [],
+    "support": "LISTED FEATURES",
+    "text": "{first_name}, yes, it has adaptive cruise control.",
+    "state": "318b88d8af39744b"
+   }
+  },
+  "K-7002": {
+   "router": {
+    "answered": true,
+    "answer_line": "SEATS",
+    "state": "836500f400e19af7"
+   },
+   "draft": {
+    "fails": [],
+    "support": null,
+    "text": "{first_name}, the 2024 Honda Pilot EX-L can seat 8 people.",
+    "state": "32bb92978c88c5c0"
+   }
+  },
+  "K-7003": {
+   "router": {
+    "answered": false,
+    "answer_line": "NEW MATCHES",
+    "state": "6153a10eb4a971e8"
+   }
+  },
+  "K-7004": {
+   "router": {
+    "answered": true,
+    "answer_line": "STEPS LEFT",
+    "state": "c04e9cc26a48899c"
+   },
+   "draft": {
+    "fails": [],
+    "support": null,
+    "text": "{first_name}, you still need to upload your driver\u2019s license and pick a delivery time.",
+    "state": "951759ffca30da3e"
+   }
+  },
+  "K-7005": {
+   "router": {
+    "answered": true,
+    "answer_line": "OFFER ENDS",
+    "state": "93975d0930a29d1f"
+   },
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS",
+    "text": "{first_name}, your trade-in offer ends on Nov 27.",
+    "state": "3d8f09e78c44c0f0"
+   }
+  },
+  "K-7006": {
+   "router": {
+    "answered": true,
+    "answer_line": "BRING",
+    "state": "19cc2728b6512d85"
+   },
+   "draft": {
+    "fails": [],
+    "support": "BRING",
+    "text": "{first_name}, for the offer on your 2016 Honda Civic LX, bring the title, both keys, and your driver\u2019s license.",
+    "state": "a7ca6e1dda58494a"
+   }
+  },
+  "K-7010": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null,
+    "state": "3662dafe9fb9942d"
+   }
+  },
+  "K-7011": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null,
+    "state": "7de41505368022dc"
+   }
+  },
+  "K-7012": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null,
+    "state": "9cbe0ca0d395256c"
+   }
+  },
+  "K-7013": {
+   "router": {
+    "answered": false,
+    "answer_line": "LISTED FEATURES",
+    "state": "a2fa04d5944d59fd"
+   }
+  },
+  "K-7014": {
+   "router": {
+    "answered": false,
+    "answer_line": null,
+    "state": "e5ba6afd742c70b3"
+   }
+  },
+  "K-7015": {
+   "router": {
+    "reason": "instructions",
+    "answered": false,
+    "answer_line": "NEW MATCHES",
+    "state": "1f63fc6e32230086"
+   }
+  },
+  "K-7016": {
+   "router": {
+    "reason": "complaint",
+    "answered": false,
+    "answer_line": "NEXT STEP",
+    "state": "3776321a90313478"
+   }
+  },
+  "K-7017": {
+   "router": {
+    "asks_to_stop": true,
+    "reason": "instructions",
+    "answered": false,
+    "answer_line": null,
+    "state": "d482e7c936cd2c26"
+   }
+  },
+  "K-7007": {
+   "draft": {
+    "fails": [],
+    "support": "STATUS",
+    "text": "{first_name}, the 2023 Mazda CX-50 2.5 S Preferred Package is still for sale, with 20,105 miles.",
+    "state": "25a962778a6d70f2"
+   }
+  },
+  "K-7008": {
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS",
+    "text": "{first_name}, the offer for your car ended on Nov 21.",
+    "state": "e270c0b055b0c168"
+   }
+  },
+  "K-7009": {
+   "draft": {
+    "fails": [
+     [
+      "not in the record (second check)",
+      [
+       "sentence 1"
+      ]
+     ],
+     [
+      "promise (second check)",
+      []
+     ]
+    ],
+    "support": null,
+    "text": "{first_name}, the 2021 Subaru Outback Premium is ready for your chosen delivery time.",
+    "state": "3b7d2c3663cc6e06"
+   }
+  }
+ },
+ "log": {
+  "K-7001:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.98,
+    0.97
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "K-7002:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.06
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.97,
+    0.97
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "K-7003:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.09,
+    0.1
+   ],
+   "complaint": [
+    0.04,
+    0.04
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.65,
+    0.66
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "K-7004:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.08,
+    0.08
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.08,
+    0.08
+   ],
+   "answered": [
+    0.85,
+    0.84
+   ],
+   "answer_line": [
+    "F06",
+    "F06"
+   ]
+  },
+  "K-7005:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.03,
+    0.02
+   ],
+   "about_money": [
+    0.12,
+    0.1
+   ],
+   "answered": [
+    0.96,
+    0.96
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "K-7006:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.06,
+    0.08
+   ],
+   "answered": [
+    0.95,
+    0.96
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "K-7010:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.11,
+    0.09
+   ],
+   "complaint": [
+    0.04,
+    0.04
+   ],
+   "about_money": [
+    0.96,
+    0.96
+   ],
+   "answered": [
+    0.03,
+    0.03
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "K-7011:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.38,
+    0.32
+   ],
+   "complaint": [
+    0.06,
+    0.04
+   ],
+   "about_money": [
+    0.99,
+    0.99
+   ],
+   "answered": [
+    0.05,
+    0.06
+   ],
+   "answer_line": [
+    "F03",
+    "F01"
+   ]
+  },
+  "K-7012:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.07
+   ],
+   "complaint": [
+    0.05,
+    0.05
+   ],
+   "about_money": [
+    0.97,
+    0.96
+   ],
+   "answered": [
+    0.27,
+    0.24
+   ],
+   "answer_line": [
+    "F02",
+    "F02"
+   ]
+  },
+  "K-7013:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.06
+   ],
+   "complaint": [
+    0.2,
+    0.18
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.03,
+    0.04
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "K-7014:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.15,
+    0.15
+   ],
+   "answered": [
+    0.01,
+    0.02
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "K-7015:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.98,
+    0.98
+   ],
+   "complaint": [
+    0.1,
+    0.1
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.08,
+    0.07
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "K-7016:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.96,
+    0.96
+   ],
+   "about_money": [
+    0.12,
+    0.13
+   ],
+   "answered": [
+    0.1,
+    0.1
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "K-7017:router": {
+   "asks_to_stop": [
+    0.98,
+    0.98
+   ],
+   "instructs_writer": [
+    0.77,
+    0.76
+   ],
+   "complaint": [
+    0.68,
+    0.66
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.16,
+    0.14
+   ],
+   "answer_line": [
+    "F02",
+    "F02"
+   ]
+  },
+  "K-7001:draft": {
+   "D1_grounded": [
+    0.92,
+    0.89
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.05,
+    0.04
+   ],
+   "answers": [
+    0.97,
+    0.97
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "K-7002:draft": {
+   "D1_grounded": [
+    0.87,
+    0.87
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.03,
+    0.04
+   ],
+   "answers": [
+    0.96,
+    0.96
+   ],
+   "support": [
+    "F05",
+    "F05"
+   ]
+  },
+  "K-7004:draft": {
+   "D1_grounded": [
+    0.93,
+    0.91
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "answers": [
+    0.98,
+    0.98
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  },
+  "K-7005:draft": {
+   "D1_grounded": [
+    0.93,
+    0.92
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.07,
+    0.07
+   ],
+   "promise": [
+    0.04,
+    0.04
+   ],
+   "answers": [
+    0.96,
+    0.96
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "K-7006:draft": {
+   "D1_grounded": [
+    0.88,
+    0.82
+   ],
+   "money": [
+    0.02,
+    0.03
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.05,
+    0.04
+   ],
+   "answers": [
+    0.97,
+    0.97
+   ],
+   "support": [
+    "F05",
+    "F05"
+   ]
+  },
+  "K-7007:draft": {
+   "D1_grounded": [
+    0.95,
+    0.94
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.03,
+    0.02
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "K-7008:draft": {
+   "D1_grounded": [
+    0.95,
+    0.95
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.05,
+    0.05
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "K-7009:draft": {
+   "D1_grounded": [
+    0.6,
+    0.7
+   ],
+   "money": [
+    0.02,
+    0.03
+   ],
+   "pressure": [
+    0.03,
+    0.04
+   ],
+   "promise": [
+    0.43,
+    0.43
+   ],
+   "support": [
+    "F06",
+    "F02"
+   ]
+  }
+ },
+ "runs": [
+  {
+   "stage": "router",
+   "calls": 28,
+   "spent_so_far_dollars": 0.02341,
+   "at": "2026-11-23T22:56:08"
+  },
+  {
+   "stage": "drafts",
+   "calls": 16,
+   "spent_so_far_dollars": 0.02395,
+   "at": "2026-11-23T22:56:20"
+  },
+  {
+   "stage": "router",
+   "calls": 28,
+   "spent_so_far_dollars": 0.02926,
+   "at": "2026-11-24T00:43:30"
+  },
+  {
+   "stage": "drafts",
+   "calls": 16,
+   "spent_so_far_dollars": 0.0298,
+   "at": "2026-11-24T00:43:46"
+  }
+ ]
+}

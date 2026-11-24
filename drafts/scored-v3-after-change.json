@@ -1,0 +1,72 @@
+{
+ "meta": {
+  "set": "scored",
+  "prompt": "v3",
+  "prompt_sha256": "6349a752f6e1f5c09e9af266c57e8f4ae88e8613694f29d62b2bdc6d7b1c6de6",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 13,
+  "at": "2026-11-23T21:59:20"
+ },
+ "drafts": {
+  "S-1002": {
+   "text": "{first_name}, the 2022 Hyundai Tucson SEL is no longer available. Set up a search for cars like it.",
+   "cut_off": false
+  },
+  "S-1003": {
+   "text": "{first_name}, the 2019 Mazda CX-9 seats 7. Take another look.",
+   "cut_off": false
+  },
+  "S-1004": {
+   "text": "{first_name}, three new SUVs under 60,000 miles now show up with AWD. See your new matches.",
+   "cut_off": false
+  },
+  "S-1005": {
+   "text": "{first_name}, two new SUVs with third-row seating matched your search. See your new matches.",
+   "cut_off": false
+  },
+  "S-1007": {
+   "text": "{first_name}, upload your proof of insurance to finish. Once done, you\u2019re all set.",
+   "cut_off": false
+  },
+  "S-1010": {
+   "text": "{first_name}, bring the title, both keys, and your driver's license. Look over your offer.",
+   "cut_off": false
+  },
+  "S-1013": {
+   "text": "{first_name}, the 2023 Hyundai Elantra Hybrid is still listed. Take another look.",
+   "cut_off": false
+  },
+  "S-1014": {
+   "text": "{first_name}, the 2022 Subaru Forester Premium is still listed. Take another look.",
+   "cut_off": false
+  },
+  "S-1015": {
+   "text": "{first_name}, you\u2019ve chosen the 2021 Nissan Rogue SV. Pick a delivery time to finish up.",
+   "cut_off": false
+  },
+  "S-1016": {
+   "text": "{first_name}, you finished pre-qualifying on Nov 13. Pick a car now.",
+   "cut_off": false
+  },
+  "S-1017": {
+   "text": "{first_name}, you can pick a delivery time for the 2019 Mazda CX-5 Grand Touring. Finish up by choosing your preferred time.",
+   "cut_off": false
+  },
+  "S-1018": {
+   "text": "{first_name}, your trade-in offer ends Nov 27. Look over your offer.",
+   "cut_off": false
+  },
+  "S-1019": {
+   "text": "{first_name}, the offer ended on Nov 21. Get a new offer with the title, both keys, and your driver\u2019s license.",
+   "cut_off": false
+  }
+ }
+}

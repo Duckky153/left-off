@@ -1,0 +1,182 @@
+{
+  "what_this_is": "Every word the tool shows that code writes: stop names, next steps, the one true thing per stop point, reasons and email subjects.",
+  "stop_name": {
+    "saved_car": "Saved a car",
+    "saved_search": "Saved a search",
+    "prequalified": "Pre-qualified",
+    "purchase": "Started a purchase",
+    "trade_in_offer": "Trade-in offer",
+    "sell_offer": "Sell offer"
+  },
+  "journey": {
+    "saved_car": [
+      "Car saved",
+      "Purchased",
+      "Delivered"
+    ],
+    "saved_search": [
+      "Search saved",
+      "Car picked",
+      "Purchased"
+    ],
+    "prequalified": [
+      "Pre-qualified",
+      "Car picked",
+      "Purchased"
+    ],
+    "purchase": [
+      "Car saved",
+      "Purchase started",
+      "Delivered"
+    ],
+    "trade_in_offer": [
+      "Offer made",
+      "Next car bought",
+      "Handed over"
+    ],
+    "sell_offer": [
+      "Offer made",
+      "Accepted",
+      "Handed over",
+      "Paid"
+    ]
+  },
+  "next_step": {
+    "saved_car": "take another look",
+    "saved_car_sold": "set up a search for cars like it",
+    "saved_search": "see your new matches",
+    "saved_search_none": "look at your search",
+    "prequalified": "pick a car",
+    "purchase": "see your purchase",
+    "trade_in_offer": "see your offer",
+    "trade_in_offer_ended": "get a new offer",
+    "sell_offer": "see your offer",
+    "sell_offer_ended": "get a new offer"
+  },
+  "reply_step": "reply to the question",
+  "panel_title": {
+    "reply": "Draft reply",
+    "nudge": "Draft nudge"
+  },
+  "outcome_label": {
+    "ready": "Draft ready",
+    "person": "Needs a person",
+    "do_not_contact": "Do not contact"
+  },
+  "reasons": {
+    "asked_to_stop": "Asked us to stop",
+    "opted_out": "Opted out",
+    "do_not_contact": "Marked do not contact",
+    "talking_with_care": "Already talking with customer care",
+    "messaged_recently": "We messaged them this week",
+    "no_channel": "No channel we can use",
+    "money": "Money question",
+    "not_in_record": "Answer not found in their record",
+    "complaint": "Complaint",
+    "instructions": "Tells the AI what to say",
+    "california": "California rules need a person",
+    "no_safe_time": "Time zone unknown",
+    "draft_failed": "Draft stopped",
+    "not_checked": "Second check couldn't run"
+  },
+  "email_subject": {
+    "reply": "Your question",
+    "saved_car": "The {make} {model} you saved",
+    "saved_search": "Your saved search",
+    "prequalified": "Your pre-qualification",
+    "purchase": "Your {make} {model} purchase",
+    "trade_in_offer": "Your offer for the {make} {model}",
+    "sell_offer": "Your offer for the {make} {model}"
+  },
+  "read_as": {
+    "money": "AI check: money question",
+    "complaint": "AI check: complaint",
+    "instructions": "AI check: tells the AI what to say",
+    "asked_to_stop": "AI check: asking us to stop",
+    "not_in_record": "AI check: no clear answer in their record"
+  },
+  "list_reason": {
+    "money": "Money question",
+    "not_in_record": "Answer not found",
+    "complaint": "Complaint",
+    "instructions": "Tells the AI what to say",
+    "draft_failed": "Draft stopped",
+    "california": "California",
+    "no_safe_time": "No time zone",
+    "opted_out": "Opted out",
+    "asked_to_stop": "Asked to stop",
+    "talking_with_care": "With customer care",
+    "messaged_recently": "Messaged this week",
+    "no_channel": "No channel to use",
+    "do_not_contact": "Do not contact",
+    "not_checked": "Not checked"
+  },
+  "strip": {
+    "california": "California needs a person to add required wording to a first message.",
+    "no_safe_time": "Their time zone is unknown, so no sending time can be picked.",
+    "asked_to_stop": "They asked us to stop.",
+    "opted_out": "They opted out.",
+    "do_not_contact": "Marked do not contact.",
+    "talking_with_care": "They're already talking with customer care.",
+    "messaged_recently": "We messaged them this week.",
+    "no_channel": "They have no channel we can use: none agreed to, or it bounced.",
+    "not_checked": "The second check couldn't run, so a person looks.",
+    "answer_close": "No draft. The AI check was nearly sure their record answers this, but not sure enough.",
+    "answer_none": "No draft. The AI check didn't find the answer in their record.",
+    "money": "No draft. Money questions go to a person.",
+    "money_maybe": "No draft. The AI check thought this might be about money, so a person answers.",
+    "complaint": "No draft. A person answers complaints first.",
+    "instructions": "No draft. It tells the AI what to write, so a person answers.",
+    "money_read": "No draft. The AI check read this as about money, so a person answers."
+  },
+  "check_plain": {
+    "money": "mentions money",
+    "money (second check)": "mentions money",
+    "pressure": "pushes the shopper",
+    "pressure (second check)": "pushes the shopper",
+    "promise": "promises something",
+    "promise (second check)": "promises something",
+    "not in the record": "says something not in the record",
+    "not in the record (second check)": "says something not in the record",
+    "a number not in the record": "has a number not in the record",
+    "a name not in the record": "has a name not in the record",
+    "shape": "is the wrong length",
+    "system words": "uses system words",
+    "didn't answer (second check)": "doesn't answer the question",
+    "not checked": "couldn't be checked",
+    "too long for a text": "is too long for a text"
+  },
+  "check_marked": {
+    "money": "{w} mentions money",
+    "pressure": "{w} pushes the shopper",
+    "promise": "{w} promises something",
+    "not in the record": "their record doesn't say {w}",
+    "a number not in the record": "their record doesn't say {w}",
+    "a name not in the record": "their record doesn't say {w}",
+    "system words": "{w} is a system word"
+  },
+  "check_read": {
+    "money": "thought it might mention money",
+    "pressure": "thought it might push the shopper",
+    "promise": "thought it might promise something",
+    "not in the record": "wasn't sure every fact is in their record",
+    "didn't answer": "wasn't sure it answers the question"
+  },
+  "reply_subject": {
+    "LISTED FEATURES": "{feature} on the {make} {model}",
+    "SEATS": "Seats in the {make} {model}",
+    "DRIVETRAIN": "Drivetrain on the {make} {model}",
+    "STATUS": "The {make} {model} you saved",
+    "NEW MATCHES": "New matches for your saved search",
+    "STEPS LEFT": "What's left on your {make} {model}",
+    "OFFER ENDS": "Your offer for the {make} {model}",
+    "BRING": "What to bring for your {make} {model}",
+    "PRE-QUALIFIED": "Your pre-qualification"
+  },
+  "list_read_as": {
+    "money": "AI: money question",
+    "not_in_record": "AI: no clear answer",
+    "complaint": "AI: complaint",
+    "instructions": "AI: orders to the AI"
+  }
+}

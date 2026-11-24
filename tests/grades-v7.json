@@ -1,0 +1,610 @@
+{
+ "what_this_is": "Two AI graders read every ready draft from prompt v7 (fourth fresh set and the 40), by tests/GRADING.md only, with the exact facts the writer saw and the link line code adds. They saw no outcome, key or check.",
+ "first_grader": "OpenAI's gpt-6-luna through its own command-line tool",
+ "second_grader": "a fresh Claude reader, same rules",
+ "graded": [
+  {
+   "id": "J-6001",
+   "facts": "CHANNEL: text\nNEXT STEP: take another look\nCAR: 2022 Honda Passport TrailSport, White, 33,008 miles\nSTATUS: still listed\nLISTED FEATURES: Power liftgate; Power moonroof; Leather seats; Blind spot monitor; Wireless phone charging; Remote start\nSEATS: 5 seats\nDRIVETRAIN: AWD\nQUESTION: Does the SUV I saved have a power moonroof?\nANSWER (from LISTED FEATURES): Power moonroof",
+   "draft": "{first_name}, yes, the 2022 Honda Passport TrailSport has a power moonroof. Take another look: [link]"
+  },
+  {
+   "id": "J-6002",
+   "facts": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2021 Toyota Sienna LE, Blue, 23,413 miles\nSTATUS: still listed\nLISTED FEATURES: Power sliding doors; Power liftgate; Apple CarPlay; Blind spot monitor; Adaptive cruise control; Third-row seating\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: How many people fit in the minivan I saved?\nANSWER (from SEATS): 8 seats",
+   "draft": "{first_name}, the 2021 Toyota Sienna LE fits 8 people. Take another look: [link]"
+  },
+  {
+   "id": "J-6003",
+   "facts": "CHANNEL: email\nNEXT STEP: see your new matches\nSEARCH: Sedans under 50,000 miles\nNEW MATCHES: 3 new cars match, all with AWD\nQUESTION: Have any new AWD sedans popped up that fit my saved search?\nANSWER (from NEW MATCHES): 3 new cars match, all with AWD",
+   "draft": "{first_name}, three new AWD sedans match your saved search. See your new matches: [link]"
+  },
+  {
+   "id": "J-6004",
+   "facts": "CHANNEL: text\nNEXT STEP: finish up\nCAR: 2020 Honda CR-V EX, Gray, 39,305 miles\nLISTED FEATURES: Power moonroof; Heated front seats; Remote start; Apple CarPlay; Blind spot monitor; Adaptive cruise control\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Upload your driver's license; Pick a delivery time\nQUESTION: I started the purchase, do I just need to upload my license and pick a delivery time now?\nANSWER (from STEPS LEFT): Upload your driver's license; Pick a delivery time",
+   "draft": "{first_name}, you’ll need to upload your license and pick a delivery time next. Finish up: [link]"
+  },
+  {
+   "id": "J-6005",
+   "facts": "CHANNEL: text\nNEXT STEP: look over your offer\nYOUR CAR: 2017 Ford Escape SE, Silver, 93,636 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 27\nBRING: the title; both keys\nQUESTION: How long is the offer on my Escape good for?\nANSWER (from OFFER ENDS): Nov 27",
+   "draft": "{first_name}, the offer on your 2017 Ford Escape SE ends Nov 27. Look over your offer: [link]"
+  },
+  {
+   "id": "J-6006",
+   "facts": "CHANNEL: email\nNEXT STEP: accept the offer\nYOUR CAR: 2015 Toyota Camry LE, Silver, 112,258 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: For selling my Camry, should I bring the title, both keys, and my driver's license?\nANSWER (from BRING): the title; both keys; your driver's license",
+   "draft": "{first_name}, bring the title, both keys, and your driver's license. Accept the offer: [link]"
+  },
+  {
+   "id": "J-6007",
+   "facts": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2024 Subaru Ascent Onyx Edition, Beige, 62,300 miles\nSTATUS: still listed\nLISTED FEATURES: Third-row seating; Power liftgate; Power moonroof; Heated front seats; Blind spot monitor; Apple CarPlay\nSEATS: 7 seats\nDRIVETRAIN: AWD\nTRUE THING (from STATUS): still listed",
+   "draft": "{first_name}, the 2024 Subaru Ascent Onyx Edition is still listed. Take another look: [link]"
+  },
+  {
+   "id": "J-6008",
+   "facts": "CHANNEL: text\nNEXT STEP: get a new offer\nYOUR CAR: 2017 Ford Escape SE, Black, 125,402 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): ended on Nov 21",
+   "draft": "{first_name}, the offer ended on Nov 21. Get a new offer: [link]"
+  },
+  {
+   "id": "J-6009",
+   "facts": "CHANNEL: text\nNEXT STEP: finish up\nCAR: 2020 Honda Odyssey EX, White, 34,379 miles\nLISTED FEATURES: Power sliding doors; Heated front seats; Remote start; Blind spot monitor; Apple CarPlay; Third-row seating\nSEATS: 8 seats\nDRIVETRAIN: FWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): Pick a delivery time",
+   "draft": "{first_name}, the 2020 Honda Odyssey EX is ready for you to pick a delivery time. Finish up: [link]"
+  },
+  {
+   "id": "S-1003",
+   "facts": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2019 Mazda CX-9 Touring, White, 32,496 miles\nSTATUS: still listed\nLISTED FEATURES: Third-row seating; Power liftgate; Leather seats; Heated front seats; Apple CarPlay; Blind spot monitor\nSEATS: 7 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: Hi, could you tell me how many people this SUV seats? Trying to see if it works for our carpool.\nANSWER (from SEATS): 7 seats",
+   "draft": "{first_name}, the 2019 Mazda CX-9 Touring seats 7 people. Take another look: [link]"
+  },
+  {
+   "id": "S-1007",
+   "facts": "CHANNEL: text\nNEXT STEP: finish up\nCAR: 2021 Hyundai Palisade SE, Green, 41,494 miles\nLISTED FEATURES: Third-row seating; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Upload proof of insurance\nQUESTION: whats left on my end to finish buying this one?\nANSWER (from STEPS LEFT): Upload proof of insurance",
+   "draft": "{first_name}, upload proof of insurance to finish. Finish up: [link]"
+  },
+  {
+   "id": "S-1010",
+   "facts": "CHANNEL: email\nNEXT STEP: look over your offer\nYOUR CAR: 2018 Kia Soul Plus, Beige, 95,170 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: Hi, what paperwork should I bring along when I drop off my car for the trade-in? Thanks.\nANSWER (from BRING): the title; both keys; your driver's license",
+   "draft": "{first_name}, bring the title, both keys, and your driver's license when you drop off your car. Look over your offer: [link]"
+  },
+  {
+   "id": "S-1013",
+   "facts": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2023 Hyundai Elantra Hybrid Blue, Black, 38,234 miles\nSTATUS: still listed\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Blind spot monitor; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD\nTRUE THING (from STATUS): still listed",
+   "draft": "{first_name}, the 2023 Hyundai Elantra Hybrid is still listed. Take another look: [link]"
+  },
+  {
+   "id": "S-1014",
+   "facts": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2022 Subaru Forester Premium, Black, 12,577 miles\nSTATUS: still listed\nLISTED FEATURES: Power moonroof; Heated front seats; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: AWD\nTRUE THING (from STATUS): still listed",
+   "draft": "{first_name}, the 2022 Subaru Forester Premium is still listed. Take another look: [link]"
+  },
+  {
+   "id": "S-1015",
+   "facts": "CHANNEL: email\nNEXT STEP: finish up\nCAR: 2021 Nissan Rogue SV, Black, 19,976 miles\nLISTED FEATURES: Apple CarPlay; Android Auto; Blind spot monitor; Adaptive cruise control; Remote start\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): Pick a delivery time",
+   "draft": "{first_name}, the 2021 Nissan Rogue SV is ready for you to pick a delivery time. Finish up: [link]"
+  },
+  {
+   "id": "S-1017",
+   "facts": "CHANNEL: text\nNEXT STEP: finish up\nCAR: 2019 Mazda CX-5 Grand Touring, Green, 22,154 miles\nLISTED FEATURES: Power liftgate; Power moonroof; Leather seats; Heated front seats; Blind spot monitor; Adaptive cruise control\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): Pick a delivery time",
+   "draft": "{first_name}, the 2019 Mazda CX-5 Grand Touring is ready for you to pick a delivery time. Finish up: [link]"
+  },
+  {
+   "id": "S-1018",
+   "facts": "CHANNEL: text\nNEXT STEP: look over your offer\nYOUR CAR: 2016 Subaru Forester 2.5i, Green, 112,769 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 27\nBRING: the title; both keys\nTRUE THING (from OFFER ENDS): Nov 27",
+   "draft": "{first_name}, your trade-in offer ends Nov 27. Bring the title and both keys. Look over your offer: [link]"
+  },
+  {
+   "id": "S-1019",
+   "facts": "CHANNEL: text\nNEXT STEP: get a new offer\nYOUR CAR: 2015 Toyota Camry LE, Blue, 87,567 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): ended on Nov 21",
+   "draft": "{first_name}, the offer ended on Nov 21. Get a new offer: [link]"
+  }
+ ],
+ "first": {
+  "J-6001": {
+   "id": "J-6001",
+   "sentences": [
+    "CAR + ANSWER (from LISTED FEATURES)",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6002": {
+   "id": "J-6002",
+   "sentences": [
+    "CAR + SEATS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6003": {
+   "id": "J-6003",
+   "sentences": [
+    "SEARCH + NEW MATCHES",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6004": {
+   "id": "J-6004",
+   "sentences": [
+    "STEPS LEFT",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6005": {
+   "id": "J-6005",
+   "sentences": [
+    "YOUR CAR + OFFER + OFFER ENDS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6006": {
+   "id": "J-6006",
+   "sentences": [
+    "BRING",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6007": {
+   "id": "J-6007",
+   "sentences": [
+    "CAR + STATUS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6008": {
+   "id": "J-6008",
+   "sentences": [
+    "OFFER ENDS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6009": {
+   "id": "J-6009",
+   "sentences": [
+    "not in the facts",
+    "next step"
+   ],
+   "grounded": false,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1003": {
+   "id": "S-1003",
+   "sentences": [
+    "CAR + SEATS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1007": {
+   "id": "S-1007",
+   "sentences": [
+    "QUESTION + STEPS LEFT",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": false,
+   "why": "repeats finish prompt"
+  },
+  "S-1010": {
+   "id": "S-1010",
+   "sentences": [
+    "QUESTION + BRING",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1013": {
+   "id": "S-1013",
+   "sentences": [
+    "CAR + STATUS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1014": {
+   "id": "S-1014",
+   "sentences": [
+    "CAR + STATUS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1015": {
+   "id": "S-1015",
+   "sentences": [
+    "not in the facts",
+    "next step"
+   ],
+   "grounded": false,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1017": {
+   "id": "S-1017",
+   "sentences": [
+    "not in the facts",
+    "next step"
+   ],
+   "grounded": false,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1018": {
+   "id": "S-1018",
+   "sentences": [
+    "OFFER + OFFER ENDS",
+    "BRING",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1019": {
+   "id": "S-1019",
+   "sentences": [
+    "OFFER ENDS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  }
+ },
+ "second": {
+  "J-6001": {
+   "id": "J-6001",
+   "sentences": [
+    "CAR + ANSWER (from LISTED FEATURES): Power moonroof",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6002": {
+   "id": "J-6002",
+   "sentences": [
+    "CAR + ANSWER (from SEATS): 8 seats",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6003": {
+   "id": "J-6003",
+   "sentences": [
+    "SEARCH + NEW MATCHES: 3 new cars match, all with AWD",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6004": {
+   "id": "J-6004",
+   "sentences": [
+    "STEPS LEFT: Upload your driver's license; Pick a delivery time",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6005": {
+   "id": "J-6005",
+   "sentences": [
+    "YOUR CAR + OFFER ENDS: Nov 27",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6006": {
+   "id": "J-6006",
+   "sentences": [
+    "BRING: the title; both keys; your driver's license",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6007": {
+   "id": "J-6007",
+   "sentences": [
+    "CAR + STATUS: still listed",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6008": {
+   "id": "J-6008",
+   "sentences": [
+    "OFFER ENDS: ended on Nov 21",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "J-6009": {
+   "id": "J-6009",
+   "sentences": [
+    "not in the facts",
+    "next step"
+   ],
+   "grounded": false,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1003": {
+   "id": "S-1003",
+   "sentences": [
+    "CAR + ANSWER (from SEATS): 7 seats",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1007": {
+   "id": "S-1007",
+   "sentences": [
+    "STEPS LEFT: Upload proof of insurance",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": false,
+   "why": "repeats finish twice"
+  },
+  "S-1010": {
+   "id": "S-1010",
+   "sentences": [
+    "BRING: the title; both keys; your driver's license (+ QUESTION: drop off)",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1013": {
+   "id": "S-1013",
+   "sentences": [
+    "CAR + STATUS: still listed",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1014": {
+   "id": "S-1014",
+   "sentences": [
+    "CAR + STATUS: still listed",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1015": {
+   "id": "S-1015",
+   "sentences": [
+    "not in the facts",
+    "next step"
+   ],
+   "grounded": false,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1017": {
+   "id": "S-1017",
+   "sentences": [
+    "not in the facts",
+    "next step"
+   ],
+   "grounded": false,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1018": {
+   "id": "S-1018",
+   "sentences": [
+    "OFFER + OFFER ENDS: Nov 27",
+    "BRING: the title; both keys",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1019": {
+   "id": "S-1019",
+   "sentences": [
+    "OFFER ENDS: ended on Nov 21",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  }
+ },
+ "disagree_on": [],
+ "found": "Both graders: J-6009, S-1015 and S-1017 say the car 'is ready for you to pick a delivery time', which the facts don't say (not grounded). S-1007 'upload proof of insurance to finish. Finish up: [link]' doesn't read like a person. No money, pressure or promise in any draft.",
+ "changed": "Code now holds 'ready' when the facts don't say it (patterns.json); the purchase link reads 'See your purchase'."
+}

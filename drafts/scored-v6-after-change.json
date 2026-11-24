@@ -1,0 +1,68 @@
+{
+ "meta": {
+  "set": "scored",
+  "prompt": "v6",
+  "prompt_sha256": "fe280e670650b44b371789c0a4e2d074318f45b3e4275c1fc8fb31622c12da14",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 12,
+  "at": "2026-11-23T22:23:58"
+ },
+ "drafts": {
+  "S-1002": {
+   "text": "{first_name}, the 2022 Hyundai Tucson SEL you saved is no longer available.",
+   "cut_off": false
+  },
+  "S-1003": {
+   "text": "{first_name}, the 2019 Mazda CX-9 Touring seats 7 people.",
+   "cut_off": false
+  },
+  "S-1004": {
+   "text": "{first_name}, three new SUVs under 60,000 miles now show up with AWD. [Next step link]",
+   "cut_off": false
+  },
+  "S-1007": {
+   "text": "{first_name}, upload proof of insurance to finish.",
+   "cut_off": false
+  },
+  "S-1010": {
+   "text": "{first_name}, bring the title, both keys, and your driver\u2019s license when you drop off your car.",
+   "cut_off": false
+  },
+  "S-1013": {
+   "text": "{first_name}, the 2023 Hyundai Elantra Hybrid is still listed.",
+   "cut_off": false
+  },
+  "S-1014": {
+   "text": "{first_name}, the 2022 Subaru Forester Premium is still listed.",
+   "cut_off": false
+  },
+  "S-1015": {
+   "text": "{first_name}, you\u2019ll pick a delivery time next.",
+   "cut_off": false
+  },
+  "S-1016": {
+   "text": "{first_name}, you finished pre-qualifying on Nov 13.",
+   "cut_off": false
+  },
+  "S-1017": {
+   "text": "{first_name}, you\u2019ll pick a delivery time next.",
+   "cut_off": false
+  },
+  "S-1018": {
+   "text": "{first_name}, your trade-in offer ends Nov 27. Bring the title and both keys.",
+   "cut_off": false
+  },
+  "S-1019": {
+   "text": "{first_name}, the offer ended on Nov 21.",
+   "cut_off": false
+  }
+ }
+}

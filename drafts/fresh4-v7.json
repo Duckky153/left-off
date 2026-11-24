@@ -1,0 +1,56 @@
+{
+ "meta": {
+  "set": "fresh4",
+  "prompt": "v7",
+  "prompt_sha256": "080b6c6afb4020d2a51f35f30a0ea901502f204fcda2beca177c6d7ef7c5ad7c",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 9,
+  "at": "2026-11-23T22:27:00"
+ },
+ "drafts": {
+  "J-6001": {
+   "text": "{first_name}, yes, the 2022 Honda Passport TrailSport has a power moonroof.",
+   "cut_off": false
+  },
+  "J-6002": {
+   "text": "{first_name}, the 2021 Toyota Sienna LE fits 8 people.",
+   "cut_off": false
+  },
+  "J-6003": {
+   "text": "{first_name}, three new AWD sedans match your saved search.",
+   "cut_off": false
+  },
+  "J-6004": {
+   "text": "{first_name}, you\u2019ll need to upload your license and pick a delivery time next.",
+   "cut_off": false
+  },
+  "J-6005": {
+   "text": "{first_name}, the offer on your 2017 Ford Escape SE ends Nov 27.",
+   "cut_off": false
+  },
+  "J-6006": {
+   "text": "{first_name}, bring the title, both keys, and your driver's license.",
+   "cut_off": false
+  },
+  "J-6007": {
+   "text": "{first_name}, the 2024 Subaru Ascent Onyx Edition is still listed.",
+   "cut_off": false
+  },
+  "J-6008": {
+   "text": "{first_name}, the offer ended on Nov 21.",
+   "cut_off": false
+  },
+  "J-6009": {
+   "text": "{first_name}, the 2020 Honda Odyssey EX is ready for you to pick a delivery time.",
+   "cut_off": false
+  }
+ }
+}

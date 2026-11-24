@@ -1,0 +1,140 @@
+{
+ "meta": {
+  "set": "practice",
+  "prompt": "candidate",
+  "prompt_sha256": "9e174ac657a92627d36e70c628bf0f57048244904f8699c62bf032194f5a504c",
+  "model": "qwen2.5:7b-instruct",
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 12,
+  "at": "2026-11-23T21:12:15"
+ },
+ "rows": [
+  {
+   "id": "P-2001",
+   "user": "CHANNEL: text\nNEXT STEP: take another look at your car\nCAR: 2020 Honda Pilot EX-L, Gray, 19,665 miles\nSTATUS: still listed\nLISTED FEATURES: Power liftgate; Third-row seating; Heated front seats; Power moonroof\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: Does it have heated front seats?\nANSWER (from LISTED FEATURES): Heated front seats",
+   "raw": "The Honda Pilot EX-L has heated front seats. Take another look at your car when you're ready.",
+   "text": "The Honda Pilot EX-L has heated front seats. Take another look at your car when you're ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 496,
+   "output_tokens": 22,
+   "seconds": 8.59
+  },
+  {
+   "id": "P-2002",
+   "user": "CHANNEL: email\nNEXT STEP: take another look at your car\nCAR: 2019 Mazda CX-5 Touring, Red, 23,805 miles\nSTATUS: still listed\nLISTED FEATURES: Power moonroof; Heated front seats; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nTRUE THING (from STATUS): still listed",
+   "raw": "Still listed, {first_name}, take another look at your 2019 Mazda CX-5 Touring.",
+   "text": "Still listed, {first_name}, take another look at your 2019 Mazda CX-5 Touring.",
+   "done_reason": "stop",
+   "prompt_tokens": 481,
+   "output_tokens": 25,
+   "seconds": 2.9
+  },
+  {
+   "id": "P-2003",
+   "user": "CHANNEL: email\nNEXT STEP: see your new matches\nSEARCH: Sedans under 50,000 miles\nNEW MATCHES: 2 new cars match, all with AWD\nQUESTION: Any new ones with AWD?\nANSWER (from NEW MATCHES): 2 new cars match, all with AWD",
+   "raw": "{first_name}, we found 2 new cars that match your search and all have AWD. See your new matches when you're ready.",
+   "text": "{first_name}, we found 2 new cars that match your search and all have AWD. See your new matches when you're ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 462,
+   "output_tokens": 30,
+   "seconds": 3.2
+  },
+  {
+   "id": "P-2004",
+   "user": "CHANNEL: email\nNEXT STEP: see your new matches\nSEARCH: Pickups from 2018 or newer\nNEW MATCHES: 4 new cars match\nTRUE THING (from NEW MATCHES): 4 new cars match",
+   "raw": "{first_name}, there are 4 new pickups from 2018 or newer that might interest you. See your new matches when you're ready.",
+   "text": "{first_name}, there are 4 new pickups from 2018 or newer that might interest you. See your new matches when you're ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 443,
+   "output_tokens": 33,
+   "seconds": 2.87
+  },
+  {
+   "id": "P-2005",
+   "user": "CHANNEL: email\nNEXT STEP: pick a car\nCAR: 2020 Toyota Highlander LE, Gray, 54,564 miles\nLISTED FEATURES: Third-row seating; Apple CarPlay; Backup camera\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nPRE-QUALIFIED: finished on Nov 18\nQUESTION: Does it seat 8?\nANSWER (from SEATS): 8 seats",
+   "raw": "The 2020 Toyota Highlander LE seats 8. Pick a drive option when you're ready.",
+   "text": "The 2020 Toyota Highlander LE seats 8. Pick a drive option when you're ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 490,
+   "output_tokens": 23,
+   "seconds": 2.63
+  },
+  {
+   "id": "P-2006",
+   "user": "CHANNEL: email\nNEXT STEP: pick a car\nPRE-QUALIFIED: finished on Nov 14\nTRUE THING (from PRE-QUALIFIED): finished on Nov 14",
+   "raw": "{first_name}, your pre-qualification was completed on November 14. Pick a car when you're ready.",
+   "text": "{first_name}, your pre-qualification was completed on November 14. Pick a car when you're ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 433,
+   "output_tokens": 25,
+   "seconds": 2.18
+  },
+  {
+   "id": "P-2007",
+   "user": "CHANNEL: text\nNEXT STEP: finish the steps left\nCAR: 2021 Toyota RAV4 XLE, Green, 28,116 miles\nLISTED FEATURES: Power liftgate; Apple CarPlay; Blind spot monitor; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Upload your driver's license; Pick a delivery time\nQUESTION: What do I still need to do?\nANSWER (from STEPS LEFT): Upload your driver's license; Pick a delivery time",
+   "raw": "{first_name}, upload your driver's license and pick a delivery time when you're ready.",
+   "text": "{first_name}, upload your driver's license and pick a delivery time when you're ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 511,
+   "output_tokens": 20,
+   "seconds": 2.31
+  },
+  {
+   "id": "P-2008",
+   "user": "CHANNEL: text\nNEXT STEP: finish the steps left\nCAR: 2021 Subaru Outback Premium, Green, 14,716 miles\nLISTED FEATURES: Heated front seats; Apple CarPlay; Adaptive cruise control\nSEATS: 5 seats\nDRIVETRAIN: AWD\nSTEPS LEFT: Upload proof of insurance\nTRUE THING (from STEPS LEFT): Upload proof of insurance",
+   "raw": "{first_name}, please upload your proof of insurance when you're ready.",
+   "text": "{first_name}, please upload your proof of insurance when you're ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 483,
+   "output_tokens": 16,
+   "seconds": 1.83
+  },
+  {
+   "id": "P-2009",
+   "user": "CHANNEL: text\nNEXT STEP: use your offer when you buy\nYOUR CAR: 2016 Subaru Forester 2.5i, Red, 92,010 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys\nQUESTION: When does my offer run out?\nANSWER (from OFFER ENDS): Nov 26",
+   "raw": "Your offer runs until Nov 26. Bring the title and both keys when you're ready to use it.",
+   "text": "Your offer runs until Nov 26. Bring the title and both keys when you're ready to use it.",
+   "done_reason": "stop",
+   "prompt_tokens": 488,
+   "output_tokens": 24,
+   "seconds": 2.47
+  },
+  {
+   "id": "P-2010",
+   "user": "CHANNEL: text\nNEXT STEP: get a new offer\nYOUR CAR: 2015 Toyota Camry LE, Gray, 60,764 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys\nTRUE THING (from OFFER ENDS): ended on Nov 21",
+   "raw": "ended on Nov 21, get a new offer when you're ready.",
+   "text": "ended on Nov 21, get a new offer when you're ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 478,
+   "output_tokens": 17,
+   "seconds": 2.14
+  },
+  {
+   "id": "P-2011",
+   "user": "CHANNEL: text\nNEXT STEP: accept your offer\nYOUR CAR: 2017 Ford Escape SE, Black, 106,849 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: Do I need to bring the title?\nANSWER (from BRING): the title; both keys; your driver's license",
+   "raw": "Do you need to bring the title? Yes, along with both keys and your driver's license. When are you ready to accept the offer?",
+   "text": "Do you need to bring the title? Yes, along with both keys and your driver's license. When are you ready to accept the offer?",
+   "done_reason": "stop",
+   "prompt_tokens": 490,
+   "output_tokens": 30,
+   "seconds": 3.0
+  },
+  {
+   "id": "P-2012",
+   "user": "CHANNEL: text\nNEXT STEP: accept your offer\nYOUR CAR: 2019 Chevrolet Malibu LT, White, 121,164 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 27\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): Nov 27",
+   "raw": "{first_name}, bring the title, both keys, and your driver's license by Nov 27. Let's finalize your offer when you're ready.",
+   "text": "{first_name}, bring the title, both keys, and your driver's license by Nov 27. Let's finalize your offer when you're ready.",
+   "done_reason": "stop",
+   "prompt_tokens": 478,
+   "output_tokens": 33,
+   "seconds": 3.09
+  }
+ ]
+}

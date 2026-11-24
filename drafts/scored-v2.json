@@ -1,0 +1,64 @@
+{
+ "meta": {
+  "set": "scored",
+  "prompt": "v2",
+  "prompt_sha256": "2abd074695a70e7d10e8b13567363574abcfa85baf89eb6ab364630e01311586",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 11,
+  "at": "2026-11-23T21:24:54"
+ },
+ "drafts": {
+  "S-1002": {
+   "text": "{first_name}, that car is no longer available. Set up a search for cars like it whenever you\u2019re ready.",
+   "cut_off": false
+  },
+  "S-1003": {
+   "text": "{first_name}, this SUV seats 7 people. Take another look at your car whenever you are ready.",
+   "cut_off": false
+  },
+  "S-1005": {
+   "text": "{first_name}, two new SUVs with third-row seating matched since your last check. See your new matches whenever you\u2019re ready.",
+   "cut_off": false
+  },
+  "S-1007": {
+   "text": "{first_name}, you need to upload your proof of insurance. When you\u2019re ready, finish the steps left.",
+   "cut_off": false
+  },
+  "S-1013": {
+   "text": "{first_name}, your car is still listed. Take another look at your car whenever you are ready.",
+   "cut_off": false
+  },
+  "S-1014": {
+   "text": "{first_name}, your car is still listed. Take another look at your car whenever you are ready.",
+   "cut_off": false
+  },
+  "S-1015": {
+   "text": "{first_name}, pick a delivery time when you are ready. Finish the steps left.",
+   "cut_off": false
+  },
+  "S-1016": {
+   "text": "{first_name}, you finished pre-qualifying on Nov 13. Pick a car whenever you are ready.",
+   "cut_off": false
+  },
+  "S-1017": {
+   "text": "{first_name}, pick a delivery time when you are ready. Finish the steps left.",
+   "cut_off": false
+  },
+  "S-1018": {
+   "text": "{first_name}, your offer ends Nov 27. Use your offer when you buy.",
+   "cut_off": false
+  },
+  "S-1019": {
+   "text": "{first_name}, this offer ended on Nov 21. Get a new offer whenever you are ready.",
+   "cut_off": false
+  }
+ }
+}

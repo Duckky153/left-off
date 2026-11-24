@@ -1,0 +1,7 @@
+CHANNEL: sms
+NEXT STEP: pick up where you left off
+VIEW:
+FIRST NAME: Jordan
+WHERE THEY STOPPED: got pre-qualified
+CAR: 2020 Mazda CX-5 Touring, Soul Red, 41,980 miles
+LISTED FEATURES: Backup camera; Apple CarPlay; Leather seats

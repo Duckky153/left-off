@@ -1,0 +1,68 @@
+{
+ "meta": {
+  "set": "practice",
+  "prompt": "v7",
+  "prompt_sha256": "080b6c6afb4020d2a51f35f30a0ea901502f204fcda2beca177c6d7ef7c5ad7c",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 12,
+  "at": "2026-11-23T22:25:32"
+ },
+ "drafts": {
+  "P-2001": {
+   "text": "{first_name}, yes, it has heated front seats.",
+   "cut_off": false
+  },
+  "P-2002": {
+   "text": "{first_name}, the 2021 Toyota Tacoma TRD Sport Double Cab is still listed.",
+   "cut_off": false
+  },
+  "P-2003": {
+   "text": "{first_name}, you found two new sedans with AWD.",
+   "cut_off": false
+  },
+  "P-2004": {
+   "text": "{first_name}, 4 new cars match your search for pickups from 2018 or newer.",
+   "cut_off": false
+  },
+  "P-2005": {
+   "text": "{first_name}, the 2024 Honda Pilot EX-L has 8 seats.",
+   "cut_off": false
+  },
+  "P-2006": {
+   "text": "{first_name}, you finished pre-qualifying on Nov 14.",
+   "cut_off": false
+  },
+  "P-2007": {
+   "text": "{first_name}, you still need to upload your driver\u2019s license and pick a delivery time.",
+   "cut_off": false
+  },
+  "P-2008": {
+   "text": "{first_name}, you need to upload proof of insurance.",
+   "cut_off": false
+  },
+  "P-2009": {
+   "text": "{first_name}, your offer ends Nov 26.",
+   "cut_off": false
+  },
+  "P-2010": {
+   "text": "{first_name}, the trade-in offer ended on Nov 21.",
+   "cut_off": false
+  },
+  "P-2011": {
+   "text": "{first_name}, yes, you need to bring the title.",
+   "cut_off": false
+  },
+  "P-2012": {
+   "text": "{first_name}, the offer ends on Nov 27.",
+   "cut_off": false
+  }
+ }
+}

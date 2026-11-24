@@ -1,0 +1,8 @@
+CHANNEL: email
+NEXT STEP: come back to your offer
+VIEW:
+FIRST NAME: Luis
+WHERE THEY STOPPED: got an offer to sell his car
+HIS CAR: 2017 Ford Escape SE, 88,040 miles
+QUESTION: Do you come pick the car up or do I have to drop it off somewhere?
+ANSWER: none

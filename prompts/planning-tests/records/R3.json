@@ -1,0 +1,10 @@
+{"customer_id": "S-103", "first_name": "Priya", "sample": true,
+ "stage": "purchase_started", "stage_words": "started a purchase",
+ "car": {"year": 2019, "make": "Toyota", "model": "Camry", "trim": "SE", "miles": "51,206", "color": "Celestial Silver",
+         "features_listed": ["Backup camera", "Lane departure alert", "Apple CarPlay"]},
+ "purchase_started_on": "2026-11-15",
+ "steps_done": ["Picked the car", "Added contact details"],
+ "steps_left": ["Upload driver's license", "Choose a delivery date"],
+ "last_question": {"asked_on": "2026-11-15", "where": "chat", "text": "What do I still need to do to finish?"},
+ "step": "Tell her the steps left from the record and invite her to finish when she is ready.",
+ "channel": "sms"}

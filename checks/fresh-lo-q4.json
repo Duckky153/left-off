@@ -1,0 +1,756 @@
+{
+ "questions": "lo-q4",
+ "checks": {
+  "F-3001": {
+   "router": {
+    "answered": true,
+    "answer_line": "LISTED FEATURES"
+   },
+   "draft": {
+    "fails": [],
+    "support": null
+   }
+  },
+  "F-3002": {
+   "router": {
+    "answered": true,
+    "answer_line": "SEATS"
+   },
+   "draft": {
+    "fails": [],
+    "support": "SEATS"
+   }
+  },
+  "F-3003": {
+   "router": {
+    "answered": false,
+    "answer_line": "NEW MATCHES"
+   }
+  },
+  "F-3004": {
+   "router": {
+    "answered": true,
+    "answer_line": "STEPS LEFT"
+   },
+   "draft": {
+    "fails": [
+     [
+      "not in the record (second check)",
+      [
+       "sentence 1"
+      ]
+     ]
+    ],
+    "support": null
+   }
+  },
+  "F-3005": {
+   "router": {
+    "answered": true,
+    "answer_line": "OFFER ENDS"
+   },
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS"
+   }
+  },
+  "F-3006": {
+   "router": {
+    "answered": true,
+    "answer_line": "BRING"
+   },
+   "draft": {
+    "fails": [],
+    "support": "BRING"
+   }
+  },
+  "F-3010": {
+   "router": {
+    "reason": "instructions",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "F-3011": {
+   "router": {
+    "reason": "instructions",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "F-3012": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": "PRE-QUALIFIED"
+   }
+  },
+  "F-3013": {
+   "router": {
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "F-3014": {
+   "router": {
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "F-3015": {
+   "router": {
+    "reason": "instructions",
+    "answered": false,
+    "answer_line": "NEW MATCHES"
+   }
+  },
+  "F-3016": {
+   "router": {
+    "reason": "complaint",
+    "answered": false,
+    "answer_line": "NEXT STEP"
+   }
+  },
+  "F-3017": {
+   "router": {
+    "asks_to_stop": true,
+    "reason": "instructions",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "F-3007": {
+   "draft": {
+    "fails": [],
+    "support": "STATUS"
+   }
+  },
+  "F-3008": {
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS"
+   }
+  },
+  "F-3009": {
+   "draft": {
+    "fails": [
+     [
+      "not in the record (second check)",
+      [
+       "sentence 1"
+      ]
+     ]
+    ],
+    "support": "STEPS LEFT"
+   }
+  }
+ },
+ "log": {
+  "F-3001:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.96,
+    0.96
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "F-3002:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.06
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.91,
+    0.91
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "F-3003:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.14,
+    0.13
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.67,
+    0.64
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "F-3004:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.06
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.05,
+    0.05
+   ],
+   "answered": [
+    0.93,
+    0.93
+   ],
+   "answer_line": [
+    "F06",
+    "F06"
+   ]
+  },
+  "F-3005:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.04,
+    0.04
+   ],
+   "complaint": [
+    0.02,
+    0.03
+   ],
+   "about_money": [
+    0.15,
+    0.16
+   ],
+   "answered": [
+    0.96,
+    0.95
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "F-3006:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.95,
+    0.95
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "F-3010:router": {
+   "asks_to_stop": [
+    0.02,
+    0.02
+   ],
+   "instructs_writer": [
+    0.23,
+    0.26
+   ],
+   "complaint": [
+    0.04,
+    0.04
+   ],
+   "about_money": [
+    0.88,
+    0.85
+   ],
+   "answered": [
+    0.08,
+    0.1
+   ],
+   "answer_line": [
+    "F02",
+    "F03"
+   ]
+  },
+  "F-3011:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.26,
+    0.23
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.99,
+    0.99
+   ],
+   "answered": [
+    0.06,
+    0.05
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "F-3012:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.21,
+    0.2
+   ],
+   "about_money": [
+    0.97,
+    0.97
+   ],
+   "answered": [
+    0.66,
+    0.58
+   ],
+   "answer_line": [
+    "F02",
+    "F02"
+   ]
+  },
+  "F-3013:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.06
+   ],
+   "complaint": [
+    0.14,
+    0.12
+   ],
+   "about_money": [
+    0.03,
+    0.02
+   ],
+   "answered": [
+    0.04,
+    0.04
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "F-3014:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.1,
+    0.1
+   ],
+   "answered": [
+    0.03,
+    0.03
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "F-3015:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.97,
+    0.97
+   ],
+   "complaint": [
+    0.1,
+    0.1
+   ],
+   "about_money": [
+    0.8,
+    0.76
+   ],
+   "answered": [
+    0.38,
+    0.38
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "F-3016:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.06
+   ],
+   "complaint": [
+    0.96,
+    0.96
+   ],
+   "about_money": [
+    0.12,
+    0.12
+   ],
+   "answered": [
+    0.1,
+    0.09
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "F-3017:router": {
+   "asks_to_stop": [
+    0.98,
+    0.99
+   ],
+   "instructs_writer": [
+    0.72,
+    0.73
+   ],
+   "complaint": [
+    0.75,
+    0.72
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.13,
+    0.14
+   ],
+   "answer_line": [
+    "F02",
+    "F02"
+   ]
+  },
+  "F-3001:draft": {
+   "D1_grounded": [
+    0.88,
+    0.88
+   ],
+   "D2_grounded": [
+    0.93,
+    0.92
+   ],
+   "money": [
+    0.1,
+    0.08
+   ],
+   "pressure": [
+    0.03,
+    0.04
+   ],
+   "promise": [
+    0.1,
+    0.11
+   ],
+   "answers": [
+    0.97,
+    0.97
+   ],
+   "support": [
+    "F07",
+    "F04"
+   ]
+  },
+  "F-3002:draft": {
+   "D1_grounded": [
+    0.93,
+    0.92
+   ],
+   "D2_grounded": [
+    0.94,
+    0.94
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.14,
+    0.17
+   ],
+   "answers": [
+    0.97,
+    0.97
+   ],
+   "support": [
+    "F05",
+    "F05"
+   ]
+  },
+  "F-3004:draft": {
+   "D1_grounded": [
+    0.64,
+    0.63
+   ],
+   "D2_grounded": [
+    0.83,
+    0.83
+   ],
+   "money": [
+    0.03,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.04
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "answers": [
+    0.96,
+    0.96
+   ],
+   "support": [
+    "F01",
+    "F01"
+   ]
+  },
+  "F-3005:draft": {
+   "D1_grounded": [
+    0.91,
+    0.91
+   ],
+   "D2_grounded": [
+    0.95,
+    0.96
+   ],
+   "money": [
+    0.04,
+    0.04
+   ],
+   "pressure": [
+    0.09,
+    0.09
+   ],
+   "promise": [
+    0.15,
+    0.19
+   ],
+   "answers": [
+    0.96,
+    0.96
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "F-3006:draft": {
+   "D1_grounded": [
+    0.89,
+    0.88
+   ],
+   "D2_grounded": [
+    0.9,
+    0.9
+   ],
+   "money": [
+    0.07,
+    0.06
+   ],
+   "pressure": [
+    0.13,
+    0.14
+   ],
+   "promise": [
+    0.05,
+    0.08
+   ],
+   "answers": [
+    0.94,
+    0.94
+   ],
+   "support": [
+    "F05",
+    "F05"
+   ]
+  },
+  "F-3007:draft": {
+   "D1_grounded": [
+    0.96,
+    0.95
+   ],
+   "D2_grounded": [
+    0.88,
+    0.87
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.09,
+    0.12
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "F-3008:draft": {
+   "D1_grounded": [
+    0.94,
+    0.95
+   ],
+   "D2_grounded": [
+    0.86,
+    0.87
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.08,
+    0.07
+   ],
+   "promise": [
+    0.07,
+    0.07
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "F-3009:draft": {
+   "D1_grounded": [
+    0.72,
+    0.76
+   ],
+   "D2_grounded": [
+    0.93,
+    0.93
+   ],
+   "money": [
+    0.02,
+    0.03
+   ],
+   "pressure": [
+    0.04,
+    0.04
+   ],
+   "promise": [
+    0.04,
+    0.05
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  }
+ },
+ "runs": [
+  {
+   "stage": "router",
+   "calls": 28,
+   "spent_so_far_dollars": 0.00866,
+   "at": "2026-11-23T21:40:47"
+  },
+  {
+   "stage": "drafts",
+   "calls": 16,
+   "spent_so_far_dollars": 0.00924,
+   "at": "2026-11-23T21:40:59"
+  }
+ ]
+}

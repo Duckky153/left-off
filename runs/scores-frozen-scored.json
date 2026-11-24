@@ -1,0 +1,137 @@
+{
+ "set": "scored",
+ "readers": {
+  "ai": {
+   "shoppers": 40,
+   "counts": {
+    "shoppers": 40,
+    "ready": 6,
+    "person": 28,
+    "do_not_contact": 6
+   },
+   "wrongly_ready": [],
+   "read_holds": 14,
+   "ready_kept_ready": 6,
+   "ready_keyed": 19,
+   "wrongly_held": [
+    "S-1001",
+    "S-1002",
+    "S-1004",
+    "S-1005",
+    "S-1006",
+    "S-1008",
+    "S-1009",
+    "S-1010",
+    "S-1011",
+    "S-1012",
+    "S-1015",
+    "S-1016",
+    "S-1017"
+   ],
+   "right_reason": 11,
+   "right_holds": 14,
+   "other_reason": [
+    "S-1022: complaint (key not_in_record)",
+    "S-1030: money (key not_in_record)",
+    "S-1032: instructions (key money)"
+   ],
+   "questions_answerable": 12,
+   "questions_answered": 2,
+   "code_only_test": {
+    "as_keyed": 7,
+    "of": 7
+   }
+  },
+  "no_ai": {
+   "shoppers": 40,
+   "counts": {
+    "shoppers": 40,
+    "ready": 13,
+    "person": 21,
+    "do_not_contact": 6
+   },
+   "wrongly_ready": [
+    "S-1023"
+   ],
+   "read_holds": 14,
+   "ready_kept_ready": 12,
+   "ready_keyed": 19,
+   "wrongly_held": [
+    "S-1001",
+    "S-1004",
+    "S-1006",
+    "S-1008",
+    "S-1009",
+    "S-1010",
+    "S-1012"
+   ],
+   "right_reason": 7,
+   "right_holds": 13,
+   "other_reason": [
+    "S-1020: not_in_record (key money)",
+    "S-1021: draft_failed (key not_in_record)",
+    "S-1027: not_in_record (key money)",
+    "S-1030: draft_failed (key not_in_record)",
+    "S-1031: draft_failed (key complaint)",
+    "S-1032: not_in_record (key money)"
+   ],
+   "questions_answerable": 12,
+   "questions_answered": 5,
+   "code_only_test": {
+    "as_keyed": 7,
+    "of": 7
+   }
+  },
+  "ai_code_checks_only": {
+   "shoppers": 40,
+   "counts": {
+    "shoppers": 40,
+    "ready": 9,
+    "person": 25,
+    "do_not_contact": 6
+   },
+   "wrongly_ready": [],
+   "read_holds": 14,
+   "ready_kept_ready": 9,
+   "ready_keyed": 19,
+   "wrongly_held": [
+    "S-1001",
+    "S-1002",
+    "S-1004",
+    "S-1005",
+    "S-1006",
+    "S-1008",
+    "S-1009",
+    "S-1010",
+    "S-1011",
+    "S-1012"
+   ],
+   "right_reason": 7,
+   "right_holds": 14,
+   "other_reason": [
+    "S-1020: not_in_record (key money)",
+    "S-1021: draft_failed (key not_in_record)",
+    "S-1023: draft_failed (key instructions)",
+    "S-1027: not_in_record (key money)",
+    "S-1030: draft_failed (key not_in_record)",
+    "S-1031: draft_failed (key complaint)",
+    "S-1032: not_in_record (key money)"
+   ],
+   "questions_answerable": 12,
+   "questions_answered": 2,
+   "code_only_test": {
+    "as_keyed": 7,
+    "of": 7
+   }
+  }
+ },
+ "second_check": {
+  "held_that_code_passed": [],
+  "held_by_mistake": [
+   "S-1015",
+   "S-1016",
+   "S-1017"
+  ]
+ },
+ "line": "Checked against answers written first: 0 marked ready that should have gone to a person, 13 sent to a person that could have been ready."
+}

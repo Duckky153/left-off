@@ -1,0 +1,9 @@
+CHANNEL: sms
+NEXT STEP: Pick up where he left off and keep shopping.
+VIEW:
+FIRST NAME: Jordan
+WHERE THEY STOPPED: got pre-qualified
+CAR: 2020 Mazda CX-5 Touring, Soul Red, 41,980 miles
+LISTED FEATURES: Backup camera; Apple CarPlay; Leather seats
+QUESTION: If I put more down can I get the monthly payment under $400?
+ANSWER: none

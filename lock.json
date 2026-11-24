@@ -1,0 +1,594 @@
+{
+ "what_this_is": "Fingerprints taken at each point the build promised to freeze something. A later change to a file listed here is logged under changes_after, with which way it moved any number.",
+ "before_scored_messages": {
+  "when": "2026-11-23T21:18:01",
+  "why": "Taken before any AI helper wrote the 26 scored shopper messages, so the word lists, the second check's questions, the deciding code and the prompt could not have been tuned to them.",
+  "fingerprints": {
+   "patterns.json": "54374e9939130409a98571dac9df8b624a8a00b37044d05b8f7dfeff9d9de384",
+   "questions.json": "a5929c845a1467ef23e3c9c22e354b2ea42697e4c0790a41cf6e4a0a2b4256d4",
+   "followup_core.py": "34389bdb8f54220c2fa2f92c114c0862c74d84a41d05163e720a0a2a81c5bd01",
+   "views.py": "9a67796c6eed5898c6c984d7514deea1fc373b561fbec7407918bee23d18c66f",
+   "rules.json": "17dbb08e85ba9ea0ed8f0981ae30ff7ac16667dfbafd16b4c3d1aaa36be4736e",
+   "wording.json": "f2e2ea4e3cd581e980357515a48ca75601487fd284f588328d173629c1f9edc2",
+   "baseline.py": "14cc78a888fe82fbf343382af7712ece7d30c613c9a6699cd59d5e1841799b75",
+   "prompts/v1.md": "9e174ac657a92627d36e70c628bf0f57048244904f8699c62bf032194f5a504c",
+   "settings.json": "e1ee2c3aeed349f3e170a5151ff38bdb98e6c2ddcba9bac20518e67d3c408f73"
+  }
+ },
+ "changes_after": [
+  {
+   "file": "followup_core.py",
+   "when": "2026-11-23T21:22:29",
+   "sha256": "c568bf23eae0c814504fa1b2139096dfaa883710c3eff19284a414fc99a49a1e",
+   "why": "A list line's answer is the items the question names (practice run 2: P-2011 asked about the title and was held because the draft didn't repeat the whole bring-list). Driven by practice; the scored messages were not read."
+  },
+  {
+   "file": "views.py",
+   "when": "2026-11-23T21:22:29",
+   "sha256": "02a64b9310d289b96ca4d40467a659b1011687dc41a4855612fa79738f9c4671",
+   "why": "The pre-qualified fact reads \"you finished pre-qualifying on <date>\", the only thing the rules let a message say (practice run 2: P-2006's draft said \"your pre-qualified status is complete\" and was held as money). Driven by practice; the scored messages were not read."
+  },
+  {
+   "file": "questions.json",
+   "when": "2026-11-23T21:22:29",
+   "sha256": "75e10bdad034ec7f8dfb6b8ddba9aba3d8b97de5d578e75e0868a1d8671c85a7",
+   "why": "lo-q2 (wording) and lo-q3 (grounded 0.85 to 0.80; about_money 0.10 to 0.20), after practice runs 1 and 2; see prompts/CHANGELOG.md."
+  },
+  {
+   "file": "prompts/v1.md",
+   "when": "2026-11-23T21:22:29",
+   "sha256": "9e174ac657a92627d36e70c628bf0f57048244904f8699c62bf032194f5a504c",
+   "why": "Replaced by prompts/v2.md (dates copied exactly) after practice run 2; v1 is unchanged and kept."
+  },
+  {
+   "file": "settings.json",
+   "when": "2026-11-23T21:22:29",
+   "sha256": "79792a942e6b74d5de1bebdc6255543cd7a48f0f4d2eb80a9bfeb88ba4e26000",
+   "why": "Points at prompt v2 and questions lo-q3."
+  },
+  {
+   "file": "followup_core.py",
+   "when": "2026-11-23T21:27:07",
+   "sha256": "eb6b5abaf631e4f9cd4a3709cabc27f4f3c8cc36fa0ddf7041bed2443e66492b",
+   "why": "After the scored run (D6): description lines (car, your car, offer, search) are never answer lines; the second check's answer line stands when code finds none and both reads agree; code's word-for-word 'did it answer' and 'repeats the message' checks removed (whether a draft answers is judged by the second check's answers question; money and instruction messages never reach the writer). Tested on the fresh set. Frozen scored result kept in runs/scores-frozen-scored.json."
+  },
+  {
+   "file": "questions.json",
+   "when": "2026-11-23T21:27:07",
+   "sha256": "76b8344aa2a61b427147092fe1eab5f13c44d3a5fd2e11730ec6497ceae768a9",
+   "why": "lo-q4 after the scored run: the promise question adds that inviting the shopper to act whenever they are ready is not a promise (practice and scored drafts scored 0.22 to 0.31 on it)."
+  },
+  {
+   "file": "settings.json",
+   "when": "2026-11-23T21:27:07",
+   "sha256": "8be97431750c2f3a5227fbcdee88dedfb50c6126b9cd3444c4b4351adc14b967",
+   "why": "Points at questions lo-q4."
+  },
+  {
+   "file": "prompts/v3.md",
+   "when": "2026-11-23T21:55:28",
+   "sha256": "6349a752f6e1f5c09e9af266c57e8f4ae88e8613694f29d62b2bdc6d7b1c6de6",
+   "why": "After the design review: drafts read as templates (11 of 13 ended \"whenever you are ready\"; two identical). v3: one or two sentences, name the car, invite the next step only if it adds something, no readiness phrases. Tested on practice and a second fresh set."
+  },
+  {
+   "file": "wording.json",
+   "when": "2026-11-23T21:55:28",
+   "sha256": "584fc4610ddead2acd3d5c3ba272c5d6c085f5ab3ae9e8be167409410a641d81",
+   "why": "Plainer next steps (\"look over your offer\" for \"use your offer when you buy\", which the grader read as money)."
+  },
+  {
+   "file": "rules.json",
+   "when": "2026-11-23T21:55:28",
+   "sha256": "14a65e65c98e00720cdce9c34da31f555c92699946a557ddbb71bc71288916f7",
+   "why": "Drafts may be one or two sentences, 30 words or fewer."
+  },
+  {
+   "file": "followup_core.py",
+   "when": "2026-11-23T21:55:28",
+   "sha256": "e14d7ea663d94e97a779340cb18842e9e56b682075992a4aadc83decece11de1",
+   "why": "The shape check allows one or two sentences."
+  },
+  {
+   "file": "settings.json",
+   "when": "2026-11-23T21:55:28",
+   "sha256": "799b72ccb149e2221fe2f6de1c0f137ab7300ce9a361e0e1bd6b69bf9a2732fa",
+   "why": "Points at prompt v3."
+  },
+  {
+   "file": "prompts/v4.md",
+   "when": "2026-11-23T21:56:38",
+   "sha256": "45aa92e248fd20a2186d63ae9eab2b5fcae24851efa3842dcaa5c5562c0f4256",
+   "why": "One change from v3: practice v3 drafts added \"now\" after the next step (P-2006, P-2010, P-2012, held by code); v4 says to end on the next step."
+  },
+  {
+   "file": "settings.json",
+   "when": "2026-11-23T21:57:14",
+   "sha256": "799b72ccb149e2221fe2f6de1c0f137ab7300ce9a361e0e1bd6b69bf9a2732fa",
+   "why": "Back to prompt v3: v4 (practice-v4-1) still added \"now\" on the same three drafts and dropped the final full stop on two. v4 is kept as tried and dropped."
+  },
+  {
+   "file": "jev_check.py",
+   "when": "2026-11-23T21:57:14",
+   "sha256": "ce87b8e67bb733aa396e2611450af86cfe5b25e65d30d316ee2f9d038ec88e52",
+   "why": "Bug fix found in practice: a saved second-check answer is used only for the exact draft text it checked; a changed draft is checked again."
+  },
+  {
+   "file": "leftoff.py",
+   "when": "2026-11-23T21:57:14",
+   "sha256": "32cde6b0eca89f6e766c2cc4a1e13224ebc0681a64a014eadb8f3c841b3a9087",
+   "why": "Bug fix found in practice: a saved second-check answer is used only for the exact draft text it checked; a changed draft is checked again."
+  },
+  {
+   "file": "wording.json",
+   "when": "2026-11-23T22:00:12",
+   "sha256": "782d3cc278dd5a3989564745b4f484dbb3491e2ea3ea0826a0ac47bbc536cae4",
+   "why": "After the design review: plain group names, reasons worded as readings when the second check flagged them, short list reasons, panel strips. Display only; no decision changes."
+  },
+  {
+   "file": "rules.json",
+   "when": "2026-11-23T22:00:12",
+   "sha256": "b9ce73b7add243dfede0cb0e6b760889af34471400d4da4e0d13e0fd05fd41a0",
+   "why": "Texts start \"Left Off:\" (the header already says sample data). Display only; no decision changes."
+  },
+  {
+   "file": "views.py",
+   "when": "2026-11-23T22:00:12",
+   "sha256": "55adab081547b6d7d1682260180be12d531d73a1e993c0ba1a0999a0d4a57c20",
+   "why": "Email subjects name the car (\"Your CX-9 question\"). Display only; no decision changes."
+  },
+  {
+   "file": "leftoff.py",
+   "when": "2026-11-23T22:00:12",
+   "sha256": "7e97fae4e85471515f2832abd36791cc048fed498ad6fec4791f095b75ea0b34",
+   "why": "The page's rows carry the new wording; the score line covers all three tests. Display only; no decision changes."
+  },
+  {
+   "file": "followup_core.py",
+   "when": "2026-11-23T22:02:14",
+   "sha256": "0d90720c3a0c75ac085803d17e3539d782a8f17c542dc2ba4c072794b78b70ab",
+   "why": "Bug fix seen on the page: the name check counted a sentence's first word (\"Once done, you're all set\") as a name not in the record. The scores as each test produced them are kept in runs/scores-*-at-test.json and runs/scores-frozen-scored.json."
+  },
+  {
+   "file": "prompts/v5.md",
+   "when": "2026-11-23T22:14:07",
+   "sha256": "f90cdd977101462b3043ca7c68d4d3326f28ffbc0d5cbca38fac6c9813cf62c9",
+   "why": "After design review 2: drafts still ended on stock next-step phrases. v5: the AI writes one sentence with the fact; code adds the next step as a link, like the store's one clear button. Tested on practice and a third fresh set."
+  },
+  {
+   "file": "views.py",
+   "when": "2026-11-23T22:14:07",
+   "sha256": "58ba16cee8356042821f5762e11d7b902b33907194aed0537e249b0fa7e88577",
+   "why": "Messages end with the next step as a link added by code; email subjects use make and model."
+  },
+  {
+   "file": "followup_core.py",
+   "when": "2026-11-23T22:14:07",
+   "sha256": "f28f632163b84075002905ebb8f43982b2f09701381b6d76b777ca8f997fecde",
+   "why": "Passes the next step to the message builder."
+  },
+  {
+   "file": "rules.json",
+   "when": "2026-11-23T22:14:07",
+   "sha256": "d8afae111381ce4669646813ea0369a4390d862dd05102f4dc53d36862b518ee",
+   "why": "A draft is one sentence, 25 words or fewer."
+  },
+  {
+   "file": "wording.json",
+   "when": "2026-11-23T22:14:07",
+   "sha256": "aab3a09a3de44eb005ca4988f81f1feaaa0944c0ba7801b6e143268c31d215b5",
+   "why": "Next-step link labels; \"Answer not found in their record\"; \"AI check:\" for the second check's readings; \"The writing AI never saw this message\"."
+  },
+  {
+   "file": "settings.json",
+   "when": "2026-11-23T22:14:07",
+   "sha256": "530c8c74dcf2a6a4afc7328b07f9634713f737cdadda1042e68511d3a85905df",
+   "why": "Points at prompt v5."
+  },
+  {
+   "file": "baseline.py",
+   "when": "2026-11-23T22:14:21",
+   "sha256": "5bf39a863cbee04bbc33bfaf3baa67b625cc4f240272bb22058c32f1160aae67",
+   "why": "The yardstick's fixed sentence drops its stock next-step tail; code adds the next step as a link for both readers (with prompt v5)."
+  },
+  {
+   "file": "prompts/v6.md",
+   "when": "2026-11-23T22:14:52",
+   "sha256": "fe280e670650b44b371789c0a4e2d074318f45b3e4275c1fc8fb31622c12da14",
+   "why": "v5 still copied the next step onto the end of every draft (practice-v5-1). v6: the writer no longer sees the next step at all; code adds it as a link."
+  },
+  {
+   "file": "views.py",
+   "when": "2026-11-23T22:14:52",
+   "sha256": "b840998a2ace36d40d6aaac4f581076cb223ec993907469cd2483e2179b436a9",
+   "why": "The writer's facts can leave out the next step."
+  },
+  {
+   "file": "write.py",
+   "when": "2026-11-23T22:14:52",
+   "sha256": "28ffe79cd90803fbfc16d78b148fc638aa8ab7a55773314db1e2976de0f25dae",
+   "why": "Follows settings.writer_sees_next_step."
+  },
+  {
+   "file": "settings.json",
+   "when": "2026-11-23T22:14:52",
+   "sha256": "c68bfbe73cf47a91ea4061008679e6539ac144360ffff612d3af79731d9c599a",
+   "why": "Prompt v6; the writer doesn't see the next step."
+  },
+  {
+   "file": "questions.json",
+   "when": "2026-11-23T22:17:49",
+   "sha256": "029aa018c575b684389b84a1b9c54503d050365cf87d39575cad62a493573742",
+   "why": "lo-q5: the promise question no longer asks whether 'something will happen at a certain time' (every offer end date is that) and no longer mentions the next step, which v6 drafts don't contain. On practice v6 it held 'your offer ends Nov 26' [0.22, 0.17] and 'the trade-in offer ended on Nov 21' [0.37, 0.46]."
+  },
+  {
+   "file": "settings.json",
+   "when": "2026-11-23T22:17:49",
+   "sha256": "e6f7e9f123e237d09caae5528d8b08557c523510144ef30f7a6ffda3ef5f8a9e",
+   "why": "Questions lo-q5."
+  },
+  {
+   "file": "questions.json",
+   "when": "2026-11-23T22:18:48",
+   "sha256": "326289ac3f56fb0c80b0978541c9e44dcb5da26f025689a6098a096427504bf5",
+   "why": "lo-q6: the grounding question says a yes or no answering the QUESTION line counts as written when the rest of the sentence is. On practice v6 with lo-q5, the three correct 'yes, ...' answers read 0.75 to 0.83, the same band as the made-up 'matching your pickup year' (0.76 to 0.78); sentences without 'yes' read 0.84 to 0.96."
+  },
+  {
+   "file": "settings.json",
+   "when": "2026-11-23T22:18:48",
+   "sha256": "7cb702a73c0a0a4e546ba7e6351976ac16a43a3827ce3deb3d2ab1eecbb535f6",
+   "why": "Questions lo-q6."
+  },
+  {
+   "file": "rules.json",
+   "when": "2026-11-23T22:24:57",
+   "sha256": "ac32a0ab14cc880245c6671deb6dfd0f6d166fe8002e9c9f3865c3dc199c886a",
+   "why": "Shape limit back to two sentences (still 25 words). The prompt still asks for one; the writer gave two correct sentences on P-2012 and S-1018 (second sentence grounded 0.96 to 0.97) and both were held for shape only. Third fresh set unaffected: every draft there was one sentence."
+  },
+  {
+   "file": "prompts/v7.md",
+   "when": "2026-11-23T22:25:24",
+   "sha256": "080b6c6afb4020d2a51f35f30a0ea901502f204fcda2beca177c6d7ef7c5ad7c",
+   "why": "v7: v6's last line still said 'Write only the two sentences.' (left from v3) against 'Write one short sentence'. Now 'Write only that sentence.' Nothing else changed. v6's third-fresh-set result stays recorded as v6's."
+  },
+  {
+   "file": "settings.json",
+   "when": "2026-11-23T22:25:24",
+   "sha256": "ef608329f1e27b12e71deddf7691eca88ba352c1b768798e742f161256e1a24f",
+   "why": "Prompt v7."
+  },
+  {
+   "file": "patterns.json",
+   "when": "2026-11-23T22:30:56",
+   "sha256": "612895c79d87cc1a8bdead26089e986a2d287eb1442f58b1a81289adceb1016c",
+   "why": "Code now holds a draft that says 'ready' when the facts don't. Found by both AI graders (they agreed on every draft): 'the 2020 Honda Odyssey EX is ready for you to pick a delivery time' (J-6009, fourth fresh set) and the same phrase on S-1015 and S-1017 passed every check. A hold-only rule: it can't mark anyone ready."
+  },
+  {
+   "file": "wording.json",
+   "when": "2026-11-23T22:30:56",
+   "sha256": "615c631a58f6b8a43327f8448af92f02c7274471ccd5371ab2db40b275132a04",
+   "why": "Purchase link 'Finish up' is now 'See your purchase': both graders read 'upload proof of insurance to finish. Finish up: [link]' as not written by a person."
+  },
+  {
+   "file": "tests/test_rules.py",
+   "when": "2026-11-23T22:30:56",
+   "sha256": "8a9eb186edf61e17e99d98e4a5e311412f2ac68c975bfd19d22c279915dc065c",
+   "why": "Test: a draft saying the car is ready is held."
+  },
+  {
+   "file": "prompts/v5.md",
+   "when": "2026-11-23T22:35:33",
+   "sha256": "f90cdd977101462b3043ca7c68d4d3326f28ffbc0d5cbca38fac6c9813cf62c9",
+   "why": "Correction to the v5 line above: v5 was tried on practice only and dropped. The third fresh set tested v6 and the fourth tested v7."
+  },
+  {
+   "file": "leftoff.py",
+   "when": "2026-11-23T22:35:33",
+   "sha256": "6a0767f6aa1c39f48c5eb7cb7d84c335cba3e2fbd2dc1a2fee014d385704af13",
+   "why": "Page rows: each held draft lists its reasons with the words that set them off, and says which came from the AI check; short send time; the score line reads the as-tested snapshots of all five tests. Display only."
+  },
+  {
+   "file": "wording.json",
+   "when": "2026-11-23T22:35:33",
+   "sha256": "65aa638813031ecf2006516a6309d88bc0cc4822107bd97ea7413f8ebafa815c",
+   "why": "Journey steps in one form; 'Draft stopped'; shorter California strip; how each check's reason is said. Display only."
+  },
+  {
+   "file": "jev_check.py",
+   "when": "2026-11-23T22:53:11",
+   "sha256": "17c6a6270551a2900acc496f456b0fc392a1854aac7370aa33fdce90a99f298a",
+   "why": "Design review 3: when several readings pass their limits, the strongest sets the reason (every 'could you raise my offer' money ask also read 0.24 to 0.37 as orders to the AI, and the fixed order labelled four of them 'orders to the writer'). Saved reads can be re-decided under new limits with no new call (rederive)."
+  },
+  {
+   "file": "followup_core.py",
+   "when": "2026-11-23T22:53:11",
+   "sha256": "bbc1d875b04407b87a49094ef1ca3adefa34f595c3ef11588223399e067436f4",
+   "why": "The second check's answer line stands when both its reads agree; code's word match only fills in. Across six sets there were three disagreements on questions with an answer (G-4006, H-5005, S-1012) and the second check's line was right in all three. A tie in code's word match is no find (S-1012: 'when' and 'need' tied, and the first line listed won)."
+  },
+  {
+   "file": "questions.json",
+   "when": "2026-11-23T22:53:11",
+   "sha256": "48cb964549f833258422de4a5c8bf608ea6a121f1eff243dec9f0178479108f1",
+   "why": "lo-q7: limits only. Complaint 0.30 to 0.50 and orders to the AI 0.20 to 0.50: on all six sets the true cases read 0.87 to 0.98 and 0.97 to 0.99, and every other message read 0.37 or lower except requests to stop, which are decided first. Money stays at 0.20 (true and false cases overlap more, and money goes to a person by his decision)."
+  },
+  {
+   "file": "patterns.json",
+   "when": "2026-11-23T22:53:11",
+   "sha256": "9ecedb235c406f3663ab9c922cb120d2abd304bbaf8f683b3a328f1267850d10",
+   "why": "'now' counts as pressure only in urgency phrases ('act now', 'right now'); 'three new SUVs now show up' was held."
+  },
+  {
+   "file": "rules.json",
+   "when": "2026-11-23T22:53:11",
+   "sha256": "d8afae111381ce4669646813ea0369a4390d862dd05102f4dc53d36862b518ee",
+   "why": "One sentence again: the case for two came from prompt v6, whose last line still asked for two."
+  },
+  {
+   "file": "wording.json",
+   "when": "2026-11-23T22:53:11",
+   "sha256": "a6c60b558b7504a216c0a9dd39f4a8b8afc875e5ed48a13299f006d4c6ec9312",
+   "why": "Email subjects name the topic; the trade-in link reads 'See the details'; 'Tells the AI what to say'; held words shown with their reason ('their record doesn't say \"ready\"')."
+  },
+  {
+   "file": "views.py",
+   "when": "2026-11-23T22:53:11",
+   "sha256": "0022acc808551a3f1bdfefe638113ca6ae23c08a8f78514f962e80f1fd3696a7",
+   "why": "'still for sale' instead of 'still listed'; subjects built from the topic."
+  },
+  {
+   "file": "baseline.py",
+   "when": "2026-11-23T22:53:11",
+   "sha256": "0d3105b60469d5347c45298622746dc7a99e12698a73c07c65638a8464ec5fb4",
+   "why": "The yardstick says 'still for sale' too."
+  },
+  {
+   "file": "prompts/v8.md",
+   "when": "2026-11-23T22:53:11",
+   "sha256": "d68ac7d8af844b1e5a2d0b608c653aa1fa43cfe23e776bb756b06f1c030be8e2",
+   "why": "v8 after design review 3 (saved-car nudges read as twins; 'is ready for you to'): a nudge about a saved car adds one detail of that car (its miles or one feature); never the word 'ready'."
+  },
+  {
+   "file": "settings.json",
+   "when": "2026-11-23T22:53:11",
+   "sha256": "3f5e5b589f0b8bab7e4376aa3fe08ac20350238820b1638554f3606542ad90c8",
+   "why": "Prompt v8, questions lo-q7."
+  },
+  {
+   "file": "tests/test_rules.py",
+   "when": "2026-11-23T22:53:11",
+   "sha256": "21f443590652b06c04097be7c974e9ddeca1f0aedccfd9b067ecefff008facd5",
+   "why": "Tests for the strongest-reading rule, a tie in code's match, 'now', and subjects."
+  },
+  {
+   "file": "prompts/v9.md",
+   "when": "2026-11-23T22:53:53",
+   "sha256": "c5258183a44348fe754d33b5f5e26e829334f67fc64e478abb113b6bd4753fdd",
+   "why": "v8 tried on practice and dropped: the 'add one detail' line was skipped on the saved-car nudge it was for, misapplied to a purchase (two sentences), and 'pickup year preference' came back (practice-v8-1). v9 is v7 plus one line: never the word 'ready'."
+  },
+  {
+   "file": "views.py",
+   "when": "2026-11-23T22:53:53",
+   "sha256": "b3a028462a1a226a1d5d82478a3ea8fe89226285fc63bf84babd05f67cc60cfd",
+   "why": "A saved car's status line carries its miles ('still for sale, with 19,665 miles'), so two saved-car nudges differ by a fact from the record, not by asking the writer for more."
+  },
+  {
+   "file": "settings.json",
+   "when": "2026-11-23T22:53:53",
+   "sha256": "e629ccb9f3fde0beb6c907c0405c39fa7cb5cc20b35b312bdacdaa34bd1a564b",
+   "why": "Prompt v9."
+  },
+  {
+   "file": "views.py",
+   "when": "2026-11-23T22:57:37",
+   "sha256": "9a767e0a6be66da402c0c49ddabbe3536d93465726acb5109e5092318ec60ff0",
+   "why": "For a purchase or an offer, the TRUE THING the writer gets is a plain phrase ('you still need to pick a delivery time', 'your trade-in offer ends Nov 27'), as was done for pre-qualifying. On three sets the writer turned the bare step 'Pick a delivery time' into 'the car is ready for you to pick a delivery time' (J-6009, K-7009, S-1015, S-1017), and added a second sentence to an offer nudge (S-1018). Prompt unchanged (v9)."
+  },
+  {
+   "file": "views.py",
+   "when": "2026-11-23T22:57:58",
+   "sha256": "cd6131f0197afcfca68b95e1bd206b435853682a1e039ea26d627b783c362bb3",
+   "why": "A purchase with no steps left gets no TRUE THING phrase (a test caught it)."
+  },
+  {
+   "file": "wording.json",
+   "when": "2026-11-24T00:22:59",
+   "sha256": "accabe49b80bdda1ec11c90f358755344d1c255dc51b2daaa817bd5879ae5451",
+   "why": "After design review 4 and the final reviews: offer links read 'See your offer'; reasons in plain words, no scores; strips say what happens ('Money questions go to a person') instead of 'the writing AI never saw this message', which wasn't true of the second check; 'No channel we can use'. Display only."
+  },
+  {
+   "file": "leftoff.py",
+   "when": "2026-11-24T00:22:59",
+   "sha256": "1bd2dc6d3e00bd13fa581196151abbbe36a290c6021b5060e8c882cf9502eed2",
+   "why": "Page rows: held drafts give the second check's reasons in plain words; a weak money reading says 'might be about money'; answer-not-found says whether the check was nearly sure; the test line is one line with this page's numbers. 'show' prints the facts only when the writer saw them, and the second check's read and limit for each hold. Saved reads count only when their fingerprint matches what they would be asked now. Display and record-keeping only."
+  },
+  {
+   "file": "followup_core.py",
+   "when": "2026-11-24T00:22:59",
+   "sha256": "c3ebcc869cb3c3bf9da9572274cbe09cfe3a154d9700d230120f24be1ec7c513",
+   "why": "Final reviews: a feature question is answered only when the listing names that feature (a question about a feature it lacks could have come out 'yes'); a description line or a non-fact line never answers; a phone area code the table doesn't know means no time zone; a whole-message stop word counts as a request to stop."
+  },
+  {
+   "file": "patterns.json",
+   "when": "2026-11-24T00:22:59",
+   "sha256": "794377185a75f7c49d653f95ab7db520e387db04790ee4c93ce3b394aaf223fb",
+   "why": "Final reviews: 'stop' counts only in phrases or as the whole message ('Can I stop by Saturday?' was read as a request to stop); a 'k' before 'mile' isn't money; 'report' isn't a complaint (a Carfax report question took the first reply slot)."
+  },
+  {
+   "file": "jev_check.py",
+   "when": "2026-11-24T00:22:59",
+   "sha256": "54c297e56ba26ded2939f6c3e8beb25475cbc55933a60860493853ffad642dfb",
+   "why": "Every saved read carries a fingerprint of exactly what it was asked; a read is made again when that changes (the link wording changed what the 40's reads were asked)."
+  },
+  {
+   "file": "views.py",
+   "when": "2026-11-24T00:22:59",
+   "sha256": "5998226eac3d708b6936fb994b9850c2f285913cc7d34d2296485e6426d0b3f6",
+   "why": "A reply to the shopper's own question isn't labelled an advertisement; nudges still are."
+  },
+  {
+   "file": "baseline.py",
+   "when": "2026-11-24T00:22:59",
+   "sha256": "3f520dea7fe9f7cefc12bca7f8fcea559b2906641d53bd94cc66ceb8a457d2f5",
+   "why": "A purchase with no steps left gives no fixed sentence instead of crashing."
+  },
+  {
+   "file": "score.py",
+   "when": "2026-11-24T00:22:59",
+   "sha256": "7b8b4ed111675f3a322122aa00ad415770e3fb24afe14a4d98360e45fcf5b5f0",
+   "why": "The code-only comparison drafts its own shoppers (write.py --code-only) instead of counting a missing draft as a hold; 'not measured' when those drafts don't exist."
+  },
+  {
+   "file": "write.py",
+   "when": "2026-11-24T00:22:59",
+   "sha256": "8cd579ce6a29a72a50de1d3272a52781a39a2b7cc80ab1d81874085a01dc7e9d",
+   "why": "--code-only: drafts for the code-only comparison, routed by code alone."
+  },
+  {
+   "file": "checks/scored-lo-q7.json",
+   "when": "2026-11-24T00:22:59",
+   "sha256": "28fe3554132ebb137590bf29b0e333d6d0d2c5080ea368dbd5cbed60ce9a93c5",
+   "why": "The 40's message reads and draft checks made again on today's facts and wording (every read now fingerprinted)."
+  },
+  {
+   "file": "settings.json",
+   "when": "2026-11-24T00:22:59",
+   "sha256": "e629ccb9f3fde0beb6c907c0405c39fa7cb5cc20b35b312bdacdaa34bd1a564b",
+   "why": "Note on the 21:40 change logged above as 'drafts_suffix': runs on the 40 after the frozen run are tagged 'after-change' and write to their own files, so they never overwrite the frozen scored run; the scored-run lock guard applies only to an untagged scored run, which can happen once per prompt."
+  },
+  {
+   "file": "score.py",
+   "when": "2026-11-24T00:39:50",
+   "sha256": "96d78f4259233e30fefb32a1bcdd180e1af6de210aadace16d9e2c64e5bc9fc5",
+   "why": "Verifier: 'not measured' prints instead of crashing; bad input or --help prints a usage line and writes nothing."
+  },
+  {
+   "file": "wording.json",
+   "when": "2026-11-24T00:39:50",
+   "sha256": "180cfe8e5b7757bae09ca858cd36e7224628e10c7e448f1c47f70e5e545f2f4e",
+   "why": "Verifier: list rows mark the second check's readings as readings ('AI: money question'); a confident money reading says the AI check read it that way. Display only."
+  },
+  {
+   "file": "leftoff.py",
+   "when": "2026-11-24T00:39:50",
+   "sha256": "57d634f9a23b81fe8befc0ad867e08a6ee9d3abeb207ea624fad1f15eb014dfd",
+   "why": "The same, in the page rows. Display only."
+  },
+  {
+   "file": "score.py",
+   "when": "2026-11-24T00:44:48",
+   "sha256": "96d78f4259233e30fefb32a1bcdd180e1af6de210aadace16d9e2c64e5bc9fc5",
+   "why": "Logged late (the verifier found it unlogged): the code-only comparison drafts its own shoppers; 'not measured' instead of a crash; usage line for bad input."
+  },
+  {
+   "file": "sample/messages-scored.json",
+   "when": "2026-11-24T00:44:48",
+   "sha256": "2c882c5f42afe222a933ef9e4ee28a90884730e2bd0f3ee4cd5052efcb0ca8f7",
+   "why": "Wording of its description only: 'written one at a time by two AI helpers' in place of 'written by hand'. The 26 messages are unchanged."
+  },
+  {
+   "file": "tests/test_rules.py",
+   "when": "2026-11-24T00:44:48",
+   "sha256": "90410d5d94eeda807af13ef3a1f2bfaa42ecf1acd9577747d83e146f80175be3",
+   "why": "Tests for the final-review rules (stop, k, report, unknown area code, a feature the listing lacks, a half match naming another version)."
+  },
+  {
+   "file": "followup_core.py",
+   "when": "2026-11-24T00:44:48",
+   "sha256": "ff9c450fc9a3b010c751fa1f2ce2f32ab78d97506dae80e7885842daf210b91a",
+   "why": "A half match on a feature counts only when the question names no other version of it ('heated rear seats' against 'Heated front seats' no longer reaches the writer)."
+  },
+  {
+   "file": "questions.json",
+   "when": "2026-11-24T00:44:48",
+   "sha256": "1a33666d819f64aa133c50c12cefc77f671daf95aca515b6eb1e916654449025",
+   "why": "Description corrected: on a waiting question the second check picks the answer line and judges it; elsewhere it can only add a hold. No question or limit changed."
+  },
+  {
+   "file": "jev_check.py",
+   "when": "2026-11-24T00:44:48",
+   "sha256": "e8f141032e9fe6e32c39444e8d8bdd18755a62b2fef0df225490b017391c0a21",
+   "why": "The same correction in its description."
+  },
+  {
+   "file": "checks/fresh5-lo-q7.json",
+   "when": "2026-11-24T00:44:48",
+   "sha256": "8e1340019aa537d33224e748544506a0b7b712f1ae48113c603de320bed21f69",
+   "why": "Fresh set 5 re-read on today's facts and wording, every read fingerprinted. The reads as first made are kept in runs/checks-fresh5-lo-q7-as-first-read.json; the numbers as first tested in runs/scores-fresh5-at-test.json."
+  },
+  {
+   "file": "checks/fresh6-lo-q7.json",
+   "when": "2026-11-24T00:44:48",
+   "sha256": "48e63108b7231122de9d6593ce399472797599c268d48aa9e30c216b5c1cdfb2",
+   "why": "Fresh set 6 likewise (runs/checks-fresh6-lo-q7-as-first-read.json)."
+  },
+  {
+   "file": "checks/practice-lo-q7.json",
+   "when": "2026-11-24T00:44:48",
+   "sha256": "a9bc23405d55242706734d31af8be0c38105e62a824f1c5fc14e37ab665e6f13",
+   "why": "Practice likewise (runs/checks-practice-lo-q7-as-first-read.json)."
+  },
+  {
+   "file": "followup_core.py",
+   "when": "2026-11-24T00:51:32",
+   "sha256": "4dd614770614ed54ccab15202428a743d0312d3a0342dc89741670446a4ddf30",
+   "why": "A feature question naming another version of the feature ('cooled' seats against 'Heated front seats') doesn't match, even on a whole-word match."
+  },
+  {
+   "file": "sample/make_sample.py",
+   "when": "2026-11-24T00:51:32",
+   "sha256": "6f07d3db8930710bd2f14ffea7a994b8866d4abacfe9032cc400f2da74c6dd0c",
+   "why": "A sample price note no longer mirrors a real listing's figure ($400 on Nov 20 is now $350 on Nov 19). The field never reaches the writer or the second check; nothing else in any set changed (checked by script)."
+  },
+  {
+   "file": "sample/shoppers.json",
+   "when": "2026-11-24T00:51:32",
+   "sha256": "5a7480c9de679bdd59aff8407e5ed7d9bd13fc98bc969018df3d588c9d7858a1",
+   "why": "The same price note on S-1001. No decision, read or score moves."
+  },
+  {
+   "file": "tests/test_rules.py",
+   "when": "2026-11-24T00:51:32",
+   "sha256": "a27967eba3a6ec380a399700390f37de026df5637b3c472faca61ef77321791e",
+   "why": "Tests for the qualifier rule on whole matches."
+  },
+  {
+   "file": "score.py",
+   "when": "2026-11-24T00:51:32",
+   "sha256": "7703d4cdfd5d8cfb6e9bf249a037c1d34b17c4dfca602d0756095736b51ce20f",
+   "why": "Docstring lists every set."
+  },
+  {
+   "file": "leftoff.py",
+   "when": "2026-11-24T00:51:32",
+   "sha256": "be01b1803ce5e2ddaf3759fb3562a61351d306498bc141e43605cc08c419d992",
+   "why": "'run' says a second-check reading as a reading; an unknown --source is refused."
+  }
+ ],
+ "before_scored_run": {
+  "when": "2026-11-23T21:24:24",
+  "why": "Taken after the two practice rounds and before the one scored run. The scored run refuses to start unless every file below matches and the model and Ollama are these exact versions.",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "ollama_version": "0.32.0",
+  "fingerprints": {
+   "prompts/v2.md": "2abd074695a70e7d10e8b13567363574abcfa85baf89eb6ab364630e01311586",
+   "settings.json": "79792a942e6b74d5de1bebdc6255543cd7a48f0f4d2eb80a9bfeb88ba4e26000",
+   "followup_core.py": "c568bf23eae0c814504fa1b2139096dfaa883710c3eff19284a414fc99a49a1e",
+   "views.py": "02a64b9310d289b96ca4d40467a659b1011687dc41a4855612fa79738f9c4671",
+   "write.py": "6736a5879244397a24b42b55dd9f66bc64eca418a65230d609d7174e826e7ad3",
+   "jev_check.py": "ab3a25665cb4561d908f5b9e0be851e16070e6484b37475f56bf32d55794bc0c",
+   "baseline.py": "14cc78a888fe82fbf343382af7712ece7d30c613c9a6699cd59d5e1841799b75",
+   "score.py": "1bbb2e80c9871b40917ed000cec1536d4002c24991722df6f51f735fc6507092",
+   "leftoff.py": "34ef8ed53eace4513d8ba30bdfccdb3e710098458d72812c00bb82e2e4688c1f",
+   "rules.json": "17dbb08e85ba9ea0ed8f0981ae30ff7ac16667dfbafd16b4c3d1aaa36be4736e",
+   "patterns.json": "54374e9939130409a98571dac9df8b624a8a00b37044d05b8f7dfeff9d9de384",
+   "questions.json": "75e10bdad034ec7f8dfb6b8ddba9aba3d8b97de5d578e75e0868a1d8671c85a7",
+   "wording.json": "f2e2ea4e3cd581e980357515a48ca75601487fd284f588328d173629c1f9edc2",
+   "queries/stalled.sql": "4c81f2e13c574fa07c0529f861d920860ed643c799924bcb68e4392215f2110d",
+   "tests/GRADING.md": "9adb3105c2941624ec70093bd073557af99878f4ae53b8358c4090b3c4877e3f",
+   "sample/shoppers.json": "6d3d5cb37b624df1b4f9eb3e363c90f96e5f520eb9c306591e9626e30a73b090",
+   "sample/messages-scored.json": "e471d5c7ace4e72e6ac1690d8e0fab5c6271a6f3c9c523da71f650d9512d6e76",
+   "cases/scored.json": "82c49c4f9523295d37da2f3b0712fb2eb9218e1d65ef8f01e67a05946ae8cecd",
+   "runs/scored-yardstick.json": "005669a947b7f69c258fe2a72f9a85e69cdcd8e6e8587c9c6e2515e6960bea7e"
+  }
+ }
+}

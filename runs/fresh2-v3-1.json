@@ -1,0 +1,80 @@
+{
+ "meta": {
+  "set": "fresh2",
+  "prompt": "v3",
+  "prompt_sha256": "6349a752f6e1f5c09e9af266c57e8f4ae88e8613694f29d62b2bdc6d7b1c6de6",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 6,
+  "at": "2026-11-23T21:58:48"
+ },
+ "rows": [
+  {
+   "id": "G-4002",
+   "user": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2024 Honda Pilot EX-L, Silver, 19,377 miles\nSTATUS: still listed\nLISTED FEATURES: Third-row seating; Power liftgate; Leather seats; Wireless phone charging; Blind spot monitor; Adaptive cruise control\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: How many seats does the SUV I saved have?\nANSWER (from SEATS): 8 seats",
+   "raw": "{first_name}, the 2024 Honda Pilot EX-L has 8 seats. Take another look.",
+   "text": "{first_name}, the 2024 Honda Pilot EX-L has 8 seats. Take another look.",
+   "done_reason": "stop",
+   "prompt_tokens": 566,
+   "output_tokens": 24,
+   "seconds": 0.96
+  },
+  {
+   "id": "G-4003",
+   "user": "CHANNEL: email\nNEXT STEP: see your new matches\nSEARCH: Three-row SUVs from 2019 or newer\nNEW MATCHES: 3 new cars match, all with AWD\nQUESTION: Any new matches for my saved search that are AWD?\nANSWER (from NEW MATCHES): 3 new cars match, all with AWD",
+   "raw": "{first_name}, here are 3 new AWD three-row SUVs from 2019 or newer.  \nSee your new matches.",
+   "text": "{first_name}, here are 3 new AWD three-row SUVs from 2019 or newer. See your new matches.",
+   "done_reason": "stop",
+   "prompt_tokens": 534,
+   "output_tokens": 31,
+   "seconds": 1.0
+  },
+  {
+   "id": "G-4004",
+   "user": "CHANNEL: text\nNEXT STEP: finish up\nCAR: 2021 Hyundai Palisade SE, White, 58,250 miles\nLISTED FEATURES: Third-row seating; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Upload your driver's license; Pick a delivery time\nQUESTION: What do I still need to do to finish buying the one I started?\nANSWER (from STEPS LEFT): Upload your driver's license; Pick a delivery time",
+   "raw": "{first_name}, you need to upload your driver\u2019s license and pick a delivery time.  \nFinish up by doing those two things.",
+   "text": "{first_name}, you need to upload your driver\u2019s license and pick a delivery time. Finish up by doing those two things.",
+   "done_reason": "stop",
+   "prompt_tokens": 584,
+   "output_tokens": 28,
+   "seconds": 1.06
+  },
+  {
+   "id": "G-4007",
+   "user": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2022 Hyundai Tucson SEL, Silver, 76,955 miles\nSTATUS: still listed\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Blind spot monitor; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nTRUE THING (from STATUS): still listed",
+   "raw": "{first_name}, the 2022 Hyundai Tucson SEL is still listed. Take another look.",
+   "text": "{first_name}, the 2022 Hyundai Tucson SEL is still listed. Take another look.",
+   "done_reason": "stop",
+   "prompt_tokens": 552,
+   "output_tokens": 22,
+   "seconds": 0.84
+  },
+  {
+   "id": "G-4008",
+   "user": "CHANNEL: text\nNEXT STEP: get a new offer\nYOUR CAR: 2019 Chevrolet Malibu LT, Green, 89,129 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): ended on Nov 21",
+   "raw": "{first_name}, the offer ended on Nov 21.  \nGet a new offer with the title, both keys, and your driver\u2019s license.",
+   "text": "{first_name}, the offer ended on Nov 21. Get a new offer with the title, both keys, and your driver\u2019s license.",
+   "done_reason": "stop",
+   "prompt_tokens": 548,
+   "output_tokens": 32,
+   "seconds": 1.02
+  },
+  {
+   "id": "G-4009",
+   "user": "CHANNEL: text\nNEXT STEP: finish up\nCAR: 2022 Honda Civic Hatchback Sport, Black, 22,329 miles\nLISTED FEATURES: Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): Pick a delivery time",
+   "raw": "{first_name}, you can pick a delivery time for the 2022 Honda Civic Hatchback Sport.  \nFinish up by choosing your preferred slot.",
+   "text": "{first_name}, you can pick a delivery time for the 2022 Honda Civic Hatchback Sport. Finish up by choosing your preferred slot.",
+   "done_reason": "stop",
+   "prompt_tokens": 549,
+   "output_tokens": 33,
+   "seconds": 1.07
+  }
+ ]
+}

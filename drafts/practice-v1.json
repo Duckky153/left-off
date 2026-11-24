@@ -1,0 +1,68 @@
+{
+ "meta": {
+  "set": "practice",
+  "prompt": "v1",
+  "prompt_sha256": "9e174ac657a92627d36e70c628bf0f57048244904f8699c62bf032194f5a504c",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 12,
+  "at": "2026-11-23T21:21:42"
+ },
+ "drafts": {
+  "P-2001": {
+   "text": "{first_name}, yes, it has heated front seats. Take another look at your car whenever you are ready.",
+   "cut_off": false
+  },
+  "P-2002": {
+   "text": "{first_name}, your car is still listed. Take another look at your car whenever you are ready.",
+   "cut_off": false
+  },
+  "P-2003": {
+   "text": "{first_name}, here are two new cars with AWD. See your new matches whenever you\u2019re ready.",
+   "cut_off": false
+  },
+  "P-2004": {
+   "text": "{first_name}, here are 4 new cars that match your pickup year. See your new matches whenever you\u2019re ready.",
+   "cut_off": false
+  },
+  "P-2005": {
+   "text": "{first_name}, yes, it seats eight. Pick a car whenever you are ready.",
+   "cut_off": false
+  },
+  "P-2006": {
+   "text": "{first_name}, your pre-qualified status is complete as of Nov 14. Pick a car whenever you are ready.",
+   "cut_off": false
+  },
+  "P-2007": {
+   "text": "{first_name}, you still need to upload your driver\u2019s license and pick a delivery time. Finish the steps left whenever you are ready.",
+   "cut_off": false
+  },
+  "P-2008": {
+   "text": "{first_name}, upload your proof of insurance whenever you are ready. Finish the steps left.",
+   "cut_off": false
+  },
+  "P-2009": {
+   "text": "{first_name}, your offer ends November 26. Use your offer when you buy.",
+   "cut_off": false
+  },
+  "P-2010": {
+   "text": "{first_name}, the offer ended on Nov 21. Get a new offer whenever you are ready.",
+   "cut_off": false
+  },
+  "P-2011": {
+   "text": "{first_name}, yes, you must bring the title. When you\u2019re ready, accept your offer.",
+   "cut_off": false
+  },
+  "P-2012": {
+   "text": "{first_name}, your offer ends on Nov 27. Accept your offer whenever you are ready.",
+   "cut_off": false
+  }
+ }
+}

@@ -1,0 +1,915 @@
+{
+ "questions": "lo-q2",
+ "checks": {
+  "P-2001": {
+   "router": {
+    "answered": true,
+    "answer_line": "LISTED FEATURES"
+   },
+   "draft": {
+    "fails": [],
+    "support": null
+   }
+  },
+  "P-2003": {
+   "router": {
+    "answered": true,
+    "answer_line": "NEW MATCHES"
+   },
+   "draft": {
+    "fails": [],
+    "support": "NEW MATCHES"
+   }
+  },
+  "P-2005": {
+   "router": {
+    "answered": true,
+    "answer_line": "SEATS"
+   },
+   "draft": {
+    "fails": [
+     [
+      "not in the record (second check)",
+      [
+       "sentence 1"
+      ]
+     ]
+    ],
+    "support": "SEATS"
+   }
+  },
+  "P-2007": {
+   "router": {
+    "answered": true,
+    "answer_line": "STEPS LEFT"
+   },
+   "draft": {
+    "fails": [],
+    "support": null
+   }
+  },
+  "P-2009": {
+   "router": {
+    "answered": true,
+    "answer_line": "OFFER ENDS"
+   },
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS"
+   }
+  },
+  "P-2011": {
+   "router": {
+    "answered": true,
+    "answer_line": "BRING"
+   },
+   "draft": {
+    "fails": [],
+    "support": "BRING"
+   }
+  },
+  "P-2013": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2014": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2015": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2016": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2017": {
+   "router": {
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2018": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2019": {
+   "router": {
+    "reason": "instructions",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2020": {
+   "router": {
+    "reason": "complaint",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2002": {
+   "draft": {
+    "fails": [],
+    "support": "STATUS"
+   }
+  },
+  "P-2004": {
+   "draft": {
+    "fails": [
+     [
+      "not in the record (second check)",
+      [
+       "sentence 1"
+      ]
+     ]
+    ],
+    "support": "NEW MATCHES"
+   }
+  },
+  "P-2006": {
+   "draft": {
+    "fails": [
+     [
+      "money (second check)",
+      []
+     ],
+     [
+      "promise (second check)",
+      []
+     ]
+    ],
+    "support": "PRE-QUALIFIED"
+   }
+  },
+  "P-2008": {
+   "draft": {
+    "fails": [
+     [
+      "not in the record (second check)",
+      [
+       "sentence 1"
+      ]
+     ]
+    ],
+    "support": "STEPS LEFT"
+   }
+  },
+  "P-2010": {
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS"
+   }
+  },
+  "P-2012": {
+   "draft": {
+    "fails": [
+     [
+      "not in the record (second check)",
+      [
+       "sentence 2"
+      ]
+     ]
+    ],
+    "support": "OFFER ENDS"
+   }
+  }
+ },
+ "log": {
+  "P-2001:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.98,
+    0.98
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2003:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.08
+   ],
+   "complaint": [
+    0.02,
+    0.03
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.9,
+    0.9
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "P-2005:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.04,
+    0.04
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.98,
+    0.98
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2007:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.08,
+    0.07
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.89,
+    0.88
+   ],
+   "answer_line": [
+    "F06",
+    "F06"
+   ]
+  },
+  "P-2009:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.04,
+    0.05
+   ],
+   "complaint": [
+    0.02,
+    0.03
+   ],
+   "about_money": [
+    0.09,
+    0.09
+   ],
+   "answered": [
+    0.97,
+    0.96
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2011:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.04
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.96,
+    0.96
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "P-2013:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.08,
+    0.11
+   ],
+   "complaint": [
+    0.04,
+    0.04
+   ],
+   "about_money": [
+    0.81,
+    0.83
+   ],
+   "answered": [
+    0.03,
+    0.04
+   ],
+   "answer_line": [
+    "F03",
+    "F01"
+   ]
+  },
+  "P-2014:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.1,
+    0.11
+   ],
+   "complaint": [
+    0.25,
+    0.26
+   ],
+   "about_money": [
+    0.79,
+    0.78
+   ],
+   "answered": [
+    0.08,
+    0.1
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2015:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.04,
+    0.04
+   ],
+   "about_money": [
+    0.97,
+    0.97
+   ],
+   "answered": [
+    0.02,
+    0.02
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2016:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.99,
+    0.99
+   ],
+   "answered": [
+    0.01,
+    0.01
+   ],
+   "answer_line": [
+    "F02",
+    "F01"
+   ]
+  },
+  "P-2017:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.04
+   ],
+   "complaint": [
+    0.05,
+    0.05
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.01,
+    0.01
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2018:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.07
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.09,
+    0.11
+   ],
+   "answered": [
+    0.15,
+    0.16
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "P-2019:router": {
+   "asks_to_stop": [
+    0.01,
+    0.02
+   ],
+   "instructs_writer": [
+    0.99,
+    0.99
+   ],
+   "complaint": [
+    0.13,
+    0.16
+   ],
+   "about_money": [
+    0.05,
+    0.08
+   ],
+   "answered": [
+    0.04,
+    0.04
+   ],
+   "answer_line": [
+    "F03",
+    "F04"
+   ]
+  },
+  "P-2020:router": {
+   "asks_to_stop": [
+    0.02,
+    0.02
+   ],
+   "instructs_writer": [
+    0.08,
+    0.07
+   ],
+   "complaint": [
+    0.97,
+    0.97
+   ],
+   "about_money": [
+    0.09,
+    0.11
+   ],
+   "answered": [
+    0.02,
+    0.02
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2001:draft": {
+   "D1_grounded": [
+    0.86,
+    0.87
+   ],
+   "D2_grounded": [
+    0.92,
+    0.92
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.11,
+    0.08
+   ],
+   "answers": [
+    0.97,
+    0.97
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2002:draft": {
+   "D1_grounded": [
+    0.95,
+    0.94
+   ],
+   "D2_grounded": [
+    0.92,
+    0.93
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.17,
+    0.14
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "P-2004:draft": {
+   "D1_grounded": [
+    0.8,
+    0.77
+   ],
+   "D2_grounded": [
+    0.89,
+    0.9
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.04,
+    0.04
+   ],
+   "promise": [
+    0.15,
+    0.13
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "P-2005:draft": {
+   "D1_grounded": [
+    0.84,
+    0.82
+   ],
+   "D2_grounded": [
+    0.92,
+    0.92
+   ],
+   "money": [
+    0.05,
+    0.05
+   ],
+   "pressure": [
+    0.04,
+    0.04
+   ],
+   "promise": [
+    0.07,
+    0.08
+   ],
+   "answers": [
+    0.96,
+    0.97
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2006:draft": {
+   "D1_grounded": [
+    0.94,
+    0.93
+   ],
+   "D2_grounded": [
+    0.93,
+    0.94
+   ],
+   "money": [
+    0.67,
+    0.64
+   ],
+   "pressure": [
+    0.04,
+    0.04
+   ],
+   "promise": [
+    0.29,
+    0.31
+   ],
+   "support": [
+    "F02",
+    "F02"
+   ]
+  },
+  "P-2007:draft": {
+   "D1_grounded": [
+    0.92,
+    0.93
+   ],
+   "D2_grounded": [
+    0.91,
+    0.92
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.04
+   ],
+   "promise": [
+    0.04,
+    0.03
+   ],
+   "answers": [
+    0.96,
+    0.97
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  },
+  "P-2008:draft": {
+   "D1_grounded": [
+    0.73,
+    0.73
+   ],
+   "D2_grounded": [
+    0.93,
+    0.94
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.04,
+    0.04
+   ],
+   "promise": [
+    0.06,
+    0.05
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  },
+  "P-2009:draft": {
+   "D1_grounded": [
+    0.93,
+    0.91
+   ],
+   "D2_grounded": [
+    0.96,
+    0.95
+   ],
+   "money": [
+    0.04,
+    0.05
+   ],
+   "pressure": [
+    0.08,
+    0.09
+   ],
+   "promise": [
+    0.09,
+    0.09
+   ],
+   "answers": [
+    0.95,
+    0.96
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2010:draft": {
+   "D1_grounded": [
+    0.96,
+    0.96
+   ],
+   "D2_grounded": [
+    0.9,
+    0.89
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.08,
+    0.08
+   ],
+   "promise": [
+    0.1,
+    0.11
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2012:draft": {
+   "D1_grounded": [
+    0.94,
+    0.93
+   ],
+   "D2_grounded": [
+    0.86,
+    0.83
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.12,
+    0.14
+   ],
+   "promise": [
+    0.08,
+    0.08
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2003:draft": {
+   "D1_grounded": [
+    0.92,
+    0.93
+   ],
+   "D2_grounded": [
+    0.91,
+    0.89
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.15,
+    0.17
+   ],
+   "answers": [
+    0.96,
+    0.97
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "P-2011:draft": {
+   "D1_grounded": [
+    0.91,
+    0.86
+   ],
+   "D2_grounded": [
+    0.93,
+    0.9
+   ],
+   "money": [
+    0.04,
+    0.04
+   ],
+   "pressure": [
+    0.12,
+    0.14
+   ],
+   "promise": [
+    0.1,
+    0.11
+   ],
+   "answers": [
+    0.92,
+    0.92
+   ],
+   "support": [
+    "F05",
+    "F05"
+   ]
+  }
+ },
+ "runs": [
+  {
+   "stage": "router",
+   "calls": 28,
+   "spent_so_far_dollars": 0.00227,
+   "at": "2026-11-23T21:21:11"
+  },
+  {
+   "stage": "drafts",
+   "calls": 20,
+   "spent_so_far_dollars": 0.00295,
+   "at": "2026-11-23T21:21:16"
+  },
+  {
+   "stage": "drafts",
+   "calls": 4,
+   "spent_so_far_dollars": 0.00309,
+   "at": "2026-11-23T21:21:44"
+  }
+ ]
+}

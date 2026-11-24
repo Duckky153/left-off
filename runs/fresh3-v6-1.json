@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "set": "fresh3",
+  "prompt": "v6",
+  "prompt_sha256": "fe280e670650b44b371789c0a4e2d074318f45b3e4275c1fc8fb31622c12da14",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 8,
+  "at": "2026-11-23T22:22:31"
+ },
+ "rows": [
+  {
+   "id": "H-5001",
+   "user": "CHANNEL: text\nCAR: 2019 Mazda CX-5 Grand Touring, Black, 33,067 miles\nSTATUS: still listed\nLISTED FEATURES: Power liftgate; Power moonroof; Leather seats; Heated front seats; Blind spot monitor; Adaptive cruise control\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: Does the CX-5 listing include adaptive cruise control?\nANSWER (from LISTED FEATURES): Adaptive cruise control",
+   "raw": "{first_name}, yes, the 2019 Mazda CX-5 Grand Touring includes adaptive cruise control.",
+   "text": "{first_name}, yes, the 2019 Mazda CX-5 Grand Touring includes adaptive cruise control.",
+   "done_reason": "stop",
+   "prompt_tokens": 544,
+   "output_tokens": 25,
+   "seconds": 2.98
+  },
+  {
+   "id": "H-5002",
+   "user": "CHANNEL: email\nCAR: 2021 Toyota Sienna LE, White, 48,953 miles\nSTATUS: still listed\nLISTED FEATURES: Power sliding doors; Power liftgate; Apple CarPlay; Blind spot monitor; Adaptive cruise control; Third-row seating\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: How many people can sit in the Sienna?\nANSWER (from SEATS): 8 seats",
+   "raw": "{first_name}, the 2021 Toyota Sienna LE has 8 seats.",
+   "text": "{first_name}, the 2021 Toyota Sienna LE has 8 seats.",
+   "done_reason": "stop",
+   "prompt_tokens": 539,
+   "output_tokens": 20,
+   "seconds": 0.93
+  },
+  {
+   "id": "H-5003",
+   "user": "CHANNEL: email\nSEARCH: Sedans under 50,000 miles\nNEW MATCHES: 3 new cars match, all with AWD\nQUESTION: Any new AWD sedans matching my saved search for sedans under 50,000 miles?\nANSWER (from NEW MATCHES): 3 new cars match, all with AWD",
+   "raw": "{first_name}, you found 3 new AWD sedans matching your saved search for sedans under 50,000 miles.",
+   "text": "{first_name}, you found 3 new AWD sedans matching your saved search for sedans under 50,000 miles.",
+   "done_reason": "stop",
+   "prompt_tokens": 515,
+   "output_tokens": 31,
+   "seconds": 1.07
+  },
+  {
+   "id": "H-5004",
+   "user": "CHANNEL: text\nCAR: 2021 Nissan Rogue SV, Black, 49,308 miles\nLISTED FEATURES: Apple CarPlay; Android Auto; Blind spot monitor; Adaptive cruise control; Remote start\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Upload your driver's license; Pick a delivery time\nQUESTION: What\u2019s left to finish my purchase? I still need to upload my license and pick a delivery time, right?\nANSWER (from STEPS LEFT): Upload your driver's license; Pick a delivery time",
+   "raw": "{first_name}, you\u2019ll need to upload your driver\u2019s license and pick a delivery time to finish.",
+   "text": "{first_name}, you\u2019ll need to upload your driver\u2019s license and pick a delivery time to finish.",
+   "done_reason": "stop",
+   "prompt_tokens": 563,
+   "output_tokens": 22,
+   "seconds": 0.87
+  },
+  {
+   "id": "H-5006",
+   "user": "CHANNEL: email\nYOUR CAR: 2017 Ford Escape SE, Black, 95,229 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: For the Escape sale, should I bring the title, both keys, and my driver's license?\nANSWER (from BRING): the title; both keys; your driver's license",
+   "raw": "{first_name}, for the Escape sale, bring the title, both keys, and your driver's license.",
+   "text": "{first_name}, for the Escape sale, bring the title, both keys, and your driver's license.",
+   "done_reason": "stop",
+   "prompt_tokens": 539,
+   "output_tokens": 23,
+   "seconds": 0.92
+  },
+  {
+   "id": "H-5007",
+   "user": "CHANNEL: email\nCAR: 2021 Subaru Outback Premium, Beige, 12,545 miles\nSTATUS: still listed\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: AWD\nTRUE THING (from STATUS): still listed",
+   "raw": "{first_name}, the 2021 Subaru Outback Premium is still listed.",
+   "text": "{first_name}, the 2021 Subaru Outback Premium is still listed.",
+   "done_reason": "stop",
+   "prompt_tokens": 519,
+   "output_tokens": 19,
+   "seconds": 0.77
+  },
+  {
+   "id": "H-5008",
+   "user": "CHANNEL: text\nYOUR CAR: 2018 Kia Soul Plus, Beige, 124,424 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): ended on Nov 21",
+   "raw": "{first_name}, the offer ended on Nov 21.",
+   "text": "{first_name}, the offer ended on Nov 21.",
+   "done_reason": "stop",
+   "prompt_tokens": 520,
+   "output_tokens": 14,
+   "seconds": 0.66
+  },
+  {
+   "id": "H-5009",
+   "user": "CHANNEL: text\nCAR: 2021 Hyundai Palisade SE, Gray, 38,425 miles\nLISTED FEATURES: Third-row seating; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): Pick a delivery time",
+   "raw": "{first_name}, you can pick a delivery time for the 2021 Hyundai Palisade SE.",
+   "text": "{first_name}, you can pick a delivery time for the 2021 Hyundai Palisade SE.",
+   "done_reason": "stop",
+   "prompt_tokens": 529,
+   "output_tokens": 24,
+   "seconds": 0.93
+  }
+ ]
+}

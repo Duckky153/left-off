@@ -1,0 +1,50 @@
+{
+ "meta": {
+  "set": "fresh5",
+  "prompt": "v9",
+  "prompt_sha256": "c5258183a44348fe754d33b5f5e26e829334f67fc64e478abb113b6bd4753fdd",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 3,
+  "at": "2026-11-24T00:18:13"
+ },
+ "rows": [
+  {
+   "id": "K-7007",
+   "user": "CHANNEL: email\nCAR: 2023 Mazda CX-50 2.5 S Preferred Package, Green, 20,105 miles\nSTATUS: still for sale, with 20,105 miles\nLISTED FEATURES: Power liftgate; Heated front seats; Blind spot monitor; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: AWD\nTRUE THING (from STATUS): still for sale, with 20,105 miles",
+   "raw": "{first_name}, the 2023 Mazda CX-50 2.5 S Preferred Package is still for sale, with 20,105 miles.",
+   "text": "{first_name}, the 2023 Mazda CX-50 2.5 S Preferred Package is still for sale, with 20,105 miles.",
+   "done_reason": "stop",
+   "prompt_tokens": 548,
+   "output_tokens": 38,
+   "seconds": 1.44
+  },
+  {
+   "id": "K-7008",
+   "user": "CHANNEL: text\nYOUR CAR: 2015 Toyota Camry LE, White, 124,620 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): the offer for your car ended on Nov 21",
+   "raw": "{first_name}, the offer for your car ended on Nov 21.",
+   "text": "{first_name}, the offer for your car ended on Nov 21.",
+   "done_reason": "stop",
+   "prompt_tokens": 524,
+   "output_tokens": 17,
+   "seconds": 0.8
+  },
+  {
+   "id": "K-7009",
+   "user": "CHANNEL: text\nCAR: 2021 Subaru Outback Premium, Blue, 43,759 miles\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: AWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): you still need to pick a delivery time",
+   "raw": "{first_name}, the 2021 Subaru Outback Premium is ready for your chosen delivery time.",
+   "text": "{first_name}, the 2021 Subaru Outback Premium is ready for your chosen delivery time.",
+   "done_reason": "stop",
+   "prompt_tokens": 529,
+   "output_tokens": 23,
+   "seconds": 0.96
+  }
+ ]
+}

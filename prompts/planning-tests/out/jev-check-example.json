@@ -1,0 +1,75 @@
+{
+ "model": "jev-1.14.0",
+ "state": {
+  "view": "V01| NEXT STEP: take another look at the car\nV02| FIRST NAME: Maya\nV03| WHERE THEY STOPPED: saved a car\nV04| CAR: 2021 Honda CR-V EX, Platinum White, 38,412 miles\nV05| LISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Blind spot monitoring; Power moonroof\nV06| QUESTION: Does it have heated seats?\nV07| ANSWER (from LISTED FEATURES): Heated front seats",
+  "draft": "D1| Maya, the car has heated front seats.\nD2| Take another look at the 2021 Honda CR-V EX when you\u2019re ready."
+ },
+ "questions": {
+  "D1_support": {
+   "type": "choice",
+   "instructions": {
+    "sentence": "D1",
+    "text": "Maya, the car has heated front seats.",
+    "question": "Which line of `view` is this sentence of `draft` based on?"
+   },
+   "criteria": {
+    "V01": null,
+    "V02": null,
+    "V03": null,
+    "V04": null,
+    "V05": null,
+    "V06": null,
+    "V07": null
+   }
+  },
+  "D1_grounded": {
+   "type": "noul",
+   "instructions": {
+    "sentence": "D1",
+    "text": "Maya, the car has heated front seats.",
+    "question": "Is everything this sentence says about the car, the shopper, the steps, the offer or what will happen written in `view`? Using the shopper's first name and inviting them to do the NEXT STEP count as written."
+   }
+  },
+  "D2_support": {
+   "type": "choice",
+   "instructions": {
+    "sentence": "D2",
+    "text": "Take another look at the 2021 Honda CR-V EX when you\u2019re ready.",
+    "question": "Which line of `view` is this sentence of `draft` based on?"
+   },
+   "criteria": {
+    "V01": null,
+    "V02": null,
+    "V03": null,
+    "V04": null,
+    "V05": null,
+    "V06": null,
+    "V07": null
+   }
+  },
+  "D2_grounded": {
+   "type": "noul",
+   "instructions": {
+    "sentence": "D2",
+    "text": "Take another look at the 2021 Honda CR-V EX when you\u2019re ready.",
+    "question": "Is everything this sentence says about the car, the shopper, the steps, the offer or what will happen written in `view`? Using the shopper's first name and inviting them to do the NEXT STEP count as written."
+   }
+  },
+  "money": {
+   "type": "noul",
+   "instructions": "Does `draft` mention or hint at a price, cost, saving, discount, payment, monthly amount, down payment, offer or trade-in value, rate, APR, loan, financing, credit or approval?"
+  },
+  "pressure": {
+   "type": "noul",
+   "instructions": "Does `draft` push the shopper to act quickly: a deadline, scarcity, 'soon', 'today', 'last chance' or similar?"
+  },
+  "promise": {
+   "type": "noul",
+   "instructions": "Does `draft` say that someone will do something, or that something will happen at a certain time, beyond inviting the shopper to do the NEXT STEP in `view`?"
+  },
+  "answers": {
+   "type": "noul",
+   "instructions": "Does `draft` answer the QUESTION line in `view`, using the ANSWER line?"
+  }
+ }
+}

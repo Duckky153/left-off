@@ -1,0 +1,1067 @@
+{
+ "what_this_is": "Two AI graders read every ready draft from prompt v9 (fresh sets 5 and 6, and the 40), by tests/GRADING.md only, with the exact facts the writer saw, the link line and the email subject code adds. They saw no outcome, key or check.",
+ "first_grader": "OpenAI's gpt-6-luna through its own command-line tool",
+ "second_grader": "a fresh Claude reader, same rules",
+ "graded": [
+  {
+   "id": "K-7001",
+   "facts": "CHANNEL: text\nNEXT STEP: take another look\nCAR: 2019 Mazda CX-5 Grand Touring, Gray, 75,624 miles\nSTATUS: still for sale, with 75,624 miles\nLISTED FEATURES: Power liftgate; Power moonroof; Leather seats; Heated front seats; Blind spot monitor; Adaptive cruise control\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: Does the car I saved have adaptive cruise control? I can't remember if I saw that listed.\nANSWER (from LISTED FEATURES): Adaptive cruise control",
+   "draft": "{first_name}, yes, it has adaptive cruise control. Take another look: [link]"
+  },
+  {
+   "id": "K-7002",
+   "facts": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2024 Honda Pilot EX-L, Blue, 59,158 miles\nSTATUS: still for sale, with 59,158 miles\nLISTED FEATURES: Third-row seating; Power liftgate; Leather seats; Wireless phone charging; Blind spot monitor; Adaptive cruise control\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: How many people can the SUV I saved seat?\nANSWER (from SEATS): 8 seats",
+   "draft": "{first_name}, the 2024 Honda Pilot EX-L can seat 8 people. Take another look: [link]  (email subject: Seats in the Honda Pilot)"
+  },
+  {
+   "id": "K-7004",
+   "facts": "CHANNEL: text\nNEXT STEP: see your purchase\nCAR: 2023 Hyundai Elantra Hybrid Blue, White, 19,276 miles\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Blind spot monitor; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD\nSTEPS LEFT: Upload your driver's license; Pick a delivery time\nQUESTION: I started buying the car, what do I still need to do to finish up?\nANSWER (from STEPS LEFT): Upload your driver's license; Pick a delivery time",
+   "draft": "{first_name}, you still need to upload your driver’s license and pick a delivery time. See your purchase: [link]"
+  },
+  {
+   "id": "K-7005",
+   "facts": "CHANNEL: text\nNEXT STEP: see the details\nYOUR CAR: 2016 Subaru Forester 2.5i, Silver, 121,404 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 27\nBRING: the title; both keys\nQUESTION: When does my trade-in offer run out? I've got the title and both keys ready.\nANSWER (from OFFER ENDS): Nov 27",
+   "draft": "{first_name}, your trade-in offer ends on Nov 27. See the details: [link]"
+  },
+  {
+   "id": "K-7006",
+   "facts": "CHANNEL: email\nNEXT STEP: accept the offer\nYOUR CAR: 2016 Honda Civic LX, Green, 119,552 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: For the offer on my car, should I bring the title, both keys, and my license?\nANSWER (from BRING): the title; both keys; your driver's license",
+   "draft": "{first_name}, for the offer on your 2016 Honda Civic LX, bring the title, both keys, and your driver’s license. Accept the offer: [link]  (email subject: What to bring for your Honda Civic)"
+  },
+  {
+   "id": "K-7007",
+   "facts": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2023 Mazda CX-50 2.5 S Preferred Package, Green, 20,105 miles\nSTATUS: still for sale, with 20,105 miles\nLISTED FEATURES: Power liftgate; Heated front seats; Blind spot monitor; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: AWD\nTRUE THING (from STATUS): still for sale, with 20,105 miles",
+   "draft": "{first_name}, the 2023 Mazda CX-50 2.5 S Preferred Package is still for sale, with 20,105 miles. Take another look: [link]  (email subject: The Mazda CX-50 you saved)"
+  },
+  {
+   "id": "K-7008",
+   "facts": "CHANNEL: text\nNEXT STEP: get a new offer\nYOUR CAR: 2015 Toyota Camry LE, White, 124,620 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): the offer for your car ended on Nov 21",
+   "draft": "{first_name}, the offer ended on Nov 21. Get a new offer: [link]"
+  },
+  {
+   "id": "L-8002",
+   "facts": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2021 Toyota Sienna LE, Red, 17,911 miles\nSTATUS: still for sale, with 17,911 miles\nLISTED FEATURES: Power sliding doors; Power liftgate; Apple CarPlay; Blind spot monitor; Adaptive cruise control; Third-row seating\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: How many people can the Sienna seat?\nANSWER (from SEATS): 8 seats",
+   "draft": "{first_name}, the 2021 Toyota Sienna LE can seat 8 people. Take another look: [link]  (email subject: Seats in the Toyota Sienna)"
+  },
+  {
+   "id": "L-8004",
+   "facts": "CHANNEL: text\nNEXT STEP: see your purchase\nCAR: 2021 Toyota Tacoma TRD Sport Double Cab, Green, 75,880 miles\nLISTED FEATURES: Apple CarPlay; Android Auto; Adaptive cruise control; Wireless phone charging\nSEATS: 5 seats\nDRIVETRAIN: RWD or 4WD\nSTEPS LEFT: Upload your driver's license; Pick a delivery time\nQUESTION: What do I still need to finish the purchase? Looks like my license and a delivery time.\nANSWER (from STEPS LEFT): Upload your driver's license; Pick a delivery time",
+   "draft": "{first_name}, you still need to upload your driver’s license and pick a delivery time. See your purchase: [link]"
+  },
+  {
+   "id": "L-8006",
+   "facts": "CHANNEL: email\nNEXT STEP: accept the offer\nYOUR CAR: 2018 Kia Soul Plus, Red, 96,584 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: When I bring in the Soul, do I need the title, both keys, and my license?\nANSWER (from BRING): the title; both keys; your driver's license",
+   "draft": "{first_name}, you need the title, both keys, and your license when you bring in the 2018 Kia Soul Plus. Accept the offer: [link]  (email subject: What to bring for your Kia Soul)"
+  },
+  {
+   "id": "L-8007",
+   "facts": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2021 Nissan Rogue SV, Silver, 45,979 miles\nSTATUS: still for sale, with 45,979 miles\nLISTED FEATURES: Apple CarPlay; Android Auto; Blind spot monitor; Adaptive cruise control; Remote start\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nTRUE THING (from STATUS): still for sale, with 45,979 miles",
+   "draft": "{first_name}, the 2021 Nissan Rogue SV is still for sale, with 45,979 miles. Take another look: [link]  (email subject: The Nissan Rogue you saved)"
+  },
+  {
+   "id": "L-8008",
+   "facts": "CHANNEL: text\nNEXT STEP: get a new offer\nYOUR CAR: 2019 Chevrolet Malibu LT, Beige, 68,344 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): the offer for your car ended on Nov 21",
+   "draft": "{first_name}, the offer for your car ended on Nov 21. Get a new offer: [link]"
+  },
+  {
+   "id": "S-1003",
+   "facts": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2019 Mazda CX-9 Touring, White, 32,496 miles\nSTATUS: still for sale, with 32,496 miles\nLISTED FEATURES: Third-row seating; Power liftgate; Leather seats; Heated front seats; Apple CarPlay; Blind spot monitor\nSEATS: 7 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: Hi, could you tell me how many people this SUV seats? Trying to see if it works for our carpool.\nANSWER (from SEATS): 7 seats",
+   "draft": "{first_name}, the 2019 Mazda CX-9 Touring seats 7 people. Take another look: [link]  (email subject: Seats in the Mazda CX-9)"
+  },
+  {
+   "id": "S-1004",
+   "facts": "CHANNEL: email\nNEXT STEP: see your new matches\nSEARCH: SUVs under 60,000 miles\nNEW MATCHES: 3 new cars match, all with AWD\nQUESTION: Hello, have any new SUVs under 60,000 miles shown up in my search that have all-wheel drive?\nANSWER (from NEW MATCHES): 3 new cars match, all with AWD",
+   "draft": "{first_name}, three new SUVs under 60,000 miles now show up with AWD. See your new matches: [link]  (email subject: New matches for your saved search)"
+  },
+  {
+   "id": "S-1007",
+   "facts": "CHANNEL: text\nNEXT STEP: see your purchase\nCAR: 2021 Hyundai Palisade SE, Green, 41,494 miles\nLISTED FEATURES: Third-row seating; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Upload proof of insurance\nQUESTION: whats left on my end to finish buying this one?\nANSWER (from STEPS LEFT): Upload proof of insurance",
+   "draft": "{first_name}, upload proof of insurance to finish. See your purchase: [link]"
+  },
+  {
+   "id": "S-1010",
+   "facts": "CHANNEL: email\nNEXT STEP: see the details\nYOUR CAR: 2018 Kia Soul Plus, Beige, 95,170 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: Hi, what paperwork should I bring along when I drop off my car for the trade-in? Thanks.\nANSWER (from BRING): the title; both keys; your driver's license",
+   "draft": "{first_name}, bring the title, both keys, and your driver's license. See the details: [link]  (email subject: What to bring for your Kia Soul)"
+  },
+  {
+   "id": "S-1011",
+   "facts": "CHANNEL: text\nNEXT STEP: accept the offer\nYOUR CAR: 2016 Honda Civic LX, Blue, 62,295 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: do i really need both keys? can only find one rn\nANSWER (from BRING): both keys",
+   "draft": "{first_name}, you’ll need both keys to complete the transaction. Accept the offer: [link]"
+  },
+  {
+   "id": "S-1012",
+   "facts": "CHANNEL: text\nNEXT STEP: accept the offer\nYOUR CAR: 2015 Toyota Camry LE, Beige, 109,276 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: what do i need to have on me when i come sell my car\nANSWER (from BRING): the title; both keys; your driver's license",
+   "draft": "{first_name}, you’ll need the title, both keys, and your driver’s license when you come. Accept the offer: [link]"
+  },
+  {
+   "id": "S-1013",
+   "facts": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2023 Hyundai Elantra Hybrid Blue, Black, 38,234 miles\nSTATUS: still for sale, with 38,234 miles\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Blind spot monitor; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD\nTRUE THING (from STATUS): still for sale, with 38,234 miles",
+   "draft": "{first_name}, the 2023 Hyundai Elantra Hybrid is still for sale with 38,234 miles. Take another look: [link]  (email subject: The Hyundai Elantra Hybrid you saved)"
+  },
+  {
+   "id": "S-1014",
+   "facts": "CHANNEL: email\nNEXT STEP: take another look\nCAR: 2022 Subaru Forester Premium, Black, 12,577 miles\nSTATUS: still for sale, with 12,577 miles\nLISTED FEATURES: Power moonroof; Heated front seats; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: AWD\nTRUE THING (from STATUS): still for sale, with 12,577 miles",
+   "draft": "{first_name}, the 2022 Subaru Forester Premium is still for sale, with 12,577 miles. Take another look: [link]  (email subject: The Subaru Forester you saved)"
+  },
+  {
+   "id": "S-1018",
+   "facts": "CHANNEL: text\nNEXT STEP: see the details\nYOUR CAR: 2016 Subaru Forester 2.5i, Green, 112,769 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 27\nBRING: the title; both keys\nTRUE THING (from OFFER ENDS): your trade-in offer ends Nov 27",
+   "draft": "{first_name}, your trade-in offer ends Nov 27. See the details: [link]"
+  },
+  {
+   "id": "S-1019",
+   "facts": "CHANNEL: text\nNEXT STEP: get a new offer\nYOUR CAR: 2015 Toyota Camry LE, Blue, 87,567 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): the offer for your car ended on Nov 21",
+   "draft": "{first_name}, the offer for your car ended on Nov 21. Get a new offer: [link]"
+  }
+ ],
+ "first": {
+  "K-7001": {
+   "id": "K-7001",
+   "sentences": [
+    "F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "K-7002": {
+   "id": "K-7002",
+   "sentences": [
+    "F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "K-7004": {
+   "id": "K-7004",
+   "sentences": [
+    "F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "K-7005": {
+   "id": "K-7005",
+   "sentences": [
+    "F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "K-7006": {
+   "id": "K-7006",
+   "sentences": [
+    "F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "K-7007": {
+   "id": "K-7007",
+   "sentences": [
+    "F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "K-7008": {
+   "id": "K-7008",
+   "sentences": [
+    "F07",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "L-8002": {
+   "id": "L-8002",
+   "sentences": [
+    "F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "L-8004": {
+   "id": "L-8004",
+   "sentences": [
+    "F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "L-8006": {
+   "id": "L-8006",
+   "sentences": [
+    "F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "L-8007": {
+   "id": "L-8007",
+   "sentences": [
+    "F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "L-8008": {
+   "id": "L-8008",
+   "sentences": [
+    "F07",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1003": {
+   "id": "S-1003",
+   "sentences": [
+    "F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1004": {
+   "id": "S-1004",
+   "sentences": [
+    "not in the facts",
+    "next step"
+   ],
+   "grounded": false,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1007": {
+   "id": "S-1007",
+   "sentences": [
+    "F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1010": {
+   "id": "S-1010",
+   "sentences": [
+    "F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1011": {
+   "id": "S-1011",
+   "sentences": [
+    "not in the facts",
+    "next step"
+   ],
+   "grounded": false,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1012": {
+   "id": "S-1012",
+   "sentences": [
+    "F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1013": {
+   "id": "S-1013",
+   "sentences": [
+    "F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1014": {
+   "id": "S-1014",
+   "sentences": [
+    "F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1018": {
+   "id": "S-1018",
+   "sentences": [
+    "F07",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1019": {
+   "id": "S-1019",
+   "sentences": [
+    "F07",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  }
+ },
+ "second": {
+  "K-7001": {
+   "id": "K-7001",
+   "sentences": [
+    "F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "K-7002": {
+   "id": "K-7002",
+   "sentences": [
+    "F03+F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "K-7004": {
+   "id": "K-7004",
+   "sentences": [
+    "F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "K-7005": {
+   "id": "K-7005",
+   "sentences": [
+    "F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "K-7006": {
+   "id": "K-7006",
+   "sentences": [
+    "F03+F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "K-7007": {
+   "id": "K-7007",
+   "sentences": [
+    "F03+F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "K-7008": {
+   "id": "K-7008",
+   "sentences": [
+    "F07",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "L-8002": {
+   "id": "L-8002",
+   "sentences": [
+    "F03+F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "L-8004": {
+   "id": "L-8004",
+   "sentences": [
+    "F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "L-8006": {
+   "id": "L-8006",
+   "sentences": [
+    "F03+F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "L-8007": {
+   "id": "L-8007",
+   "sentences": [
+    "F03+F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "L-8008": {
+   "id": "L-8008",
+   "sentences": [
+    "F07",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1003": {
+   "id": "S-1003",
+   "sentences": [
+    "F03+F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1004": {
+   "id": "S-1004",
+   "sentences": [
+    "F03+F06",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1007": {
+   "id": "S-1007",
+   "sentences": [
+    "F09",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1010": {
+   "id": "S-1010",
+   "sentences": [
+    "F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1011": {
+   "id": "S-1011",
+   "sentences": [
+    "not in the facts",
+    "next step"
+   ],
+   "grounded": false,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1012": {
+   "id": "S-1012",
+   "sentences": [
+    "F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1013": {
+   "id": "S-1013",
+   "sentences": [
+    "F03+F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1014": {
+   "id": "S-1014",
+   "sentences": [
+    "F03+F08",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1018": {
+   "id": "S-1018",
+   "sentences": [
+    "F07",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1019": {
+   "id": "S-1019",
+   "sentences": [
+    "F07",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  }
+ },
+ "disagree_on": [
+  "S-1004"
+ ],
+ "first_grader_first_run": {
+  "why_rerun": "Its first run was not told that the email subject is a line code adds, which the second grader was told; it marked five subjects as sentences not in the facts. It was run again with the same instructions as the second grader.",
+  "grades": {
+   "K-7001": {
+    "id": "K-7001",
+    "sentences": [
+     "ANSWER (from LISTED FEATURES)",
+     "NEXT STEP"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "K-7002": {
+    "id": "K-7002",
+    "sentences": [
+     "CAR + SEATS",
+     "NEXT STEP",
+     "CAR + SEATS (email subject)"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "K-7004": {
+    "id": "K-7004",
+    "sentences": [
+     "STEPS LEFT",
+     "NEXT STEP"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "K-7005": {
+    "id": "K-7005",
+    "sentences": [
+     "TRUE THING (from OFFER ENDS)",
+     "NEXT STEP"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "K-7006": {
+    "id": "K-7006",
+    "sentences": [
+     "CAR + BRING",
+     "NEXT STEP",
+     "CAR + BRING (email subject)"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "K-7007": {
+    "id": "K-7007",
+    "sentences": [
+     "TRUE THING (from STATUS)",
+     "NEXT STEP",
+     "not in the facts"
+    ],
+    "grounded": false,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": "not asked",
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "K-7008": {
+    "id": "K-7008",
+    "sentences": [
+     "TRUE THING (from OFFER ENDS)",
+     "NEXT STEP"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": "not asked",
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "L-8002": {
+    "id": "L-8002",
+    "sentences": [
+     "CAR + SEATS",
+     "NEXT STEP",
+     "CAR + SEATS (email subject)"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "L-8004": {
+    "id": "L-8004",
+    "sentences": [
+     "STEPS LEFT",
+     "NEXT STEP"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "L-8006": {
+    "id": "L-8006",
+    "sentences": [
+     "CAR + BRING",
+     "NEXT STEP",
+     "CAR + BRING (email subject)"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "L-8007": {
+    "id": "L-8007",
+    "sentences": [
+     "TRUE THING (from STATUS)",
+     "NEXT STEP",
+     "not in the facts"
+    ],
+    "grounded": false,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": "not asked",
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "L-8008": {
+    "id": "L-8008",
+    "sentences": [
+     "TRUE THING (from OFFER ENDS)",
+     "NEXT STEP"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": "not asked",
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "S-1003": {
+    "id": "S-1003",
+    "sentences": [
+     "CAR + SEATS",
+     "NEXT STEP",
+     "CAR + SEATS (email subject)"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "S-1004": {
+    "id": "S-1004",
+    "sentences": [
+     "SEARCH + NEW MATCHES",
+     "NEXT STEP",
+     "not in the facts"
+    ],
+    "grounded": false,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "S-1007": {
+    "id": "S-1007",
+    "sentences": [
+     "not in the facts",
+     "NEXT STEP"
+    ],
+    "grounded": false,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "S-1010": {
+    "id": "S-1010",
+    "sentences": [
+     "BRING",
+     "NEXT STEP",
+     "CAR + BRING (email subject)"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "S-1011": {
+    "id": "S-1011",
+    "sentences": [
+     "not in the facts",
+     "NEXT STEP"
+    ],
+    "grounded": false,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "S-1012": {
+    "id": "S-1012",
+    "sentences": [
+     "BRING + QUESTION",
+     "NEXT STEP"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": true,
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "S-1013": {
+    "id": "S-1013",
+    "sentences": [
+     "TRUE THING (from STATUS)",
+     "NEXT STEP",
+     "not in the facts"
+    ],
+    "grounded": false,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": "not asked",
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "S-1014": {
+    "id": "S-1014",
+    "sentences": [
+     "TRUE THING (from STATUS)",
+     "NEXT STEP",
+     "not in the facts"
+    ],
+    "grounded": false,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": "not asked",
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "S-1018": {
+    "id": "S-1018",
+    "sentences": [
+     "TRUE THING (from OFFER ENDS)",
+     "NEXT STEP"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": "not asked",
+    "reads_like_a_person": true,
+    "why": ""
+   },
+   "S-1019": {
+    "id": "S-1019",
+    "sentences": [
+     "TRUE THING (from OFFER ENDS)",
+     "NEXT STEP"
+    ],
+    "grounded": true,
+    "money": false,
+    "pressure": false,
+    "promise": false,
+    "answers": "not asked",
+    "reads_like_a_person": true,
+    "why": ""
+   }
+  }
+ },
+ "found": "Both graders: S-1011 'you'll need both keys to complete the transaction' adds 'to complete the transaction', which the record doesn't say. The first grader alone: S-1004. No money, pressure or promise in any draft.",
+ "changed": "Nothing: one case, not a pattern. Reported in the README.",
+ "note": "The graders saw the link labels of that time ('Accept the offer', 'See the details'); they now read 'See your offer'. Since then Keisha's draft (S-1011) has been held on a fresh read."
+}

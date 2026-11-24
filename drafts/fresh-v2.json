@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "set": "fresh",
+  "prompt": "v2",
+  "prompt_sha256": "2abd074695a70e7d10e8b13567363574abcfa85baf89eb6ab364630e01311586",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 8,
+  "at": "2026-11-23T21:40:55"
+ },
+ "drafts": {
+  "F-3001": {
+   "text": "{first_name}, yes, it has a power liftgate. Take another look at your car whenever you\u2019re ready.",
+   "cut_off": false
+  },
+  "F-3002": {
+   "text": "{first_name}, this vehicle has 8 seats. Take another look at your car whenever you are ready.",
+   "cut_off": false
+  },
+  "F-3004": {
+   "text": "{first_name}, yes, you\u2019ve completed most of the steps. Finish by uploading your license and choosing a delivery time whenever you\u2019re ready.",
+   "cut_off": false
+  },
+  "F-3005": {
+   "text": "{first_name}, your trade-in offer ends Nov 27. Use your offer when you buy.",
+   "cut_off": false
+  },
+  "F-3006": {
+   "text": "{first_name}, bring the title, both keys, and your driver\u2019s license. Accept your offer whenever you are ready.",
+   "cut_off": false
+  },
+  "F-3007": {
+   "text": "{first_name}, your car is still listed. Take another look at your car whenever you are ready.",
+   "cut_off": false
+  },
+  "F-3008": {
+   "text": "{first_name}, this offer ended on Nov 21. Get a new offer whenever you are ready.",
+   "cut_off": false
+  },
+  "F-3009": {
+   "text": "{first_name}, you can pick a delivery time whenever you are ready. Finish the steps left.",
+   "cut_off": false
+  }
+ }
+}

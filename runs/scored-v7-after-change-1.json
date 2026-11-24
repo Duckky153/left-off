@@ -1,0 +1,140 @@
+{
+ "meta": {
+  "set": "scored",
+  "prompt": "v7",
+  "prompt_sha256": "080b6c6afb4020d2a51f35f30a0ea901502f204fcda2beca177c6d7ef7c5ad7c",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 12,
+  "at": "2026-11-23T22:27:33"
+ },
+ "rows": [
+  {
+   "id": "S-1002",
+   "user": "CHANNEL: text\nCAR: 2022 Hyundai Tucson SEL, Silver, 71,804 miles\nSTATUS: sold on Nov 21\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Blind spot monitor; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: hey is the 2022 suv I saved still available or did someone grab it\nANSWER (from STATUS): sold on Nov 21",
+   "raw": "{first_name}, the 2022 Hyundai Tucson SEL you saved is no longer available.",
+   "text": "{first_name}, the 2022 Hyundai Tucson SEL you saved is no longer available.",
+   "done_reason": "stop",
+   "prompt_tokens": 552,
+   "output_tokens": 21,
+   "seconds": 0.89
+  },
+  {
+   "id": "S-1003",
+   "user": "CHANNEL: email\nCAR: 2019 Mazda CX-9 Touring, White, 32,496 miles\nSTATUS: still listed\nLISTED FEATURES: Third-row seating; Power liftgate; Leather seats; Heated front seats; Apple CarPlay; Blind spot monitor\nSEATS: 7 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: Hi, could you tell me how many people this SUV seats? Trying to see if it works for our carpool.\nANSWER (from SEATS): 7 seats",
+   "raw": "{first_name}, the 2019 Mazda CX-9 Touring seats 7 people.",
+   "text": "{first_name}, the 2019 Mazda CX-9 Touring seats 7 people.",
+   "done_reason": "stop",
+   "prompt_tokens": 554,
+   "output_tokens": 22,
+   "seconds": 0.87
+  },
+  {
+   "id": "S-1004",
+   "user": "CHANNEL: email\nSEARCH: SUVs under 60,000 miles\nNEW MATCHES: 3 new cars match, all with AWD\nQUESTION: Hello, have any new SUVs under 60,000 miles shown up in my search that have all-wheel drive?\nANSWER (from NEW MATCHES): 3 new cars match, all with AWD",
+   "raw": "{first_name}, three new SUVs under 60,000 miles now show up with AWD.",
+   "text": "{first_name}, three new SUVs under 60,000 miles now show up with AWD.",
+   "done_reason": "stop",
+   "prompt_tokens": 518,
+   "output_tokens": 25,
+   "seconds": 0.87
+  },
+  {
+   "id": "S-1007",
+   "user": "CHANNEL: text\nCAR: 2021 Hyundai Palisade SE, Green, 41,494 miles\nLISTED FEATURES: Third-row seating; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Upload proof of insurance\nQUESTION: whats left on my end to finish buying this one?\nANSWER (from STEPS LEFT): Upload proof of insurance",
+   "raw": "{first_name}, upload proof of insurance to finish.",
+   "text": "{first_name}, upload proof of insurance to finish.",
+   "done_reason": "stop",
+   "prompt_tokens": 540,
+   "output_tokens": 12,
+   "seconds": 0.65
+  },
+  {
+   "id": "S-1010",
+   "user": "CHANNEL: email\nYOUR CAR: 2018 Kia Soul Plus, Beige, 95,170 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: Hi, what paperwork should I bring along when I drop off my car for the trade-in? Thanks.\nANSWER (from BRING): the title; both keys; your driver's license",
+   "raw": "{first_name}, bring the title, both keys, and your driver's license when you drop off your car.",
+   "text": "{first_name}, bring the title, both keys, and your driver's license when you drop off your car.",
+   "done_reason": "stop",
+   "prompt_tokens": 541,
+   "output_tokens": 24,
+   "seconds": 0.95
+  },
+  {
+   "id": "S-1013",
+   "user": "CHANNEL: email\nCAR: 2023 Hyundai Elantra Hybrid Blue, Black, 38,234 miles\nSTATUS: still listed\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Blind spot monitor; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD\nTRUE THING (from STATUS): still listed",
+   "raw": "{first_name}, the 2023 Hyundai Elantra Hybrid is still listed.",
+   "text": "{first_name}, the 2023 Hyundai Elantra Hybrid is still listed.",
+   "done_reason": "stop",
+   "prompt_tokens": 519,
+   "output_tokens": 20,
+   "seconds": 0.76
+  },
+  {
+   "id": "S-1014",
+   "user": "CHANNEL: email\nCAR: 2022 Subaru Forester Premium, Black, 12,577 miles\nSTATUS: still listed\nLISTED FEATURES: Power moonroof; Heated front seats; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: AWD\nTRUE THING (from STATUS): still listed",
+   "raw": "{first_name}, the 2022 Subaru Forester Premium is still listed.",
+   "text": "{first_name}, the 2022 Subaru Forester Premium is still listed.",
+   "done_reason": "stop",
+   "prompt_tokens": 521,
+   "output_tokens": 19,
+   "seconds": 0.75
+  },
+  {
+   "id": "S-1015",
+   "user": "CHANNEL: email\nCAR: 2021 Nissan Rogue SV, Black, 19,976 miles\nLISTED FEATURES: Apple CarPlay; Android Auto; Blind spot monitor; Adaptive cruise control; Remote start\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): Pick a delivery time",
+   "raw": "{first_name}, the 2021 Nissan Rogue SV is ready for you to pick a delivery time.",
+   "text": "{first_name}, the 2021 Nissan Rogue SV is ready for you to pick a delivery time.",
+   "done_reason": "stop",
+   "prompt_tokens": 526,
+   "output_tokens": 24,
+   "seconds": 0.89
+  },
+  {
+   "id": "S-1016",
+   "user": "CHANNEL: email\nPRE-QUALIFIED: you finished pre-qualifying on Nov 13\nTRUE THING (from PRE-QUALIFIED): you finished pre-qualifying on Nov 13",
+   "raw": "{first_name}, you finished pre-qualifying on Nov 13.",
+   "text": "{first_name}, you finished pre-qualifying on Nov 13.",
+   "done_reason": "stop",
+   "prompt_tokens": 480,
+   "output_tokens": 17,
+   "seconds": 0.63
+  },
+  {
+   "id": "S-1017",
+   "user": "CHANNEL: text\nCAR: 2019 Mazda CX-5 Grand Touring, Green, 22,154 miles\nLISTED FEATURES: Power liftgate; Power moonroof; Leather seats; Heated front seats; Blind spot monitor; Adaptive cruise control\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): Pick a delivery time",
+   "raw": "{first_name}, the 2019 Mazda CX-5 Grand Touring is ready for you to pick a delivery time.",
+   "text": "{first_name}, the 2019 Mazda CX-5 Grand Touring is ready for you to pick a delivery time.",
+   "done_reason": "stop",
+   "prompt_tokens": 536,
+   "output_tokens": 28,
+   "seconds": 1.04
+  },
+  {
+   "id": "S-1018",
+   "user": "CHANNEL: text\nYOUR CAR: 2016 Subaru Forester 2.5i, Green, 112,769 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 27\nBRING: the title; both keys\nTRUE THING (from OFFER ENDS): Nov 27",
+   "raw": "{first_name}, your trade-in offer ends Nov 27. Bring the title and both keys.",
+   "text": "{first_name}, your trade-in offer ends Nov 27. Bring the title and both keys.",
+   "done_reason": "stop",
+   "prompt_tokens": 515,
+   "output_tokens": 22,
+   "seconds": 0.84
+  },
+  {
+   "id": "S-1019",
+   "user": "CHANNEL: text\nYOUR CAR: 2015 Toyota Camry LE, Blue, 87,567 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): ended on Nov 21",
+   "raw": "{first_name}, the offer ended on Nov 21.",
+   "text": "{first_name}, the offer ended on Nov 21.",
+   "done_reason": "stop",
+   "prompt_tokens": 518,
+   "output_tokens": 14,
+   "seconds": 0.65
+  }
+ ]
+}

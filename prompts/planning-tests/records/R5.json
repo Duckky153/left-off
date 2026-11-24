@@ -1,0 +1,8 @@
+{"customer_id": "S-105", "first_name": "Dana", "sample": true,
+ "stage": "saved_car", "stage_words": "saved a car",
+ "car": {"year": 2018, "make": "Subaru", "model": "Outback", "trim": "2.5i Premium", "miles": "64,310", "color": "Wilderness Green",
+         "features_listed": ["All-wheel drive", "Roof rails", "Heated front seats"]},
+ "saved_on": "2026-11-09",
+ "last_question": null,
+ "step": "Remind her she saved this car and invite her to take another look.",
+ "channel": "email"}

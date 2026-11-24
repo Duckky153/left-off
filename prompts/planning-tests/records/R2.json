@@ -1,0 +1,8 @@
+{"customer_id": "S-102", "first_name": "Jordan", "sample": true,
+ "stage": "pre_qualified", "stage_words": "got pre-qualified",
+ "car": {"year": 2020, "make": "Mazda", "model": "CX-5", "trim": "Touring", "miles": "41,980", "color": "Soul Red",
+         "features_listed": ["Backup camera", "Apple CarPlay", "Leather seats"]},
+ "pre_qualified_on": "2026-11-10",
+ "last_question": {"asked_on": "2026-11-11", "where": "chat", "text": "If I put more down can I get the monthly payment under $400?"},
+ "step": "Invite him to pick up where he left off.",
+ "channel": "sms"}

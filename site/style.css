@@ -1,0 +1,130 @@
+@font-face { font-family: "Inter"; src: url("fonts/inter-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("fonts/inter-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+:root {
+  --page: #FBFBFC;
+  --surface: #FFFFFF;
+  --panel: #F6F7F9;
+  --line: #E2E8F0;
+  --edge: #BECBDA;
+  --head: #0A2237;
+  --body: #475569;
+  --muted: #64748B;
+  --blue: #106BC7;
+  --blue-soft: #E7F5FF;
+  --green: #078843;
+}
+
+* { box-sizing: border-box; }
+html { font-size: 16px; -webkit-text-size-adjust: 100%; }
+@media (min-width: 1600px) { html { font-size: 18px; } }
+body { margin: 0; background: var(--page); color: var(--body); font: 400 1rem/1.5 "Inter", system-ui, -apple-system, "Segoe UI", sans-serif; }
+a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(16, 107, 199, 0.35); }
+a:hover { text-decoration-color: var(--blue); }
+[hidden] { display: none !important; }
+.muted { color: var(--muted); }
+
+/* the header bar, like the store's: full width, white, nav items */
+.bar { background: var(--surface); border-bottom: 1px solid var(--line); }
+.bar-in { display: flex; align-items: center; gap: 2rem; max-width: 84rem; height: 4.25rem; margin: 0 auto; padding: 0 2rem; }
+.brand { color: var(--head); font-weight: 600; font-size: 1.25rem; letter-spacing: -0.02em; white-space: nowrap; }
+.nav { display: flex; gap: 0.5rem; }
+.nav a { padding: 0.5rem 1rem; border-radius: 999px; color: var(--head); font-weight: 600; text-decoration: none; white-space: nowrap; }
+.nav a[aria-current="page"] { color: var(--blue); background: var(--blue-soft); }
+.bar .right { display: flex; align-items: baseline; gap: 1.5rem; margin-left: auto; font-size: 0.875rem; white-space: nowrap; }
+.bar .right a { font-size: 1rem; font-weight: 600; }
+
+main { max-width: 84rem; margin: 0 auto; padding: 0 2rem 1.5rem; }
+.banner { margin: 1.25rem 0 0; padding: 0.625rem 0.875rem; border-radius: 8px; background: var(--blue-soft); color: var(--head); font-size: 0.875rem; }
+h1 { margin: 1.5rem 0 0.25rem; color: var(--head); font-size: 1.75rem; line-height: 2rem; font-weight: 600; letter-spacing: -0.035em; }
+.sub { margin: 0; }
+.nodata { margin: 2rem 0; color: var(--head); }
+
+.work { display: grid; grid-template-columns: 19rem minmax(0, 1fr) 25rem; grid-template-areas: "list shopper panel"; gap: 2rem; align-items: start; margin-top: 1.5rem; }
+.list { grid-area: list; } .shopper { grid-area: shopper; } .panel { grid-area: panel; }
+
+/* the queue: plain rows like the search page's filter column; fits the screen and scrolls inside */
+.list { display: flex; flex-direction: column; height: calc(100vh - 12.5rem - 1px); min-height: 22rem; background: var(--surface); border: 1px solid var(--edge); border-radius: 12px; overflow: hidden; }
+.rows { flex: 1; overflow-y: auto; }
+.group { position: sticky; top: 0; z-index: 1; padding: 0.875rem 1rem 0.375rem; background: var(--surface); color: var(--head); font-weight: 600; }
+.group .count { color: var(--muted); font-weight: 400; }
+.row { display: flex; align-items: baseline; justify-content: space-between; gap: 0.75rem; width: 100%; padding: 0.6875rem 1rem; border: 0; border-top: 1px solid var(--line); background: none; text-align: left; font: inherit; cursor: pointer; }
+.sec .group + .row { border-top: 0; }
+.row { scroll-margin-top: 2.75rem; }
+.row .n { color: var(--head); font-weight: 600; white-space: nowrap; }
+.row .a { color: var(--body); font-size: 0.875rem; white-space: nowrap; }
+.row[aria-current="true"] { background: var(--blue-soft); }
+.row:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
+
+/* one shopper */
+.back { display: none; margin-bottom: 0.75rem; font-weight: 600; }
+.status { margin: 0; color: var(--head); font-weight: 600; }
+.status.ready { color: var(--green); font-size: 1.1875rem; }
+.status .why { color: var(--body); font-weight: 400; }
+.shopper h2 { margin: 0.375rem 0 0.125rem; color: var(--head); font-size: 1.75rem; line-height: 2rem; font-weight: 600; letter-spacing: -0.035em; }
+.facts { margin: 0; }
+.journey { display: flex; align-items: flex-start; margin: 1.75rem 0 0; padding: 0; list-style: none; }
+.journey li { position: relative; flex: 1; min-width: 0; padding: 1.375rem 0.75rem 0 0; color: var(--body); }
+.journey li::before { content: ""; position: absolute; top: 0.25rem; left: 0; width: 0.625rem; height: 0.625rem; border-radius: 50%; border: 2px solid var(--edge); background: var(--surface); }
+.journey li::after { content: ""; position: absolute; top: 0.5625rem; left: 1rem; right: 0.5rem; height: 2px; background: var(--line); }
+.journey li:last-child::after { display: none; }
+.journey li.done { color: var(--head); }
+.journey li.done::before { background: var(--head); border-color: var(--head); }
+.journey li.here { color: var(--blue); font-weight: 600; }
+.journey li.here::before { background: var(--blue); border-color: var(--blue); }
+.journey .when { display: block; font-weight: 400; white-space: nowrap; }
+.asked { margin: 1.75rem 0 0; }
+.asked .label { margin: 0; color: var(--body); font-size: 0.875rem; }
+.asked q { text-wrap: pretty; display: block; margin-top: 0.25rem; color: var(--head); font-size: 1.125rem; quotes: "\201C" "\201D"; }
+
+/* the panel: the draft, or what happens instead */
+.panel { background: var(--surface); border: 1px solid var(--edge); border-radius: 12px; padding: 1.5rem; }
+.panel h3 { margin: 0; color: var(--head); font-size: 1.25rem; line-height: 1.75rem; font-weight: 600; }
+.panel .meta { margin: 0.125rem 0 0; font-size: 0.875rem; }
+.draft { margin: 1.125rem 0 0; padding: 1rem; border-radius: 8px; background: var(--panel); color: var(--head); font-size: 1.125rem; }
+.draft p { margin: 0; text-wrap: pretty; }
+.draft .subject { font-weight: 600; margin-bottom: 0.5rem; font-size: 1rem; }
+.draft .cta { margin-top: 1rem; }
+.draft .btn { display: inline-block; padding: 0.5rem 1.25rem; border-radius: 999px; background: var(--blue); color: var(--surface); font-size: 1rem; font-weight: 600; }
+.draft .foot { margin-top: 0.75rem; color: var(--body); font-size: 0.875rem; }
+.draft mark { background: rgba(16, 107, 199, 0.16); color: inherit; border-radius: 3px; padding: 0 2px; }
+.strip { text-wrap: pretty; margin: 1rem 0 0; padding: 0.75rem 1rem; border-radius: 8px; background: var(--blue-soft); color: var(--head); }
+
+/* the test plan */
+.plan { max-width: 54rem; margin-top: 1.75rem; }
+.plan h2 { margin: 0 0 0.25rem; color: var(--head); font-size: 1.75rem; line-height: 2rem; font-weight: 600; letter-spacing: -0.035em; }
+.plan dl { display: grid; grid-template-columns: 11rem minmax(0, 1fr); margin: 1.5rem 0 0; border-top: 1px solid var(--line); }
+.plan dt, .plan dd { margin: 0; padding: 0.875rem 0; border-bottom: 1px solid var(--line); }
+.plan dt { color: var(--body); padding-top: 0.9375rem; }
+.plan dd { color: var(--head); }
+.plan .tested { margin: 1.75rem 0 0; padding: 1rem 1.125rem; border-radius: 8px; background: var(--blue-soft); color: var(--head); }
+.plan .more { margin: 1rem 0 0; }
+
+@media (max-width: 1100px) {
+  .work { grid-template-columns: 17.5rem minmax(0, 1fr); grid-template-areas: "list panel" "list shopper"; }
+}
+@media (max-width: 760px) {
+  .bar-in { gap: 0.75rem; height: auto; min-height: 3.5rem; padding: 0.5rem 1rem; flex-wrap: wrap; }
+  .nav a { padding: 0.375rem 0.625rem; }
+  .bar .right { gap: 1rem; }
+  .bar .right .when { display: none; }
+  main { padding: 0 1rem 2.5rem; }
+  h1 { font-size: 1.5rem; line-height: 1.875rem; margin-top: 1.125rem; }
+  .work { display: block; margin-top: 1rem; }
+  .list { height: auto; min-height: 0; }
+  .rows { overflow: visible; }
+  body.open .intro { display: none; }
+  .work.open .list { display: none; }
+  .work:not(.open) .shopper, .work:not(.open) .panel { display: none; }
+  .work.open { display: flex; flex-direction: column; align-items: stretch; }
+  .work.open .shopper { order: 1; margin-top: 0.75rem; }
+  .work.open .panel { order: 2; margin-top: 1.25rem; padding: 1.125rem; }
+  .back { display: inline-block; }
+  .shopper h2 { font-size: 1.5rem; line-height: 1.875rem; }
+  .journey { flex-direction: column; gap: 0.875rem; margin-top: 1.25rem; }
+  .journey li { padding: 0 0 0 1.375rem; }
+  .journey li::before { top: 0.3125rem; }
+  .journey li::after { display: none; }
+  .plan dl { grid-template-columns: 1fr; }
+  .plan dt { border-bottom: 0; padding-bottom: 0; }
+}

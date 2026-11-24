@@ -1,0 +1,668 @@
+{
+ "first_grader": "OpenAI's gpt-6-luna through its own command-line tool",
+ "second_grader": "a fresh Claude reader, same rules",
+ "first": {
+  "S-1002": {
+   "id": "S-1002",
+   "sentences": [
+    "F04",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1003": {
+   "id": "S-1003",
+   "sentences": [
+    "F06",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1004": {
+   "id": "S-1004",
+   "sentences": [
+    "F03, F04",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1005": {
+   "id": "S-1005",
+   "sentences": [
+    "not in the facts",
+    "next step"
+   ],
+   "grounded": false,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1007": {
+   "id": "S-1007",
+   "sentences": [
+    "F07",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1010": {
+   "id": "S-1010",
+   "sentences": [
+    "F06",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1013": {
+   "id": "S-1013",
+   "sentences": [
+    "F04",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1014": {
+   "id": "S-1014",
+   "sentences": [
+    "F04",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1015": {
+   "id": "S-1015",
+   "sentences": [
+    "F07",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1016": {
+   "id": "S-1016",
+   "sentences": [
+    "F03",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1017": {
+   "id": "S-1017",
+   "sentences": [
+    "F07",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1018": {
+   "id": "S-1018",
+   "sentences": [
+    "F05",
+    "next step"
+   ],
+   "grounded": true,
+   "money": true,
+   "pressure": false,
+   "promise": true,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "S-1019": {
+   "id": "S-1019",
+   "sentences": [
+    "F05",
+    "next step"
+   ],
+   "grounded": true,
+   "money": true,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "F-3001": {
+   "id": "F-3001",
+   "sentences": [
+    "F05",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "F-3002": {
+   "id": "F-3002",
+   "sentences": [
+    "F06",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "F-3004": {
+   "id": "F-3004",
+   "sentences": [
+    "not in the facts",
+    "F07"
+   ],
+   "grounded": false,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "F-3005": {
+   "id": "F-3005",
+   "sentences": [
+    "F05",
+    "next step"
+   ],
+   "grounded": true,
+   "money": true,
+   "pressure": false,
+   "promise": true,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "F-3006": {
+   "id": "F-3006",
+   "sentences": [
+    "F06",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "F-3007": {
+   "id": "F-3007",
+   "sentences": [
+    "F04",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "F-3008": {
+   "id": "F-3008",
+   "sentences": [
+    "F05",
+    "next step"
+   ],
+   "grounded": true,
+   "money": true,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  },
+  "F-3009": {
+   "id": "F-3009",
+   "sentences": [
+    "F07",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": ""
+  }
+ },
+ "second": {
+  "S-1002": {
+   "id": "S-1002",
+   "sentences": [
+    "STATUS / ANSWER",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "S-1003": {
+   "id": "S-1003",
+   "sentences": [
+    "SEATS / ANSWER",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "S-1004": {
+   "id": "S-1004",
+   "sentences": [
+    "SEARCH + NEW MATCHES / ANSWER",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "S-1005": {
+   "id": "S-1005",
+   "sentences": [
+    "NEW MATCHES / ANSWER + QUESTION",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "S-1007": {
+   "id": "S-1007",
+   "sentences": [
+    "STEPS LEFT / ANSWER",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "S-1010": {
+   "id": "S-1010",
+   "sentences": [
+    "BRING / ANSWER",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "S-1013": {
+   "id": "S-1013",
+   "sentences": [
+    "STATUS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "S-1014": {
+   "id": "S-1014",
+   "sentences": [
+    "STATUS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "S-1015": {
+   "id": "S-1015",
+   "sentences": [
+    "STEPS LEFT",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": false,
+   "why": "redundant awkward closer",
+   "note": ""
+  },
+  "S-1016": {
+   "id": "S-1016",
+   "sentences": [
+    "PRE-QUALIFIED",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "S-1017": {
+   "id": "S-1017",
+   "sentences": [
+    "STEPS LEFT",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": false,
+   "why": "redundant awkward closer",
+   "note": ""
+  },
+  "S-1018": {
+   "id": "S-1018",
+   "sentences": [
+    "OFFER ENDS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "S-1019": {
+   "id": "S-1019",
+   "sentences": [
+    "OFFER ENDS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "F-3001": {
+   "id": "F-3001",
+   "sentences": [
+    "LISTED FEATURES / ANSWER",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "F-3002": {
+   "id": "F-3002",
+   "sentences": [
+    "SEATS / ANSWER",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "F-3004": {
+   "id": "F-3004",
+   "sentences": [
+    "not in the facts",
+    "STEPS LEFT / ANSWER + next step"
+   ],
+   "grounded": false,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": "",
+   "note": "\"you've completed most of the steps\" is not in the facts; they list only the steps left, not how many were done."
+  },
+  "F-3005": {
+   "id": "F-3005",
+   "sentences": [
+    "OFFER + OFFER ENDS / ANSWER",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "F-3006": {
+   "id": "F-3006",
+   "sentences": [
+    "BRING / ANSWER",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": true,
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "F-3007": {
+   "id": "F-3007",
+   "sentences": [
+    "STATUS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "F-3008": {
+   "id": "F-3008",
+   "sentences": [
+    "OFFER ENDS",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": true,
+   "why": "",
+   "note": ""
+  },
+  "F-3009": {
+   "id": "F-3009",
+   "sentences": [
+    "STEPS LEFT",
+    "next step"
+   ],
+   "grounded": true,
+   "money": false,
+   "pressure": false,
+   "promise": false,
+   "answers": "not asked",
+   "reads_like_a_person": false,
+   "why": "redundant awkward closer",
+   "note": ""
+  }
+ },
+ "disagreements": [
+  {
+   "id": "F-3005",
+   "field": "money",
+   "first_grader": true,
+   "second_grader": false,
+   "second_note": ""
+  },
+  {
+   "id": "F-3005",
+   "field": "promise",
+   "first_grader": true,
+   "second_grader": false,
+   "second_note": ""
+  },
+  {
+   "id": "F-3008",
+   "field": "money",
+   "first_grader": true,
+   "second_grader": false,
+   "second_note": ""
+  },
+  {
+   "id": "S-1005",
+   "field": "grounded",
+   "first_grader": false,
+   "second_grader": true,
+   "second_note": ""
+  },
+  {
+   "id": "S-1018",
+   "field": "money",
+   "first_grader": true,
+   "second_grader": false,
+   "second_note": ""
+  },
+  {
+   "id": "S-1018",
+   "field": "promise",
+   "first_grader": true,
+   "second_grader": false,
+   "second_note": ""
+  },
+  {
+   "id": "S-1019",
+   "field": "money",
+   "first_grader": true,
+   "second_grader": false,
+   "second_note": ""
+  }
+ ]
+}

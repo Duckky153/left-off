@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "set": "fresh3",
+  "prompt": "v6",
+  "prompt_sha256": "fe280e670650b44b371789c0a4e2d074318f45b3e4275c1fc8fb31622c12da14",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 8,
+  "at": "2026-11-23T22:22:31"
+ },
+ "drafts": {
+  "H-5001": {
+   "text": "{first_name}, yes, the 2019 Mazda CX-5 Grand Touring includes adaptive cruise control.",
+   "cut_off": false
+  },
+  "H-5002": {
+   "text": "{first_name}, the 2021 Toyota Sienna LE has 8 seats.",
+   "cut_off": false
+  },
+  "H-5003": {
+   "text": "{first_name}, you found 3 new AWD sedans matching your saved search for sedans under 50,000 miles.",
+   "cut_off": false
+  },
+  "H-5004": {
+   "text": "{first_name}, you\u2019ll need to upload your driver\u2019s license and pick a delivery time to finish.",
+   "cut_off": false
+  },
+  "H-5006": {
+   "text": "{first_name}, for the Escape sale, bring the title, both keys, and your driver's license.",
+   "cut_off": false
+  },
+  "H-5007": {
+   "text": "{first_name}, the 2021 Subaru Outback Premium is still listed.",
+   "cut_off": false
+  },
+  "H-5008": {
+   "text": "{first_name}, the offer ended on Nov 21.",
+   "cut_off": false
+  },
+  "H-5009": {
+   "text": "{first_name}, you can pick a delivery time for the 2021 Hyundai Palisade SE.",
+   "cut_off": false
+  }
+ }
+}

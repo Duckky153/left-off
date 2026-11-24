@@ -1,0 +1,68 @@
+{
+ "meta": {
+  "set": "scored",
+  "prompt": "v7",
+  "prompt_sha256": "080b6c6afb4020d2a51f35f30a0ea901502f204fcda2beca177c6d7ef7c5ad7c",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 12,
+  "at": "2026-11-23T22:27:33"
+ },
+ "drafts": {
+  "S-1002": {
+   "text": "{first_name}, the 2022 Hyundai Tucson SEL you saved is no longer available.",
+   "cut_off": false
+  },
+  "S-1003": {
+   "text": "{first_name}, the 2019 Mazda CX-9 Touring seats 7 people.",
+   "cut_off": false
+  },
+  "S-1004": {
+   "text": "{first_name}, three new SUVs under 60,000 miles now show up with AWD.",
+   "cut_off": false
+  },
+  "S-1007": {
+   "text": "{first_name}, upload proof of insurance to finish.",
+   "cut_off": false
+  },
+  "S-1010": {
+   "text": "{first_name}, bring the title, both keys, and your driver's license when you drop off your car.",
+   "cut_off": false
+  },
+  "S-1013": {
+   "text": "{first_name}, the 2023 Hyundai Elantra Hybrid is still listed.",
+   "cut_off": false
+  },
+  "S-1014": {
+   "text": "{first_name}, the 2022 Subaru Forester Premium is still listed.",
+   "cut_off": false
+  },
+  "S-1015": {
+   "text": "{first_name}, the 2021 Nissan Rogue SV is ready for you to pick a delivery time.",
+   "cut_off": false
+  },
+  "S-1016": {
+   "text": "{first_name}, you finished pre-qualifying on Nov 13.",
+   "cut_off": false
+  },
+  "S-1017": {
+   "text": "{first_name}, the 2019 Mazda CX-5 Grand Touring is ready for you to pick a delivery time.",
+   "cut_off": false
+  },
+  "S-1018": {
+   "text": "{first_name}, your trade-in offer ends Nov 27. Bring the title and both keys.",
+   "cut_off": false
+  },
+  "S-1019": {
+   "text": "{first_name}, the offer ended on Nov 21.",
+   "cut_off": false
+  }
+ }
+}

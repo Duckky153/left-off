@@ -1,0 +1,116 @@
+{
+  "what_this_is": "Every rule the code decides with: who is in the queue, who may be contacted, the channel, the time, and the lines each channel needs. Change a number here and the tests show what moves. Sample values; not legal advice.",
+  "sample_today": "2026-11-23",
+  "run_clock": "2026-11-23T20:15:00-05:00",
+  "queue": {
+    "waiting_message_hours": 24,
+    "quiet_days_min": 3,
+    "quiet_days_max": 30,
+    "stops": [
+      "saved_car",
+      "saved_search",
+      "prequalified",
+      "purchase",
+      "trade_in_offer",
+      "sell_offer"
+    ]
+  },
+  "contact_rules_in_order": [
+    "asked_to_stop",
+    "opted_out",
+    "do_not_contact",
+    "talking_with_care",
+    "messaged_recently",
+    "no_channel"
+  ],
+  "messaged_recently_days": 7,
+  "channel": {
+    "nudge_default": {
+      "saved_car": "email",
+      "saved_search": "email",
+      "prequalified": "email",
+      "purchase": "text",
+      "trade_in_offer": "text",
+      "sell_offer": "text"
+    },
+    "email_only_stops": [
+      "prequalified"
+    ],
+    "reply_on_channel_it_came_in": true,
+    "fall_back_to_other_channel": true
+  },
+  "sending_hours": {
+    "start": "09:00",
+    "end_before": "20:00",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "holidays": [
+      "2026-11-26",
+      "2026-12-25",
+      "2027-01-01"
+    ],
+    "slot_minutes": 15,
+    "nudge_time": "10:00",
+    "note": "This build's own caution: the federal limit for calls and texts is 8 am to 9 pm local time, and some states stop at 8 pm. Email is kept to the same hours by choice."
+  },
+  "reply_by": {
+    "after_slot_minutes": 60,
+    "complaint": "first slot"
+  },
+  "hold_states": {
+    "CA": "California: a person adds what California requires before any first written message."
+  },
+  "draft": {
+    "sentences": 1,
+    "max_words": 25,
+    "hard_max_words": 35,
+    "text_max_chars": 320,
+    "min_sentences": 1
+  },
+  "channel_lines": {
+    "sender": "Left Off",
+    "text": {
+      "prefix": "Left Off: ",
+      "link": "[link]",
+      "suffix": "Reply STOP to opt out."
+    },
+    "email": {
+      "footer": [
+        "Left Off (sample), 100 Sample Street, Anytown, USA",
+        "This is an advertisement.",
+        "Unsubscribe: [link]"
+      ]
+    }
+  },
+  "timezone_by_area_code": {
+    "212": "America/New_York",
+    "917": "America/New_York",
+    "404": "America/New_York",
+    "617": "America/New_York",
+    "305": "America/New_York",
+    "704": "America/New_York",
+    "312": "America/Chicago",
+    "214": "America/Chicago",
+    "512": "America/Chicago",
+    "405": "America/Chicago",
+    "612": "America/Chicago",
+    "615": "America/Chicago",
+    "720": "America/Denver",
+    "303": "America/Denver",
+    "801": "America/Denver",
+    "505": "America/Denver",
+    "602": "America/Phoenix",
+    "480": "America/Phoenix",
+    "206": "America/Los_Angeles",
+    "503": "America/Los_Angeles",
+    "702": "America/Los_Angeles",
+    "213": "America/Los_Angeles",
+    "415": "America/Los_Angeles"
+  }
+}

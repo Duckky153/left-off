@@ -1,0 +1,658 @@
+{
+ "questions": "lo-q4",
+ "checks": {
+  "G-4001": {
+   "router": {
+    "answered": false,
+    "answer_line": "LISTED FEATURES"
+   }
+  },
+  "G-4002": {
+   "router": {
+    "answered": true,
+    "answer_line": "SEATS"
+   },
+   "draft": {
+    "fails": [],
+    "support": null,
+    "text": "{first_name}, the 2024 Honda Pilot EX-L has 8 seats. Take another look."
+   }
+  },
+  "G-4003": {
+   "router": {
+    "answered": true,
+    "answer_line": "NEW MATCHES"
+   },
+   "draft": {
+    "fails": [],
+    "support": "NEW MATCHES",
+    "text": "{first_name}, here are 3 new AWD three-row SUVs from 2019 or newer. See your new matches."
+   }
+  },
+  "G-4004": {
+   "router": {
+    "answered": true,
+    "answer_line": "STEPS LEFT"
+   },
+   "draft": {
+    "fails": [],
+    "support": null,
+    "text": "{first_name}, you need to upload your driver\u2019s license and pick a delivery time. Finish up by doing those two things."
+   }
+  },
+  "G-4005": {
+   "router": {
+    "answered": false,
+    "answer_line": "OFFER ENDS"
+   }
+  },
+  "G-4006": {
+   "router": {
+    "answered": true,
+    "answer_line": "BRING"
+   }
+  },
+  "G-4010": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "G-4011": {
+   "router": {
+    "reason": "instructions",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "G-4012": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "G-4013": {
+   "router": {
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "G-4014": {
+   "router": {
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "G-4015": {
+   "router": {
+    "reason": "instructions",
+    "answered": true,
+    "answer_line": "NEW MATCHES"
+   }
+  },
+  "G-4016": {
+   "router": {
+    "reason": "complaint",
+    "answered": false,
+    "answer_line": "NEXT STEP"
+   }
+  },
+  "G-4007": {
+   "draft": {
+    "fails": [],
+    "support": null,
+    "text": "{first_name}, the 2022 Hyundai Tucson SEL is still listed. Take another look."
+   }
+  },
+  "G-4008": {
+   "draft": {
+    "fails": [
+     [
+      "promise (second check)",
+      []
+     ]
+    ],
+    "support": "OFFER ENDS",
+    "text": "{first_name}, the offer ended on Nov 21. Get a new offer with the title, both keys, and your driver\u2019s license."
+   }
+  },
+  "G-4009": {
+   "draft": {
+    "fails": [
+     [
+      "not in the record (second check)",
+      [
+       "sentence 2"
+      ]
+     ]
+    ],
+    "support": null,
+    "text": "{first_name}, you can pick a delivery time for the 2022 Honda Civic Hatchback Sport. Finish up by choosing your preferred slot."
+   }
+  }
+ },
+ "log": {
+  "G-4001:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.06
+   ],
+   "complaint": [
+    0.04,
+    0.04
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.15,
+    0.17
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "G-4002:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.06
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.98,
+    0.97
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "G-4003:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.14,
+    0.13
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.91,
+    0.91
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "G-4004:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.08,
+    0.07
+   ],
+   "answered": [
+    0.9,
+    0.89
+   ],
+   "answer_line": [
+    "F06",
+    "F06"
+   ]
+  },
+  "G-4005:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.14,
+    0.12
+   ],
+   "answered": [
+    0.78,
+    0.75
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "G-4006:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.08
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.97,
+    0.97
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "G-4010:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.08,
+    0.07
+   ],
+   "complaint": [
+    0.04,
+    0.03
+   ],
+   "about_money": [
+    0.94,
+    0.95
+   ],
+   "answered": [
+    0.07,
+    0.05
+   ],
+   "answer_line": [
+    "F03",
+    "F01"
+   ]
+  },
+  "G-4011:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.35,
+    0.37
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.99,
+    0.99
+   ],
+   "answered": [
+    0.07,
+    0.07
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "G-4012:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.06
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.96,
+    0.97
+   ],
+   "answered": [
+    0.15,
+    0.14
+   ],
+   "answer_line": [
+    "F02",
+    "F02"
+   ]
+  },
+  "G-4013:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.05
+   ],
+   "complaint": [
+    0.21,
+    0.21
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.03,
+    0.03
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "G-4014:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.13,
+    0.14
+   ],
+   "answered": [
+    0.02,
+    0.02
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "G-4015:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.99,
+    0.99
+   ],
+   "complaint": [
+    0.07,
+    0.06
+   ],
+   "about_money": [
+    0.09,
+    0.09
+   ],
+   "answered": [
+    0.9,
+    0.91
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "G-4016:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.96,
+    0.96
+   ],
+   "about_money": [
+    0.3,
+    0.34
+   ],
+   "answered": [
+    0.51,
+    0.43
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "G-4002:draft": {
+   "D1_grounded": [
+    0.9,
+    0.9
+   ],
+   "D2_grounded": [
+    0.93,
+    0.94
+   ],
+   "money": [
+    0.02,
+    0.03
+   ],
+   "pressure": [
+    0.03,
+    0.04
+   ],
+   "promise": [
+    0.07,
+    0.07
+   ],
+   "answers": [
+    0.97,
+    0.97
+   ],
+   "support": [
+    "F05",
+    "F05"
+   ]
+  },
+  "G-4003:draft": {
+   "D1_grounded": [
+    0.88,
+    0.88
+   ],
+   "D2_grounded": [
+    0.95,
+    0.95
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.04,
+    0.04
+   ],
+   "promise": [
+    0.11,
+    0.13
+   ],
+   "answers": [
+    0.96,
+    0.96
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "G-4004:draft": {
+   "D1_grounded": [
+    0.92,
+    0.93
+   ],
+   "D2_grounded": [
+    0.9,
+    0.91
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "answers": [
+    0.97,
+    0.97
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  },
+  "G-4007:draft": {
+   "D1_grounded": [
+    0.94,
+    0.92
+   ],
+   "D2_grounded": [
+    0.96,
+    0.96
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.04,
+    0.05
+   ],
+   "promise": [
+    0.1,
+    0.1
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "G-4008:draft": {
+   "D1_grounded": [
+    0.97,
+    0.95
+   ],
+   "D2_grounded": [
+    0.9,
+    0.93
+   ],
+   "money": [
+    0.04,
+    0.04
+   ],
+   "pressure": [
+    0.09,
+    0.09
+   ],
+   "promise": [
+    0.42,
+    0.39
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "G-4009:draft": {
+   "D1_grounded": [
+    0.83,
+    0.85
+   ],
+   "D2_grounded": [
+    0.81,
+    0.79
+   ],
+   "money": [
+    0.03,
+    0.02
+   ],
+   "pressure": [
+    0.05,
+    0.05
+   ],
+   "promise": [
+    0.06,
+    0.06
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  }
+ },
+ "runs": [
+  {
+   "stage": "router",
+   "calls": 26,
+   "spent_so_far_dollars": 0.01163,
+   "at": "2026-11-23T21:58:42"
+  },
+  {
+   "stage": "drafts",
+   "calls": 12,
+   "spent_so_far_dollars": 0.01205,
+   "at": "2026-11-23T21:58:52"
+  }
+ ]
+}

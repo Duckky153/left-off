@@ -1,0 +1,6 @@
+CHANNEL: email
+NEXT STEP: Come back to his offer.
+VIEW:
+FIRST NAME: Luis
+WHERE THEY STOPPED: got an offer to sell his car
+HIS CAR: 2017 Ford Escape SE, 88,040 miles

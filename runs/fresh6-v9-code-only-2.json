@@ -1,0 +1,130 @@
+{
+ "meta": {
+  "set": "fresh6",
+  "prompt": "v9",
+  "prompt_sha256": "c5258183a44348fe754d33b5f5e26e829334f67fc64e478abb113b6bd4753fdd",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 11,
+  "at": "2026-11-24T00:19:20"
+ },
+ "rows": [
+  {
+   "id": "L-8001",
+   "user": "CHANNEL: text\nCAR: 2022 Subaru Forester Premium, Silver, 57,141 miles\nSTATUS: still for sale, with 57,141 miles\nLISTED FEATURES: Power moonroof; Heated front seats; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: AWD\nQUESTION: Does the one I saved have a power moonroof?\nANSWER (from LISTED FEATURES): Power moonroof",
+   "raw": "{first_name}, yes, the one you saved has a power moonroof.",
+   "text": "{first_name}, yes, the one you saved has a power moonroof.",
+   "done_reason": "stop",
+   "prompt_tokens": 547,
+   "output_tokens": 17,
+   "seconds": 1.03
+  },
+  {
+   "id": "L-8002",
+   "user": "CHANNEL: email\nCAR: 2021 Toyota Sienna LE, Red, 17,911 miles\nSTATUS: still for sale, with 17,911 miles\nLISTED FEATURES: Power sliding doors; Power liftgate; Apple CarPlay; Blind spot monitor; Adaptive cruise control; Third-row seating\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: How many people can the Sienna seat?\nANSWER (from SEATS): 8 seats",
+   "raw": "{first_name}, the 2021 Toyota Sienna LE can seat 8 people.",
+   "text": "{first_name}, the 2021 Toyota Sienna LE can seat 8 people.",
+   "done_reason": "stop",
+   "prompt_tokens": 548,
+   "output_tokens": 21,
+   "seconds": 1.38
+  },
+  {
+   "id": "L-8003",
+   "user": "CHANNEL: email\nSEARCH: SUVs under 60,000 miles\nNEW MATCHES: 3 new cars match, all with AWD\nQUESTION: Have any AWD SUVs under 60,000 miles been added to my saved search?\nANSWER (from NEW MATCHES): 3 new cars match, all with AWD",
+   "raw": "{first_name}, three AWD SUVs under 60,000 miles have been added to your saved search.",
+   "text": "{first_name}, three AWD SUVs under 60,000 miles have been added to your saved search.",
+   "done_reason": "stop",
+   "prompt_tokens": 513,
+   "output_tokens": 27,
+   "seconds": 1.27
+  },
+  {
+   "id": "L-8004",
+   "user": "CHANNEL: text\nCAR: 2021 Toyota Tacoma TRD Sport Double Cab, Green, 75,880 miles\nLISTED FEATURES: Apple CarPlay; Android Auto; Adaptive cruise control; Wireless phone charging\nSEATS: 5 seats\nDRIVETRAIN: RWD or 4WD\nSTEPS LEFT: Upload your driver's license; Pick a delivery time\nQUESTION: What do I still need to finish the purchase? Looks like my license and a delivery time.\nANSWER (from STEPS LEFT): Upload your driver's license; Pick a delivery time",
+   "raw": "{first_name}, you still need to upload your driver\u2019s license and pick a delivery time.",
+   "text": "{first_name}, you still need to upload your driver\u2019s license and pick a delivery time.",
+   "done_reason": "stop",
+   "prompt_tokens": 560,
+   "output_tokens": 20,
+   "seconds": 1.3
+  },
+  {
+   "id": "L-8005",
+   "user": "CHANNEL: text\nYOUR CAR: 2018 Nissan Rogue SV, Silver, 73,145 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 27\nBRING: the title; both keys\nQUESTION: How long is the offer on my Rogue good for?\nANSWER (from OFFER ENDS): Nov 27",
+   "raw": "{first_name}, the offer on your 2018 Nissan Rogue SV ends Nov 27.",
+   "text": "{first_name}, the offer on your 2018 Nissan Rogue SV ends Nov 27.",
+   "done_reason": "stop",
+   "prompt_tokens": 521,
+   "output_tokens": 23,
+   "seconds": 1.19
+  },
+  {
+   "id": "L-8006",
+   "user": "CHANNEL: email\nYOUR CAR: 2018 Kia Soul Plus, Red, 96,584 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: When I bring in the Soul, do I need the title, both keys, and my license?\nANSWER (from BRING): the title; both keys; your driver's license",
+   "raw": "{first_name}, you need the title, both keys, and your license when you bring in the 2018 Kia Soul Plus.",
+   "text": "{first_name}, you need the title, both keys, and your license when you bring in the 2018 Kia Soul Plus.",
+   "done_reason": "stop",
+   "prompt_tokens": 538,
+   "output_tokens": 30,
+   "seconds": 1.73
+  },
+  {
+   "id": "L-8007",
+   "user": "CHANNEL: email\nCAR: 2021 Nissan Rogue SV, Silver, 45,979 miles\nSTATUS: still for sale, with 45,979 miles\nLISTED FEATURES: Apple CarPlay; Android Auto; Blind spot monitor; Adaptive cruise control; Remote start\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nTRUE THING (from STATUS): still for sale, with 45,979 miles",
+   "raw": "{first_name}, the 2021 Nissan Rogue SV is still for sale, with 45,979 miles.",
+   "text": "{first_name}, the 2021 Nissan Rogue SV is still for sale, with 45,979 miles.",
+   "done_reason": "stop",
+   "prompt_tokens": 540,
+   "output_tokens": 29,
+   "seconds": 1.57
+  },
+  {
+   "id": "L-8008",
+   "user": "CHANNEL: text\nYOUR CAR: 2019 Chevrolet Malibu LT, Beige, 68,344 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): the offer for your car ended on Nov 21",
+   "raw": "{first_name}, the offer for your car ended on Nov 21.",
+   "text": "{first_name}, the offer for your car ended on Nov 21.",
+   "done_reason": "stop",
+   "prompt_tokens": 524,
+   "output_tokens": 17,
+   "seconds": 0.85
+  },
+  {
+   "id": "L-8009",
+   "user": "CHANNEL: text\nCAR: 2022 Hyundai Tucson SEL, Beige, 51,143 miles\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Blind spot monitor; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): you still need to pick a delivery time",
+   "raw": "{first_name}, the 2022 Hyundai Tucson SEL is ready for your chosen delivery time.",
+   "text": "{first_name}, the 2022 Hyundai Tucson SEL is ready for your chosen delivery time.",
+   "done_reason": "stop",
+   "prompt_tokens": 536,
+   "output_tokens": 22,
+   "seconds": 1.29
+  },
+  {
+   "id": "L-8013",
+   "user": "CHANNEL: email\nCAR: 2019 Mazda CX-9 Touring, Black, 61,751 miles\nSTATUS: still for sale, with 61,751 miles\nLISTED FEATURES: Third-row seating; Power liftgate; Leather seats; Heated front seats; Apple CarPlay; Blind spot monitor\nSEATS: 7 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: Is the power liftgate working properly, or has it had any trouble?\nANSWER (from LISTED FEATURES): Power liftgate",
+   "raw": "{first_name}, the power liftgate is listed as a feature.",
+   "text": "{first_name}, the power liftgate is listed as a feature.",
+   "done_reason": "stop",
+   "prompt_tokens": 557,
+   "output_tokens": 15,
+   "seconds": 1.19
+  },
+  {
+   "id": "L-8014",
+   "user": "CHANNEL: text\nCAR: 2022 Honda Civic Hatchback Sport, Red, 53,950 miles\nLISTED FEATURES: Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD\nSTEPS LEFT: Upload proof of insurance\nQUESTION: If I finish buying the Civic, can I return it later if it doesn't work out?\nANSWER (from STEPS LEFT): Upload proof of insurance",
+   "raw": "{first_name}, you\u2019ll need to upload proof of insurance before finalizing your purchase.",
+   "text": "{first_name}, you\u2019ll need to upload proof of insurance before finalizing your purchase.",
+   "done_reason": "stop",
+   "prompt_tokens": 541,
+   "output_tokens": 19,
+   "seconds": 1.25
+  }
+ ]
+}

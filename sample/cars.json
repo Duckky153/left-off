@@ -1,0 +1,357 @@
+{
+  "what_this_is": "Real make, model, year and trim combinations for made-up sample shoppers. No prices, VINs, photos or listings. Every listed feature checked as standard for that trim.",
+  "cars": [
+    {
+      "id": "C01",
+      "year": 2018,
+      "make": "Honda",
+      "model": "Accord",
+      "trim": "EX",
+      "body": "sedan",
+      "seats": 5,
+      "drivetrain": "FWD",
+      "features": ["Power moonroof", "Heated front seats", "Remote start", "Apple CarPlay", "Android Auto", "Blind spot monitor"],
+      "source": {
+        "url": "https://hondanews.com/en-US/releases/release-05333a38042c488186870d08d4a26678-2018-accord-specifications-features",
+        "read": "2026-11-23",
+        "what_it_confirms": "Honda 2018 Accord spec table: EX seats 5; moonroof, front heated seats, remote engine start, Apple CarPlay, Android Auto and blind spot information all marked standard on EX."
+      }
+    },
+    {
+      "id": "C02",
+      "year": 2019,
+      "make": "Mazda",
+      "model": "CX-5",
+      "trim": "Grand Touring",
+      "body": "SUV",
+      "seats": 5,
+      "drivetrain": "FWD or AWD",
+      "features": ["Power liftgate", "Power moonroof", "Leather seats", "Heated front seats", "Blind spot monitor", "Adaptive cruise control"],
+      "source": {
+        "url": "https://news.mazdausa.com/download/2019-Mazda-CX-5-Press-Kit-Spec-Deck.pdf",
+        "read": "2026-11-23",
+        "what_it_confirms": "Mazda 2019 CX-5 spec deck: Grand Touring is FWD or AWD with 5 seats; power liftgate, moonroof, leather, heated front seats, blind spot monitoring and radar cruise all Std."
+      }
+    },
+    {
+      "id": "C03",
+      "year": 2019,
+      "make": "Mazda",
+      "model": "CX-9",
+      "trim": "Touring",
+      "body": "SUV",
+      "seats": 7,
+      "drivetrain": "FWD or AWD",
+      "features": ["Third-row seating", "Power liftgate", "Leather seats", "Heated front seats", "Apple CarPlay", "Blind spot monitor"],
+      "source": {
+        "url": "https://news.mazdausa.com/download/2019-Mazda-CX-9-Spec-Deck_Version-1.pdf",
+        "read": "2026-11-23",
+        "what_it_confirms": "Mazda 2019 CX-9 spec deck: 7-passenger 3-row, FWD or AWD on Touring; power liftgate, leather, heated front seats, Apple CarPlay and blind spot monitoring all Std on Touring."
+      }
+    },
+    {
+      "id": "C04",
+      "year": 2020,
+      "make": "Honda",
+      "model": "CR-V",
+      "trim": "EX",
+      "body": "SUV",
+      "seats": 5,
+      "drivetrain": "FWD or AWD",
+      "features": ["Power moonroof", "Heated front seats", "Remote start", "Apple CarPlay", "Blind spot monitor", "Adaptive cruise control"],
+      "source": {
+        "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-47ef5ef525f391ae783334075a01030f-2020-cr-v-specifications-features",
+        "read": "2026-11-23",
+        "what_it_confirms": "Honda 2020 CR-V spec table: EX seats 5 with AWD available; moonroof, heated front seats, remote start, Apple CarPlay, blind spot information and adaptive cruise marked standard."
+      }
+    },
+    {
+      "id": "C05",
+      "year": 2020,
+      "make": "Toyota",
+      "model": "Camry",
+      "trim": "SE",
+      "body": "sedan",
+      "seats": 5,
+      "drivetrain": "FWD or AWD",
+      "features": ["Apple CarPlay", "Android Auto", "Adaptive cruise control", "Backup camera"],
+      "source": {
+        "url": "https://toyota-cms-media.s3.amazonaws.com/wp-content/uploads/2019/11/2020_Toyota_Camry_Product_Information1.pdf",
+        "read": "2026-11-23",
+        "what_it_confirms": "Toyota 2020 Camry product information: 5 seats; SE has the backup camera, radar cruise and the audio unit with Apple CarPlay and Android Auto as standard. AWD option per notes file."
+      }
+    },
+    {
+      "id": "C06",
+      "year": 2020,
+      "make": "Honda",
+      "model": "Odyssey",
+      "trim": "EX",
+      "body": "minivan",
+      "seats": 8,
+      "drivetrain": "FWD",
+      "features": ["Power sliding doors", "Heated front seats", "Remote start", "Blind spot monitor", "Apple CarPlay", "Third-row seating"],
+      "source": {
+        "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-9e8b2314c9704a67adfbbe1babe53729-2020-honda-odyssey-specifications-features",
+        "read": "2026-11-23",
+        "what_it_confirms": "Honda 2020 Odyssey spec table: EX seats 8 with the 3rd-row Magic Seat; power sliding doors, heated front seats, remote start, blind spot information and Apple CarPlay marked standard."
+      }
+    },
+    {
+      "id": "C07",
+      "year": 2020,
+      "make": "Honda",
+      "model": "Ridgeline",
+      "trim": "RTL",
+      "body": "pickup",
+      "seats": 5,
+      "drivetrain": "FWD or AWD",
+      "features": ["Power moonroof", "Leather seats", "Heated front seats", "Remote start", "Apple CarPlay", "Adaptive cruise control"],
+      "source": {
+        "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-8d5607d2f6277f4e7a40db5462001efa-2020-ridgeline-specifications-features",
+        "read": "2026-11-23",
+        "what_it_confirms": "Honda 2020 Ridgeline spec table: RTL seats 5 with AWD available; moonroof, leather, heated front seats, remote start, Apple CarPlay and adaptive cruise marked standard."
+      }
+    },
+    {
+      "id": "C08",
+      "year": 2021,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "XLE",
+      "body": "SUV",
+      "seats": 5,
+      "drivetrain": "FWD or AWD",
+      "features": ["Apple CarPlay", "Android Auto", "Blind spot monitor", "Adaptive cruise control", "Backup camera"],
+      "source": {
+        "url": "https://toyota-cms-media.s3.amazonaws.com/wp-content/uploads/2020/10/2021-Toyota-RAV4-Product-Information_FINAL.pdf",
+        "read": "2026-11-23",
+        "what_it_confirms": "Toyota 2021 RAV4 product information: 5 seats, XLE FWD and AWD; Apple CarPlay, Android Auto, Blind Spot Monitor, full-speed radar cruise and backup camera marked S on XLE."
+      }
+    },
+    {
+      "id": "C09",
+      "year": 2021,
+      "make": "Subaru",
+      "model": "Outback",
+      "trim": "Premium",
+      "body": "SUV",
+      "seats": 5,
+      "drivetrain": "AWD",
+      "features": ["Heated front seats", "Apple CarPlay", "Android Auto", "Adaptive cruise control", "Backup camera"],
+      "source": {
+        "url": "https://s3.amazonaws.com/subarumedia.iconicweb.com/mediasite/attachments/2021_Outback_AAG-FINAL.pdf",
+        "read": "2026-11-23",
+        "what_it_confirms": "Subaru 2021 Outback at-a-glance: 5 passengers, AWD standard; Premium adds All-Weather Package heated front seats; CarPlay, Android Auto, EyeSight adaptive cruise and rear camera standard."
+      }
+    },
+    {
+      "id": "C10",
+      "year": 2021,
+      "make": "Nissan",
+      "model": "Rogue",
+      "trim": "SV",
+      "body": "SUV",
+      "seats": 5,
+      "drivetrain": "FWD or AWD",
+      "features": ["Apple CarPlay", "Android Auto", "Blind spot monitor", "Adaptive cruise control", "Remote start"],
+      "source": {
+        "url": "https://usa.nissannews.com/en-US/releases/2021-nissan-rogue-press-kit",
+        "read": "2026-11-23",
+        "what_it_confirms": "Nissan 2021 Rogue press kit: 5 passengers, SV FWD and AWD; CarPlay and Android Auto, full-speed Intelligent Cruise and remote engine start marked S on SV; Blind Spot Warning standard on all."
+      }
+    },
+    {
+      "id": "C11",
+      "year": 2021,
+      "make": "Toyota",
+      "model": "Sienna",
+      "trim": "LE",
+      "body": "minivan",
+      "seats": 8,
+      "drivetrain": "FWD or AWD",
+      "features": ["Power sliding doors", "Power liftgate", "Apple CarPlay", "Blind spot monitor", "Adaptive cruise control", "Third-row seating"],
+      "source": {
+        "url": "https://toyota-cms-media.s3.amazonaws.com/wp-content/uploads/2020/05/2021-Toyota-Sienna-Product-Info_final.pdf",
+        "read": "2026-11-23",
+        "what_it_confirms": "Toyota 2021 Sienna (hybrid only) product information: LE FWD and AWD are 8-passenger; power sliding doors and liftgate, CarPlay, Blind Spot Monitor and radar cruise marked S."
+      }
+    },
+    {
+      "id": "C12",
+      "year": 2021,
+      "make": "Toyota",
+      "model": "Tacoma",
+      "trim": "TRD Sport Double Cab",
+      "body": "pickup",
+      "seats": 5,
+      "drivetrain": "RWD or 4WD",
+      "features": ["Apple CarPlay", "Android Auto", "Adaptive cruise control", "Wireless phone charging"],
+      "source": {
+        "url": "https://toyota-cms-media.s3.amazonaws.com/wp-content/uploads/2020/02/2021_Toyota_Tacoma_Product_Information-2.pdf",
+        "read": "2026-11-23",
+        "what_it_confirms": "Toyota 2021 Tacoma product information: Double Cab seats 5, 4x2 or 4x4; TRD Sport has the 8-in audio with CarPlay and Android Auto and Qi charging marked S; TSS-P radar cruise standard."
+      }
+    },
+    {
+      "id": "C13",
+      "year": 2021,
+      "make": "Hyundai",
+      "model": "Palisade",
+      "trim": "SE",
+      "body": "SUV",
+      "seats": 8,
+      "drivetrain": "FWD or AWD",
+      "features": ["Third-row seating", "Apple CarPlay", "Android Auto", "Adaptive cruise control", "Backup camera"],
+      "source": {
+        "url": "https://www.hyundainews.com/assets/documents/original/41644-2021PalisadeProductGuideFeatures.pdf",
+        "read": "2026-11-23",
+        "what_it_confirms": "Hyundai 2021 Palisade features guide: SE seats 8; 3rd-row seats, Android Auto and Apple CarPlay, Smart Cruise with Stop and Go and rear view monitor marked S; FWD and AWD weights listed."
+      }
+    },
+    {
+      "id": "C14",
+      "year": 2022,
+      "make": "Subaru",
+      "model": "Forester",
+      "trim": "Premium",
+      "body": "SUV",
+      "seats": 5,
+      "drivetrain": "AWD",
+      "features": ["Power moonroof", "Heated front seats", "Apple CarPlay", "Android Auto", "Adaptive cruise control", "Backup camera"],
+      "source": {
+        "url": "https://s3.amazonaws.com/subarumedia.iconicweb.com/mediasite/attachments/2022_Forester_AAG_-_FINAL.pdf",
+        "read": "2026-11-23",
+        "what_it_confirms": "Subaru 2022 Forester at-a-glance: 5 passengers, AWD on all; Premium has panoramic power moonroof and heated front seats; CarPlay, Android Auto, adaptive cruise and rear camera standard."
+      }
+    },
+    {
+      "id": "C15",
+      "year": 2022,
+      "make": "Honda",
+      "model": "Passport",
+      "trim": "TrailSport",
+      "body": "SUV",
+      "seats": 5,
+      "drivetrain": "AWD",
+      "features": ["Power liftgate", "Power moonroof", "Leather seats", "Blind spot monitor", "Wireless phone charging", "Remote start"],
+      "source": {
+        "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-bc2bc74408027960dba69cafec2336b4-2022-honda-passport-specifications-features",
+        "read": "2026-11-23",
+        "what_it_confirms": "Honda 2022 Passport spec table: TrailSport is AWD only (no 2WD figures) and seats 5; moonroof, power tailgate, leather, blind spot information, wireless charger and remote start marked standard."
+      }
+    },
+    {
+      "id": "C16",
+      "year": 2022,
+      "make": "Honda",
+      "model": "Civic Hatchback",
+      "trim": "Sport",
+      "body": "hatchback",
+      "seats": 5,
+      "drivetrain": "FWD",
+      "features": ["Apple CarPlay", "Android Auto", "Adaptive cruise control", "Backup camera"],
+      "source": {
+        "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-cb177600e922c8a5fcfa01b9b80149e2-2022-honda-civic-hatchback-specifications-features",
+        "read": "2026-11-23",
+        "what_it_confirms": "Honda 2022 Civic Hatchback spec table: Sport seats 5; Apple CarPlay, Android Auto, multi-angle rearview camera and adaptive cruise control marked standard."
+      }
+    },
+    {
+      "id": "C17",
+      "year": 2022,
+      "make": "Hyundai",
+      "model": "Tucson",
+      "trim": "SEL",
+      "body": "SUV",
+      "seats": 5,
+      "drivetrain": "FWD or AWD",
+      "features": ["Heated front seats", "Apple CarPlay", "Android Auto", "Blind spot monitor", "Adaptive cruise control", "Backup camera"],
+      "source": {
+        "url": "https://www.hyundainews.com/assets/documents/original/45431-2022TucsonProductGuideFeatures032621.pdf",
+        "read": "2026-11-23",
+        "what_it_confirms": "Hyundai 2022 Tucson features guide: SEL seats 5; heated front seats, CarPlay and Android Auto, blind-spot collision avoidance, Smart Cruise with Stop and Go and rearview camera marked S."
+      }
+    },
+    {
+      "id": "C18",
+      "year": 2023,
+      "make": "Mazda",
+      "model": "CX-50",
+      "trim": "2.5 S Preferred Package",
+      "body": "SUV",
+      "seats": 5,
+      "drivetrain": "AWD",
+      "features": ["Power liftgate", "Heated front seats", "Blind spot monitor", "Adaptive cruise control", "Backup camera"],
+      "source": {
+        "url": "https://news.mazdausa.com/download/23MY+CX-50+Spec+Deck.pdf",
+        "read": "2026-11-23",
+        "what_it_confirms": "Mazda 2023 CX-50 spec deck: AWD Std on every trim, 5 passengers; Preferred Package has power liftgate and heated front seats; blind spot monitoring, radar cruise and rearview camera Std."
+      }
+    },
+    {
+      "id": "C19",
+      "year": 2023,
+      "make": "Toyota",
+      "model": "Highlander",
+      "trim": "XLE",
+      "body": "SUV",
+      "seats": 7,
+      "drivetrain": "FWD or AWD",
+      "features": ["Third-row seating", "Power liftgate", "Power moonroof", "Heated front seats", "Apple CarPlay", "Wireless phone charging"],
+      "source": {
+        "url": "https://toyota-cms-media.s3.amazonaws.com/wp-content/uploads/2022/10/2023-Highlander-Gas-Product-Information_FINAL_FINAL-1.pdf",
+        "read": "2026-11-23",
+        "what_it_confirms": "Toyota 2023 Highlander product information: XLE seats 7 standard (8 optional), FWD or AWD; power liftgate, moonroof, heated front seats, wireless CarPlay and Qi charging marked S."
+      }
+    },
+    {
+      "id": "C20",
+      "year": 2023,
+      "make": "Hyundai",
+      "model": "Elantra Hybrid",
+      "trim": "Blue",
+      "body": "sedan",
+      "seats": 5,
+      "drivetrain": "FWD",
+      "features": ["Heated front seats", "Apple CarPlay", "Android Auto", "Blind spot monitor", "Backup camera"],
+      "source": {
+        "url": "https://www.hyundainews.com/assets/documents/original/50300-2023ElantraProductFeatures20220629.pdf",
+        "read": "2026-11-23",
+        "what_it_confirms": "Hyundai 2023 Elantra features guide: Blue HEV seats 5; heated front seats, the display audio with wireless CarPlay, Android Auto and rearview camera, and blind-spot collision avoidance marked S."
+      }
+    },
+    {
+      "id": "C21",
+      "year": 2024,
+      "make": "Honda",
+      "model": "Pilot",
+      "trim": "EX-L",
+      "body": "SUV",
+      "seats": 8,
+      "drivetrain": "FWD or AWD",
+      "features": ["Third-row seating", "Power liftgate", "Leather seats", "Wireless phone charging", "Blind spot monitor", "Adaptive cruise control"],
+      "source": {
+        "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-5003aaa39c009393f5d06d620f07211a-2024-honda-pilot-specifications-features",
+        "read": "2026-11-23",
+        "what_it_confirms": "Honda 2024 Pilot spec table: EX-L seats 8 in 2WD and AWD form; 3rd-row bench, power lift tailgate, leather, Qi wireless charger, blind spot information and adaptive cruise marked standard."
+      }
+    },
+    {
+      "id": "C22",
+      "year": 2024,
+      "make": "Subaru",
+      "model": "Ascent",
+      "trim": "Onyx Edition",
+      "body": "SUV",
+      "seats": 7,
+      "drivetrain": "AWD",
+      "features": ["Third-row seating", "Power liftgate", "Power moonroof", "Heated front seats", "Blind spot monitor", "Apple CarPlay"],
+      "source": {
+        "url": "https://media.subaru.com/pressrelease/2064/1/subaru-announces-pricing-2024-ascent-3-row-suv",
+        "read": "2026-11-23",
+        "what_it_confirms": "Subaru 2024 Ascent pricing release: Onyx Edition is 7-passenger only, AWD on all trims; power rear gate, panoramic moonroof, Premium's heated front seats and blind-spot detection, wireless CarPlay standard."
+      }
+    }
+  ]
+}

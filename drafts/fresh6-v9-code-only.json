@@ -1,0 +1,64 @@
+{
+ "meta": {
+  "set": "fresh6",
+  "prompt": "v9",
+  "prompt_sha256": "c5258183a44348fe754d33b5f5e26e829334f67fc64e478abb113b6bd4753fdd",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 11,
+  "at": "2026-11-24T00:19:20"
+ },
+ "drafts": {
+  "L-8001": {
+   "text": "{first_name}, yes, the one you saved has a power moonroof.",
+   "cut_off": false
+  },
+  "L-8002": {
+   "text": "{first_name}, the 2021 Toyota Sienna LE can seat 8 people.",
+   "cut_off": false
+  },
+  "L-8003": {
+   "text": "{first_name}, three AWD SUVs under 60,000 miles have been added to your saved search.",
+   "cut_off": false
+  },
+  "L-8004": {
+   "text": "{first_name}, you still need to upload your driver\u2019s license and pick a delivery time.",
+   "cut_off": false
+  },
+  "L-8005": {
+   "text": "{first_name}, the offer on your 2018 Nissan Rogue SV ends Nov 27.",
+   "cut_off": false
+  },
+  "L-8006": {
+   "text": "{first_name}, you need the title, both keys, and your license when you bring in the 2018 Kia Soul Plus.",
+   "cut_off": false
+  },
+  "L-8007": {
+   "text": "{first_name}, the 2021 Nissan Rogue SV is still for sale, with 45,979 miles.",
+   "cut_off": false
+  },
+  "L-8008": {
+   "text": "{first_name}, the offer for your car ended on Nov 21.",
+   "cut_off": false
+  },
+  "L-8009": {
+   "text": "{first_name}, the 2022 Hyundai Tucson SEL is ready for your chosen delivery time.",
+   "cut_off": false
+  },
+  "L-8013": {
+   "text": "{first_name}, the power liftgate is listed as a feature.",
+   "cut_off": false
+  },
+  "L-8014": {
+   "text": "{first_name}, you\u2019ll need to upload proof of insurance before finalizing your purchase.",
+   "cut_off": false
+  }
+ }
+}

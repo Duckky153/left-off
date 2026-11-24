@@ -1,0 +1,44 @@
+{
+ "meta": {
+  "set": "fresh2",
+  "prompt": "v3",
+  "prompt_sha256": "6349a752f6e1f5c09e9af266c57e8f4ae88e8613694f29d62b2bdc6d7b1c6de6",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 6,
+  "at": "2026-11-23T21:58:48"
+ },
+ "drafts": {
+  "G-4002": {
+   "text": "{first_name}, the 2024 Honda Pilot EX-L has 8 seats. Take another look.",
+   "cut_off": false
+  },
+  "G-4003": {
+   "text": "{first_name}, here are 3 new AWD three-row SUVs from 2019 or newer. See your new matches.",
+   "cut_off": false
+  },
+  "G-4004": {
+   "text": "{first_name}, you need to upload your driver\u2019s license and pick a delivery time. Finish up by doing those two things.",
+   "cut_off": false
+  },
+  "G-4007": {
+   "text": "{first_name}, the 2022 Hyundai Tucson SEL is still listed. Take another look.",
+   "cut_off": false
+  },
+  "G-4008": {
+   "text": "{first_name}, the offer ended on Nov 21. Get a new offer with the title, both keys, and your driver\u2019s license.",
+   "cut_off": false
+  },
+  "G-4009": {
+   "text": "{first_name}, you can pick a delivery time for the 2022 Honda Civic Hatchback Sport. Finish up by choosing your preferred slot.",
+   "cut_off": false
+  }
+ }
+}

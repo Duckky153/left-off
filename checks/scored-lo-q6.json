@@ -1,0 +1,1216 @@
+{
+ "questions": "lo-q6",
+ "checks": {
+  "S-1001": {
+   "router": {
+    "answered": false,
+    "answer_line": "LISTED FEATURES"
+   }
+  },
+  "S-1002": {
+   "router": {
+    "answered": true,
+    "answer_line": "STATUS"
+   },
+   "draft": {
+    "fails": [
+     [
+      "money (second check)",
+      []
+     ],
+     [
+      "didn't answer (second check)",
+      []
+     ]
+    ],
+    "support": "STATUS",
+    "text": "{first_name}, the 2022 Hyundai Tucson SEL you saved is no longer available."
+   }
+  },
+  "S-1003": {
+   "router": {
+    "answered": true,
+    "answer_line": "SEATS"
+   },
+   "draft": {
+    "fails": [],
+    "support": "SEATS",
+    "text": "{first_name}, the 2019 Mazda CX-9 Touring seats 7 people."
+   }
+  },
+  "S-1004": {
+   "router": {
+    "answered": true,
+    "answer_line": "NEW MATCHES"
+   },
+   "draft": {
+    "fails": [],
+    "support": "NEW MATCHES",
+    "text": "{first_name}, three new SUVs under 60,000 miles now show up with AWD."
+   }
+  },
+  "S-1005": {
+   "router": {
+    "answered": false,
+    "answer_line": "NEW MATCHES"
+   }
+  },
+  "S-1006": {
+   "router": {
+    "answered": false,
+    "answer_line": "LISTED FEATURES"
+   }
+  },
+  "S-1007": {
+   "router": {
+    "answered": true,
+    "answer_line": "STEPS LEFT"
+   },
+   "draft": {
+    "fails": [],
+    "support": "STEPS LEFT",
+    "text": "{first_name}, upload proof of insurance to finish."
+   }
+  },
+  "S-1008": {
+   "router": {
+    "answered": false,
+    "answer_line": "OFFER ENDS"
+   }
+  },
+  "S-1009": {
+   "router": {
+    "reason": "money",
+    "answered": true,
+    "answer_line": "OFFER ENDS"
+   }
+  },
+  "S-1010": {
+   "router": {
+    "answered": true,
+    "answer_line": "BRING"
+   },
+   "draft": {
+    "fails": [],
+    "support": "BRING",
+    "text": "{first_name}, bring the title, both keys, and your driver's license when you drop off your car."
+   }
+  },
+  "S-1011": {
+   "router": {
+    "reason": "complaint",
+    "answered": true,
+    "answer_line": "BRING"
+   }
+  },
+  "S-1012": {
+   "router": {
+    "answered": true,
+    "answer_line": "BRING"
+   }
+  },
+  "S-1020": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": "NEXT STEP"
+   }
+  },
+  "S-1021": {
+   "router": {
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "S-1022": {
+   "router": {
+    "reason": "complaint",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "S-1023": {
+   "router": {
+    "reason": "instructions",
+    "answered": true,
+    "answer_line": "LISTED FEATURES"
+   }
+  },
+  "S-1024": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "S-1025": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": "NEXT STEP"
+   }
+  },
+  "S-1026": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": "PRE-QUALIFIED"
+   }
+  },
+  "S-1027": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "S-1028": {
+   "router": {
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "S-1029": {
+   "router": {
+    "reason": "instructions",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "S-1030": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "S-1031": {
+   "router": {
+    "reason": "complaint",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "S-1032": {
+   "router": {
+    "reason": "instructions",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "S-1013": {
+   "draft": {
+    "fails": [],
+    "support": "STATUS",
+    "text": "{first_name}, the 2023 Hyundai Elantra Hybrid is still listed."
+   }
+  },
+  "S-1014": {
+   "draft": {
+    "fails": [],
+    "support": "STATUS",
+    "text": "{first_name}, the 2022 Subaru Forester Premium is still listed."
+   }
+  },
+  "S-1015": {
+   "draft": {
+    "fails": [],
+    "support": null,
+    "text": "{first_name}, the 2021 Nissan Rogue SV is ready for you to pick a delivery time."
+   }
+  },
+  "S-1016": {
+   "draft": {
+    "fails": [
+     [
+      "money (second check)",
+      []
+     ]
+    ],
+    "support": "PRE-QUALIFIED",
+    "text": "{first_name}, you finished pre-qualifying on Nov 13."
+   }
+  },
+  "S-1017": {
+   "draft": {
+    "fails": [],
+    "support": null,
+    "text": "{first_name}, the 2019 Mazda CX-5 Grand Touring is ready for you to pick a delivery time."
+   }
+  },
+  "S-1018": {
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS",
+    "text": "{first_name}, your trade-in offer ends Nov 27. Bring the title and both keys."
+   }
+  },
+  "S-1019": {
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS",
+    "text": "{first_name}, the offer ended on Nov 21."
+   }
+  }
+ },
+ "log": {
+  "S-1001:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.06
+   ],
+   "complaint": [
+    0.04,
+    0.04
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.47,
+    0.51
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "S-1002:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.06
+   ],
+   "complaint": [
+    0.07,
+    0.09
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.93,
+    0.93
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "S-1003:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.08,
+    0.08
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.97,
+    0.98
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "S-1004:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.09,
+    0.09
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.03,
+    0.04
+   ],
+   "answered": [
+    0.85,
+    0.87
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "S-1005:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.11,
+    0.1
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.03,
+    0.02
+   ],
+   "answered": [
+    0.79,
+    0.81
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "S-1006:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.07
+   ],
+   "complaint": [
+    0.12,
+    0.12
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.25,
+    0.29
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "S-1007:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.12,
+    0.11
+   ],
+   "answered": [
+    0.93,
+    0.93
+   ],
+   "answer_line": [
+    "F06",
+    "F06"
+   ]
+  },
+  "S-1008:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.06
+   ],
+   "complaint": [
+    0.02,
+    0.03
+   ],
+   "about_money": [
+    0.08,
+    0.09
+   ],
+   "answered": [
+    0.19,
+    0.23
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "S-1009:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.04,
+    0.05
+   ],
+   "complaint": [
+    0.08,
+    0.07
+   ],
+   "about_money": [
+    0.45,
+    0.47
+   ],
+   "answered": [
+    0.91,
+    0.92
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "S-1010:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.1,
+    0.08
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.11,
+    0.1
+   ],
+   "answered": [
+    0.94,
+    0.94
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "S-1011:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.09,
+    0.09
+   ],
+   "complaint": [
+    0.3,
+    0.32
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.86,
+    0.88
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "S-1012:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.08,
+    0.09
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.95,
+    0.95
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "S-1020:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.08,
+    0.08
+   ],
+   "complaint": [
+    0.04,
+    0.04
+   ],
+   "about_money": [
+    0.91,
+    0.9
+   ],
+   "answered": [
+    0.02,
+    0.02
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "S-1021:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.06
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.01,
+    0.02
+   ],
+   "answer_line": [
+    "F02",
+    "F02"
+   ]
+  },
+  "S-1022:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.31,
+    0.34
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.02,
+    0.02
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "S-1023:router": {
+   "asks_to_stop": [
+    0.02,
+    0.02
+   ],
+   "instructs_writer": [
+    0.98,
+    0.97
+   ],
+   "complaint": [
+    0.04,
+    0.05
+   ],
+   "about_money": [
+    0.2,
+    0.22
+   ],
+   "answered": [
+    0.94,
+    0.94
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "S-1024:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.06
+   ],
+   "complaint": [
+    0.04,
+    0.04
+   ],
+   "about_money": [
+    0.98,
+    0.98
+   ],
+   "answered": [
+    0.03,
+    0.03
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "S-1025:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.08
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.97,
+    0.98
+   ],
+   "answered": [
+    0.64,
+    0.6
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "S-1026:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.06
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.99,
+    0.99
+   ],
+   "answered": [
+    0.02,
+    0.02
+   ],
+   "answer_line": [
+    "F02",
+    "F02"
+   ]
+  },
+  "S-1027:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.13,
+    0.11
+   ],
+   "complaint": [
+    0.05,
+    0.05
+   ],
+   "about_money": [
+    0.98,
+    0.98
+   ],
+   "answered": [
+    0.02,
+    0.02
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "S-1028:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.13,
+    0.13
+   ],
+   "answered": [
+    0.02,
+    0.02
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "S-1029:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.25,
+    0.29
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.99,
+    0.98
+   ],
+   "answered": [
+    0.06,
+    0.06
+   ],
+   "answer_line": [
+    "F03",
+    "F01"
+   ]
+  },
+  "S-1030:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.12,
+    0.14
+   ],
+   "about_money": [
+    0.85,
+    0.84
+   ],
+   "answered": [
+    0.03,
+    0.03
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "S-1031:router": {
+   "asks_to_stop": [
+    0.02,
+    0.02
+   ],
+   "instructs_writer": [
+    0.06,
+    0.05
+   ],
+   "complaint": [
+    0.98,
+    0.98
+   ],
+   "about_money": [
+    0.79,
+    0.74
+   ],
+   "answered": [
+    0.05,
+    0.05
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "S-1032:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.28,
+    0.31
+   ],
+   "complaint": [
+    0.07,
+    0.07
+   ],
+   "about_money": [
+    0.94,
+    0.95
+   ],
+   "answered": [
+    0.06,
+    0.07
+   ],
+   "answer_line": [
+    "F03",
+    "F01"
+   ]
+  },
+  "S-1002:draft": {
+   "D1_grounded": [
+    0.83,
+    0.83
+   ],
+   "money": [
+    0.13,
+    0.12
+   ],
+   "pressure": [
+    0.12,
+    0.14
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "answers": [
+    0.78,
+    0.84
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "S-1003:draft": {
+   "D1_grounded": [
+    0.85,
+    0.87
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.04,
+    0.04
+   ],
+   "answers": [
+    0.96,
+    0.96
+   ],
+   "support": [
+    "F05",
+    "F05"
+   ]
+  },
+  "S-1004:draft": {
+   "D1_grounded": [
+    0.86,
+    0.86
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.06,
+    0.05
+   ],
+   "promise": [
+    0.05,
+    0.05
+   ],
+   "answers": [
+    0.96,
+    0.96
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "S-1007:draft": {
+   "D1_grounded": [
+    0.89,
+    0.9
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.04,
+    0.04
+   ],
+   "answers": [
+    0.94,
+    0.95
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  },
+  "S-1010:draft": {
+   "D1_grounded": [
+    0.84,
+    0.87
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.04,
+    0.04
+   ],
+   "answers": [
+    0.96,
+    0.97
+   ],
+   "support": [
+    "F05",
+    "F05"
+   ]
+  },
+  "S-1013:draft": {
+   "D1_grounded": [
+    0.93,
+    0.93
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.04
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "S-1014:draft": {
+   "D1_grounded": [
+    0.93,
+    0.94
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.04
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "S-1015:draft": {
+   "D1_grounded": [
+    0.85,
+    0.85
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.04,
+    0.04
+   ],
+   "promise": [
+    0.14,
+    0.12
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  },
+  "S-1016:draft": {
+   "D1_grounded": [
+    0.89,
+    0.94
+   ],
+   "money": [
+    0.28,
+    0.26
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "support": [
+    "F02",
+    "F02"
+   ]
+  },
+  "S-1017:draft": {
+   "D1_grounded": [
+    0.89,
+    0.9
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.04
+   ],
+   "promise": [
+    0.11,
+    0.11
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  },
+  "S-1018:draft": {
+   "D1_grounded": [
+    0.93,
+    0.94
+   ],
+   "D2_grounded": [
+    0.97,
+    0.96
+   ],
+   "money": [
+    0.03,
+    0.04
+   ],
+   "pressure": [
+    0.07,
+    0.08
+   ],
+   "promise": [
+    0.06,
+    0.07
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "S-1019:draft": {
+   "D1_grounded": [
+    0.97,
+    0.97
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.05,
+    0.06
+   ],
+   "promise": [
+    0.02,
+    0.03
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  }
+ },
+ "runs": [
+  {
+   "stage": "router",
+   "calls": 50,
+   "spent_so_far_dollars": 0.01968,
+   "at": "2026-11-23T22:23:48"
+  },
+  {
+   "stage": "drafts",
+   "calls": 24,
+   "spent_so_far_dollars": 0.02047,
+   "at": "2026-11-23T22:24:09"
+  },
+  {
+   "stage": "drafts",
+   "calls": 8,
+   "spent_so_far_dollars": 0.02232,
+   "at": "2026-11-23T22:27:36"
+  }
+ ]
+}

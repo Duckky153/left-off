@@ -1,0 +1,64 @@
+{
+ "set": "practice",
+ "readers": {
+  "ai": {
+   "shoppers": 24,
+   "counts": {
+    "shoppers": 24,
+    "ready": 11,
+    "person": 9,
+    "do_not_contact": 4
+   },
+   "wrongly_ready": [],
+   "read_holds": 9,
+   "ready_kept_ready": 11,
+   "ready_keyed": 12,
+   "wrongly_held": [
+    "P-2006"
+   ],
+   "right_reason": 9,
+   "right_holds": 9,
+   "other_reason": [],
+   "questions_answerable": 6,
+   "questions_answered": 6,
+   "code_only_test": {
+    "as_keyed": 3,
+    "of": 3
+   }
+  },
+  "no_ai": {
+   "shoppers": 24,
+   "counts": {
+    "shoppers": 24,
+    "ready": 12,
+    "person": 8,
+    "do_not_contact": 4
+   },
+   "wrongly_ready": [],
+   "read_holds": 9,
+   "ready_kept_ready": 12,
+   "ready_keyed": 12,
+   "wrongly_held": [],
+   "right_reason": 6,
+   "right_holds": 9,
+   "other_reason": [
+    "P-2013: not_in_record (key money)",
+    "P-2014: not_in_record (key money)",
+    "P-2015: not_in_record (key money)"
+   ],
+   "questions_answerable": 6,
+   "questions_answered": 6,
+   "code_only_test": {
+    "as_keyed": 3,
+    "of": 3
+   }
+  },
+  "ai_code_checks_only": {
+   "not_measured": true
+  }
+ },
+ "second_check": {
+  "not_measured": true
+ },
+ "line": "Checked against answers written first: 0 marked ready that should have gone to a person, 1 sent to a person that could have been ready."
+}

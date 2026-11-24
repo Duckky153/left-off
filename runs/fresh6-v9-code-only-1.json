@@ -1,0 +1,50 @@
+{
+ "meta": {
+  "set": "fresh6",
+  "prompt": "v9",
+  "prompt_sha256": "c5258183a44348fe754d33b5f5e26e829334f67fc64e478abb113b6bd4753fdd",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 3,
+  "at": "2026-11-24T00:18:16"
+ },
+ "rows": [
+  {
+   "id": "L-8007",
+   "user": "CHANNEL: email\nCAR: 2021 Nissan Rogue SV, Silver, 45,979 miles\nSTATUS: still for sale, with 45,979 miles\nLISTED FEATURES: Apple CarPlay; Android Auto; Blind spot monitor; Adaptive cruise control; Remote start\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nTRUE THING (from STATUS): still for sale, with 45,979 miles",
+   "raw": "{first_name}, the 2021 Nissan Rogue SV is still for sale, with 45,979 miles.",
+   "text": "{first_name}, the 2021 Nissan Rogue SV is still for sale, with 45,979 miles.",
+   "done_reason": "stop",
+   "prompt_tokens": 540,
+   "output_tokens": 29,
+   "seconds": 1.2
+  },
+  {
+   "id": "L-8008",
+   "user": "CHANNEL: text\nYOUR CAR: 2019 Chevrolet Malibu LT, Beige, 68,344 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): the offer for your car ended on Nov 21",
+   "raw": "{first_name}, the offer for your car ended on Nov 21.",
+   "text": "{first_name}, the offer for your car ended on Nov 21.",
+   "done_reason": "stop",
+   "prompt_tokens": 524,
+   "output_tokens": 17,
+   "seconds": 0.77
+  },
+  {
+   "id": "L-8009",
+   "user": "CHANNEL: text\nCAR: 2022 Hyundai Tucson SEL, Beige, 51,143 miles\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Blind spot monitor; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): you still need to pick a delivery time",
+   "raw": "{first_name}, the 2022 Hyundai Tucson SEL is ready for your chosen delivery time.",
+   "text": "{first_name}, the 2022 Hyundai Tucson SEL is ready for your chosen delivery time.",
+   "done_reason": "stop",
+   "prompt_tokens": 536,
+   "output_tokens": 22,
+   "seconds": 0.97
+  }
+ ]
+}

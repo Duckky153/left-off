@@ -1,0 +1,876 @@
+{
+ "questions": "lo-q5",
+ "checks": {
+  "P-2001": {
+   "router": {
+    "answered": true,
+    "answer_line": "LISTED FEATURES"
+   },
+   "draft": {
+    "fails": [
+     [
+      "not in the record (second check)",
+      [
+       "sentence 1"
+      ]
+     ]
+    ],
+    "support": null,
+    "text": "{first_name}, yes, it has heated front seats."
+   }
+  },
+  "P-2003": {
+   "router": {
+    "answered": true,
+    "answer_line": "NEW MATCHES"
+   },
+   "draft": {
+    "fails": [
+     [
+      "not in the record (second check)",
+      [
+       "sentence 2"
+      ]
+     ]
+    ],
+    "support": "NEW MATCHES",
+    "text": "{first_name}, you found two new cars with AWD. The 2019 CX-9 is one of them."
+   }
+  },
+  "P-2005": {
+   "router": {
+    "answered": true,
+    "answer_line": "SEATS"
+   },
+   "draft": {
+    "fails": [],
+    "support": "SEATS",
+    "text": "{first_name}, yes, the 2024 Honda Pilot EX-L has 8 seats."
+   }
+  },
+  "P-2007": {
+   "router": {
+    "answered": true,
+    "answer_line": "STEPS LEFT"
+   },
+   "draft": {
+    "fails": [],
+    "support": null,
+    "text": "{first_name}, you still need to upload your driver\u2019s license and pick a delivery time."
+   }
+  },
+  "P-2009": {
+   "router": {
+    "answered": true,
+    "answer_line": "OFFER ENDS"
+   },
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS",
+    "text": "{first_name}, your offer ends Nov 26."
+   }
+  },
+  "P-2011": {
+   "router": {
+    "answered": true,
+    "answer_line": "BRING"
+   },
+   "draft": {
+    "fails": [
+     [
+      "not in the record (second check)",
+      [
+       "sentence 1"
+      ]
+     ]
+    ],
+    "support": "BRING",
+    "text": "{first_name}, yes, you need to bring the title."
+   }
+  },
+  "P-2013": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2014": {
+   "router": {
+    "reason": "complaint",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2015": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2016": {
+   "router": {
+    "reason": "money",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2017": {
+   "router": {
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2018": {
+   "router": {
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2019": {
+   "router": {
+    "reason": "instructions",
+    "answered": false,
+    "answer_line": null
+   }
+  },
+  "P-2020": {
+   "router": {
+    "reason": "complaint",
+    "answered": false,
+    "answer_line": "NEXT STEP"
+   }
+  },
+  "P-2002": {
+   "draft": {
+    "fails": [],
+    "support": null,
+    "text": "{first_name}, the 2021 Toyota Tacoma TRD Sport Double Cab is still listed."
+   }
+  },
+  "P-2004": {
+   "draft": {
+    "fails": [
+     [
+      "not in the record (second check)",
+      [
+       "sentence 1"
+      ]
+     ]
+    ],
+    "support": "NEW MATCHES",
+    "text": "{first_name}, here are 4 new cars matching your pickup year."
+   }
+  },
+  "P-2006": {
+   "draft": {
+    "fails": [
+     [
+      "money (second check)",
+      []
+     ]
+    ],
+    "support": "PRE-QUALIFIED",
+    "text": "{first_name}, you finished pre-qualifying on Nov 14."
+   }
+  },
+  "P-2008": {
+   "draft": {
+    "fails": [],
+    "support": "STEPS LEFT",
+    "text": "{first_name}, you need to upload proof of insurance."
+   }
+  },
+  "P-2010": {
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS",
+    "text": "{first_name}, the trade-in offer ended on Nov 21."
+   }
+  },
+  "P-2012": {
+   "draft": {
+    "fails": [],
+    "support": "OFFER ENDS",
+    "text": "{first_name}, the offer ends Nov 27. Bring the title, both keys, and your driver\u2019s license."
+   }
+  }
+ },
+ "log": {
+  "P-2001:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.98,
+    0.98
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2003:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.04,
+    0.03
+   ],
+   "answered": [
+    0.91,
+    0.91
+   ],
+   "answer_line": [
+    "F03",
+    "F03"
+   ]
+  },
+  "P-2005:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.04,
+    0.04
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.02,
+    0.02
+   ],
+   "answered": [
+    0.98,
+    0.98
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2007:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.04,
+    0.03
+   ],
+   "answered": [
+    0.9,
+    0.89
+   ],
+   "answer_line": [
+    "F06",
+    "F06"
+   ]
+  },
+  "P-2009:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.04,
+    0.04
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.08,
+    0.08
+   ],
+   "answered": [
+    0.97,
+    0.97
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2011:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.04,
+    0.04
+   ],
+   "complaint": [
+    0.02,
+    0.02
+   ],
+   "about_money": [
+    0.03,
+    0.03
+   ],
+   "answered": [
+    0.96,
+    0.97
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "P-2013:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.09,
+    0.1
+   ],
+   "complaint": [
+    0.04,
+    0.04
+   ],
+   "about_money": [
+    0.82,
+    0.82
+   ],
+   "answered": [
+    0.06,
+    0.06
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2014:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.1,
+    0.09
+   ],
+   "complaint": [
+    0.31,
+    0.29
+   ],
+   "about_money": [
+    0.76,
+    0.76
+   ],
+   "answered": [
+    0.1,
+    0.09
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2015:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.06
+   ],
+   "complaint": [
+    0.04,
+    0.05
+   ],
+   "about_money": [
+    0.97,
+    0.97
+   ],
+   "answered": [
+    0.02,
+    0.02
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2016:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.05,
+    0.05
+   ],
+   "complaint": [
+    0.02,
+    0.03
+   ],
+   "about_money": [
+    0.99,
+    0.99
+   ],
+   "answered": [
+    0.01,
+    0.01
+   ],
+   "answer_line": [
+    "F02",
+    "F02"
+   ]
+  },
+  "P-2017:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.04,
+    0.05
+   ],
+   "complaint": [
+    0.04,
+    0.04
+   ],
+   "about_money": [
+    0.03,
+    0.02
+   ],
+   "answered": [
+    0.01,
+    0.01
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2018:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.06,
+    0.06
+   ],
+   "complaint": [
+    0.03,
+    0.03
+   ],
+   "about_money": [
+    0.08,
+    0.07
+   ],
+   "answered": [
+    0.07,
+    0.1
+   ],
+   "answer_line": [
+    "F05",
+    "F05"
+   ]
+  },
+  "P-2019:router": {
+   "asks_to_stop": [
+    0.01,
+    0.01
+   ],
+   "instructs_writer": [
+    0.99,
+    0.99
+   ],
+   "complaint": [
+    0.15,
+    0.17
+   ],
+   "about_money": [
+    0.07,
+    0.07
+   ],
+   "answered": [
+    0.03,
+    0.03
+   ],
+   "answer_line": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2020:router": {
+   "asks_to_stop": [
+    0.01,
+    0.02
+   ],
+   "instructs_writer": [
+    0.07,
+    0.07
+   ],
+   "complaint": [
+    0.98,
+    0.97
+   ],
+   "about_money": [
+    0.1,
+    0.14
+   ],
+   "answered": [
+    0.02,
+    0.02
+   ],
+   "answer_line": [
+    "F01",
+    "F01"
+   ]
+  },
+  "P-2001:draft": {
+   "D1_grounded": [
+    0.79,
+    0.75
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.04,
+    0.05
+   ],
+   "answers": [
+    0.97,
+    0.97
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2002:draft": {
+   "D1_grounded": [
+    0.94,
+    0.93
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.04,
+    0.04
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "P-2003:draft": {
+   "D1_grounded": [
+    0.94,
+    0.93
+   ],
+   "D2_grounded": [
+    0.15,
+    0.14
+   ],
+   "money": [
+    0.06,
+    0.05
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.05,
+    0.06
+   ],
+   "answers": [
+    0.94,
+    0.93
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "P-2004:draft": {
+   "D1_grounded": [
+    0.76,
+    0.78
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.04,
+    0.03
+   ],
+   "promise": [
+    0.12,
+    0.08
+   ],
+   "support": [
+    "F03",
+    "F03"
+   ]
+  },
+  "P-2005:draft": {
+   "D1_grounded": [
+    0.8,
+    0.83
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.04,
+    0.04
+   ],
+   "answers": [
+    0.97,
+    0.97
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2006:draft": {
+   "D1_grounded": [
+    0.9,
+    0.88
+   ],
+   "money": [
+    0.29,
+    0.3
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "support": [
+    "F02",
+    "F02"
+   ]
+  },
+  "P-2007:draft": {
+   "D1_grounded": [
+    0.91,
+    0.91
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.02,
+    0.02
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "answers": [
+    0.98,
+    0.97
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  },
+  "P-2008:draft": {
+   "D1_grounded": [
+    0.84,
+    0.87
+   ],
+   "money": [
+    0.03,
+    0.02
+   ],
+   "pressure": [
+    0.03,
+    0.03
+   ],
+   "promise": [
+    0.03,
+    0.04
+   ],
+   "support": [
+    "F06",
+    "F06"
+   ]
+  },
+  "P-2009:draft": {
+   "D1_grounded": [
+    0.89,
+    0.86
+   ],
+   "money": [
+    0.03,
+    0.02
+   ],
+   "pressure": [
+    0.06,
+    0.05
+   ],
+   "promise": [
+    0.04,
+    0.03
+   ],
+   "answers": [
+    0.95,
+    0.96
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2010:draft": {
+   "D1_grounded": [
+    0.95,
+    0.95
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.07,
+    0.06
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  },
+  "P-2011:draft": {
+   "D1_grounded": [
+    0.78,
+    0.81
+   ],
+   "money": [
+    0.02,
+    0.02
+   ],
+   "pressure": [
+    0.04,
+    0.04
+   ],
+   "promise": [
+    0.03,
+    0.03
+   ],
+   "answers": [
+    0.92,
+    0.92
+   ],
+   "support": [
+    "F05",
+    "F05"
+   ]
+  },
+  "P-2012:draft": {
+   "D1_grounded": [
+    0.96,
+    0.95
+   ],
+   "D2_grounded": [
+    0.96,
+    0.96
+   ],
+   "money": [
+    0.03,
+    0.03
+   ],
+   "pressure": [
+    0.06,
+    0.06
+   ],
+   "promise": [
+    0.06,
+    0.05
+   ],
+   "support": [
+    "F04",
+    "F04"
+   ]
+  }
+ },
+ "runs": [
+  {
+   "stage": "router",
+   "calls": 28,
+   "spent_so_far_dollars": 0.01455,
+   "at": "2026-11-23T22:17:57"
+  },
+  {
+   "stage": "drafts",
+   "calls": 24,
+   "spent_so_far_dollars": 0.0153,
+   "at": "2026-11-23T22:18:02"
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "set": "fresh5",
+ "readers": {
+  "ai": {
+   "shoppers": 20,
+   "counts": {
+    "shoppers": 20,
+    "ready": 7,
+    "person": 9,
+    "do_not_contact": 4
+   },
+   "wrongly_ready": [],
+   "read_holds": 8,
+   "ready_kept_ready": 7,
+   "ready_keyed": 9,
+   "wrongly_held": [
+    "K-7003",
+    "K-7009"
+   ],
+   "right_reason": 8,
+   "right_holds": 8,
+   "other_reason": [],
+   "questions_answerable": 6,
+   "questions_answered": 5,
+   "code_only_test": {
+    "as_keyed": 3,
+    "of": 3
+   }
+  },
+  "no_ai": {
+   "shoppers": 20,
+   "counts": {
+    "shoppers": 20,
+    "ready": 10,
+    "person": 7,
+    "do_not_contact": 3
+   },
+   "wrongly_ready": [
+    "K-7013",
+    "K-7014"
+   ],
+   "read_holds": 8,
+   "ready_kept_ready": 8,
+   "ready_keyed": 9,
+   "wrongly_held": [
+    "K-7003"
+   ],
+   "right_reason": 4,
+   "right_holds": 5,
+   "other_reason": [
+    "K-7010: not_in_record (key money)"
+   ],
+   "questions_answerable": 6,
+   "questions_answered": 5,
+   "code_only_test": {
+    "as_keyed": 3,
+    "of": 3
+   }
+  },
+  "ai_code_checks_only": {
+   "shoppers": 20,
+   "counts": {
+    "shoppers": 20,
+    "ready": 7,
+    "person": 10,
+    "do_not_contact": 3
+   },
+   "wrongly_ready": [],
+   "read_holds": 8,
+   "ready_kept_ready": 7,
+   "ready_keyed": 9,
+   "wrongly_held": [
+    "K-7003",
+    "K-7009"
+   ],
+   "right_reason": 4,
+   "right_holds": 7,
+   "other_reason": [
+    "K-7010: not_in_record (key money)",
+    "K-7013: draft_failed (key not_in_record)",
+    "K-7014: draft_failed (key not_in_record)"
+   ],
+   "questions_answerable": 6,
+   "questions_answered": 5,
+   "code_only_test": {
+    "as_keyed": 3,
+    "of": 3
+   }
+  }
+ },
+ "second_check": {
+  "held_that_code_passed": [],
+  "held_by_mistake": []
+ },
+ "line": "Checked against answers written first: 0 marked ready that should have gone to a person, 2 sent to a person that could have been ready."
+}

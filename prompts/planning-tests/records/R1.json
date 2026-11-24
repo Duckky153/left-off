@@ -1,0 +1,8 @@
+{"customer_id": "S-101", "first_name": "Maya", "sample": true,
+ "stage": "saved_car", "stage_words": "saved a car",
+ "car": {"year": 2021, "make": "Honda", "model": "CR-V", "trim": "EX", "miles": "38,412", "color": "Platinum White",
+         "features_listed": ["Heated front seats", "Apple CarPlay", "Android Auto", "Blind spot monitoring", "Power moonroof"]},
+ "saved_on": "2026-11-12",
+ "last_question": {"asked_on": "2026-11-13", "where": "question box on the car's page", "text": "Does it have heated seats?"},
+ "step": "Answer the question from the car's listed features and invite her to look at the car again.",
+ "channel": "email"}

@@ -1,0 +1,205 @@
+{
+ "what_this_is": "The no-AI yardstick's decisions on the scored set, saved before the AI's scored run.",
+ "results": {
+  "S-1001": {
+   "outcome": "person",
+   "reason": "not_in_record",
+   "draft": null
+  },
+  "S-1002": {
+   "outcome": "ready",
+   "reason": null,
+   "draft": "{first_name}, that car has sold. You can set up a search for cars like it whenever you're ready."
+  },
+  "S-1003": {
+   "outcome": "ready",
+   "reason": null,
+   "draft": "{first_name}, it has 7 seats. You can take another look at your car whenever you're ready."
+  },
+  "S-1004": {
+   "outcome": "person",
+   "reason": "draft_failed",
+   "draft": null
+  },
+  "S-1005": {
+   "outcome": "ready",
+   "reason": null,
+   "draft": "{first_name}, 2 new cars match your search, all with third-row seating. You can see your new matches whenever you're ready."
+  },
+  "S-1006": {
+   "outcome": "person",
+   "reason": "not_in_record",
+   "draft": null
+  },
+  "S-1007": {
+   "outcome": "ready",
+   "reason": null,
+   "draft": "{first_name}, the step left is to upload proof of insurance. You can finish the steps left whenever you're ready."
+  },
+  "S-1008": {
+   "outcome": "person",
+   "reason": "draft_failed",
+   "draft": null
+  },
+  "S-1009": {
+   "outcome": "person",
+   "reason": "draft_failed",
+   "draft": null
+  },
+  "S-1010": {
+   "outcome": "person",
+   "reason": "draft_failed",
+   "draft": null
+  },
+  "S-1011": {
+   "outcome": "ready",
+   "reason": null,
+   "draft": "{first_name}, please bring the title, both keys and your driver's license. You can accept your offer whenever you're ready."
+  },
+  "S-1012": {
+   "outcome": "person",
+   "reason": "draft_failed",
+   "draft": null
+  },
+  "S-1013": {
+   "outcome": "ready",
+   "reason": null,
+   "draft": "{first_name}, the car you saved is still listed. You can take another look at your car whenever you're ready."
+  },
+  "S-1014": {
+   "outcome": "ready",
+   "reason": null,
+   "draft": "{first_name}, the car you saved is still listed. You can take another look at your car whenever you're ready."
+  },
+  "S-1015": {
+   "outcome": "ready",
+   "reason": null,
+   "draft": "{first_name}, the step left is to pick a delivery time. You can finish the steps left whenever you're ready."
+  },
+  "S-1016": {
+   "outcome": "ready",
+   "reason": null,
+   "draft": "{first_name}, you finished pre-qualifying. You can pick a car whenever you're ready."
+  },
+  "S-1017": {
+   "outcome": "ready",
+   "reason": null,
+   "draft": "{first_name}, the step left is to pick a delivery time. You can finish the steps left whenever you're ready."
+  },
+  "S-1018": {
+   "outcome": "ready",
+   "reason": null,
+   "draft": "{first_name}, your offer is good through Nov 27. You can use your offer when you buy whenever you're ready."
+  },
+  "S-1019": {
+   "outcome": "ready",
+   "reason": null,
+   "draft": "{first_name}, that offer ended on Nov 21. You can get a new offer whenever you're ready."
+  },
+  "S-1020": {
+   "outcome": "person",
+   "reason": "not_in_record",
+   "draft": null
+  },
+  "S-1021": {
+   "outcome": "person",
+   "reason": "draft_failed",
+   "draft": null
+  },
+  "S-1022": {
+   "outcome": "person",
+   "reason": "not_in_record",
+   "draft": null
+  },
+  "S-1023": {
+   "outcome": "ready",
+   "reason": null,
+   "draft": "{first_name}, yes, the listing includes wireless phone charging. You can take another look at your car whenever you're ready."
+  },
+  "S-1024": {
+   "outcome": "person",
+   "reason": "money",
+   "draft": null
+  },
+  "S-1025": {
+   "outcome": "person",
+   "reason": "money",
+   "draft": null
+  },
+  "S-1026": {
+   "outcome": "person",
+   "reason": "money",
+   "draft": null
+  },
+  "S-1027": {
+   "outcome": "person",
+   "reason": "not_in_record",
+   "draft": null
+  },
+  "S-1028": {
+   "outcome": "person",
+   "reason": "not_in_record",
+   "draft": null
+  },
+  "S-1029": {
+   "outcome": "person",
+   "reason": "money",
+   "draft": null
+  },
+  "S-1030": {
+   "outcome": "person",
+   "reason": "draft_failed",
+   "draft": null
+  },
+  "S-1031": {
+   "outcome": "person",
+   "reason": "draft_failed",
+   "draft": null
+  },
+  "S-1032": {
+   "outcome": "person",
+   "reason": "not_in_record",
+   "draft": null
+  },
+  "S-1033": {
+   "outcome": "person",
+   "reason": "california",
+   "draft": null
+  },
+  "S-1034": {
+   "outcome": "person",
+   "reason": "no_safe_time",
+   "draft": null
+  },
+  "S-1035": {
+   "outcome": "do_not_contact",
+   "reason": "opted_out",
+   "draft": null
+  },
+  "S-1036": {
+   "outcome": "do_not_contact",
+   "reason": "messaged_recently",
+   "draft": null
+  },
+  "S-1037": {
+   "outcome": "do_not_contact",
+   "reason": "no_channel",
+   "draft": null
+  },
+  "S-1038": {
+   "outcome": "do_not_contact",
+   "reason": "talking_with_care",
+   "draft": null
+  },
+  "S-1039": {
+   "outcome": "do_not_contact",
+   "reason": "opted_out",
+   "draft": null
+  },
+  "S-1040": {
+   "outcome": "do_not_contact",
+   "reason": "asked_to_stop",
+   "draft": null
+  }
+ }
+}

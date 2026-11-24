@@ -1,0 +1,7 @@
+{"customer_id": "S-104", "first_name": "Luis", "sample": true,
+ "stage": "sell_offer", "stage_words": "got an offer to sell his car",
+ "his_car": {"year": 2017, "make": "Ford", "model": "Escape", "trim": "SE", "miles": "88,040"},
+ "offer_made_on": "2026-11-14",
+ "last_question": {"asked_on": "2026-11-14", "where": "chat", "text": "Do you come pick the car up or do I have to drop it off somewhere?"},
+ "step": "Invite him to come back to his offer.",
+ "channel": "email"}

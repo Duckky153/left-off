@@ -1,0 +1,110 @@
+{
+ "meta": {
+  "set": "fresh4",
+  "prompt": "v7",
+  "prompt_sha256": "080b6c6afb4020d2a51f35f30a0ea901502f204fcda2beca177c6d7ef7c5ad7c",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 9,
+  "at": "2026-11-23T22:27:00"
+ },
+ "rows": [
+  {
+   "id": "J-6001",
+   "user": "CHANNEL: text\nCAR: 2022 Honda Passport TrailSport, White, 33,008 miles\nSTATUS: still listed\nLISTED FEATURES: Power liftgate; Power moonroof; Leather seats; Blind spot monitor; Wireless phone charging; Remote start\nSEATS: 5 seats\nDRIVETRAIN: AWD\nQUESTION: Does the SUV I saved have a power moonroof?\nANSWER (from LISTED FEATURES): Power moonroof",
+   "raw": "{first_name}, yes, the 2022 Honda Passport TrailSport has a power moonroof.",
+   "text": "{first_name}, yes, the 2022 Honda Passport TrailSport has a power moonroof.",
+   "done_reason": "stop",
+   "prompt_tokens": 535,
+   "output_tokens": 23,
+   "seconds": 0.97
+  },
+  {
+   "id": "J-6002",
+   "user": "CHANNEL: email\nCAR: 2021 Toyota Sienna LE, Blue, 23,413 miles\nSTATUS: still listed\nLISTED FEATURES: Power sliding doors; Power liftgate; Apple CarPlay; Blind spot monitor; Adaptive cruise control; Third-row seating\nSEATS: 8 seats\nDRIVETRAIN: FWD or AWD\nQUESTION: How many people fit in the minivan I saved?\nANSWER (from SEATS): 8 seats",
+   "raw": "{first_name}, the 2021 Toyota Sienna LE fits 8 people.",
+   "text": "{first_name}, the 2021 Toyota Sienna LE fits 8 people.",
+   "done_reason": "stop",
+   "prompt_tokens": 539,
+   "output_tokens": 20,
+   "seconds": 0.9
+  },
+  {
+   "id": "J-6003",
+   "user": "CHANNEL: email\nSEARCH: Sedans under 50,000 miles\nNEW MATCHES: 3 new cars match, all with AWD\nQUESTION: Have any new AWD sedans popped up that fit my saved search?\nANSWER (from NEW MATCHES): 3 new cars match, all with AWD",
+   "raw": "{first_name}, three new AWD sedans match your saved search.",
+   "text": "{first_name}, three new AWD sedans match your saved search.",
+   "done_reason": "stop",
+   "prompt_tokens": 506,
+   "output_tokens": 16,
+   "seconds": 0.67
+  },
+  {
+   "id": "J-6004",
+   "user": "CHANNEL: text\nCAR: 2020 Honda CR-V EX, Gray, 39,305 miles\nLISTED FEATURES: Power moonroof; Heated front seats; Remote start; Apple CarPlay; Blind spot monitor; Adaptive cruise control\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Upload your driver's license; Pick a delivery time\nQUESTION: I started the purchase, do I just need to upload my license and pick a delivery time now?\nANSWER (from STEPS LEFT): Upload your driver's license; Pick a delivery time",
+   "raw": "{first_name}, you\u2019ll need to upload your license and pick a delivery time next.",
+   "text": "{first_name}, you\u2019ll need to upload your license and pick a delivery time next.",
+   "done_reason": "stop",
+   "prompt_tokens": 566,
+   "output_tokens": 19,
+   "seconds": 0.89
+  },
+  {
+   "id": "J-6005",
+   "user": "CHANNEL: text\nYOUR CAR: 2017 Ford Escape SE, Silver, 93,636 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 27\nBRING: the title; both keys\nQUESTION: How long is the offer on my Escape good for?\nANSWER (from OFFER ENDS): Nov 27",
+   "raw": "{first_name}, the offer on your 2017 Ford Escape SE ends Nov 27.",
+   "text": "{first_name}, the offer on your 2017 Ford Escape SE ends Nov 27.",
+   "done_reason": "stop",
+   "prompt_tokens": 521,
+   "output_tokens": 23,
+   "seconds": 0.87
+  },
+  {
+   "id": "J-6006",
+   "user": "CHANNEL: email\nYOUR CAR: 2015 Toyota Camry LE, Silver, 112,258 miles\nOFFER: an offer to buy your car\nOFFER ENDS: Nov 26\nBRING: the title; both keys; your driver's license\nQUESTION: For selling my Camry, should I bring the title, both keys, and my driver's license?\nANSWER (from BRING): the title; both keys; your driver's license",
+   "raw": "{first_name}, bring the title, both keys, and your driver's license.",
+   "text": "{first_name}, bring the title, both keys, and your driver's license.",
+   "done_reason": "stop",
+   "prompt_tokens": 541,
+   "output_tokens": 18,
+   "seconds": 0.81
+  },
+  {
+   "id": "J-6007",
+   "user": "CHANNEL: email\nCAR: 2024 Subaru Ascent Onyx Edition, Beige, 62,300 miles\nSTATUS: still listed\nLISTED FEATURES: Third-row seating; Power liftgate; Power moonroof; Heated front seats; Blind spot monitor; Apple CarPlay\nSEATS: 7 seats\nDRIVETRAIN: AWD\nTRUE THING (from STATUS): still listed",
+   "raw": "{first_name}, the 2024 Subaru Ascent Onyx Edition is still listed.",
+   "text": "{first_name}, the 2024 Subaru Ascent Onyx Edition is still listed.",
+   "done_reason": "stop",
+   "prompt_tokens": 526,
+   "output_tokens": 21,
+   "seconds": 0.84
+  },
+  {
+   "id": "J-6008",
+   "user": "CHANNEL: text\nYOUR CAR: 2017 Ford Escape SE, Black, 125,402 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): ended on Nov 21",
+   "raw": "{first_name}, the offer ended on Nov 21.",
+   "text": "{first_name}, the offer ended on Nov 21.",
+   "done_reason": "stop",
+   "prompt_tokens": 518,
+   "output_tokens": 14,
+   "seconds": 0.66
+  },
+  {
+   "id": "J-6009",
+   "user": "CHANNEL: text\nCAR: 2020 Honda Odyssey EX, White, 34,379 miles\nLISTED FEATURES: Power sliding doors; Heated front seats; Remote start; Blind spot monitor; Apple CarPlay; Third-row seating\nSEATS: 8 seats\nDRIVETRAIN: FWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): Pick a delivery time",
+   "raw": "{first_name}, the 2020 Honda Odyssey EX is ready for you to pick a delivery time.",
+   "text": "{first_name}, the 2020 Honda Odyssey EX is ready for you to pick a delivery time.",
+   "done_reason": "stop",
+   "prompt_tokens": 529,
+   "output_tokens": 24,
+   "seconds": 0.87
+  }
+ ]
+}

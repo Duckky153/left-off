@@ -1,0 +1,90 @@
+{
+ "meta": {
+  "set": "scored",
+  "prompt": "v9",
+  "prompt_sha256": "c5258183a44348fe754d33b5f5e26e829334f67fc64e478abb113b6bd4753fdd",
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+  "options": {
+   "temperature": 0,
+   "seed": 7,
+   "num_predict": 120,
+   "num_ctx": 4096
+  },
+  "think": false,
+  "drafts": 7,
+  "at": "2026-11-24T00:18:10"
+ },
+ "rows": [
+  {
+   "id": "S-1013",
+   "user": "CHANNEL: email\nCAR: 2023 Hyundai Elantra Hybrid Blue, Black, 38,234 miles\nSTATUS: still for sale, with 38,234 miles\nLISTED FEATURES: Heated front seats; Apple CarPlay; Android Auto; Blind spot monitor; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: FWD\nTRUE THING (from STATUS): still for sale, with 38,234 miles",
+   "raw": "{first_name}, the 2023 Hyundai Elantra Hybrid is still for sale with 38,234 miles.",
+   "text": "{first_name}, the 2023 Hyundai Elantra Hybrid is still for sale with 38,234 miles.",
+   "done_reason": "stop",
+   "prompt_tokens": 541,
+   "output_tokens": 30,
+   "seconds": 1.21
+  },
+  {
+   "id": "S-1014",
+   "user": "CHANNEL: email\nCAR: 2022 Subaru Forester Premium, Black, 12,577 miles\nSTATUS: still for sale, with 12,577 miles\nLISTED FEATURES: Power moonroof; Heated front seats; Apple CarPlay; Android Auto; Adaptive cruise control; Backup camera\nSEATS: 5 seats\nDRIVETRAIN: AWD\nTRUE THING (from STATUS): still for sale, with 12,577 miles",
+   "raw": "{first_name}, the 2022 Subaru Forester Premium is still for sale, with 12,577 miles.",
+   "text": "{first_name}, the 2022 Subaru Forester Premium is still for sale, with 12,577 miles.",
+   "done_reason": "stop",
+   "prompt_tokens": 543,
+   "output_tokens": 30,
+   "seconds": 1.13
+  },
+  {
+   "id": "S-1015",
+   "user": "CHANNEL: email\nCAR: 2021 Nissan Rogue SV, Black, 19,976 miles\nLISTED FEATURES: Apple CarPlay; Android Auto; Blind spot monitor; Adaptive cruise control; Remote start\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): you still need to pick a delivery time",
+   "raw": "{first_name}, the 2021 Nissan Rogue SV is ready for your chosen delivery time.",
+   "text": "{first_name}, the 2021 Nissan Rogue SV is ready for your chosen delivery time.",
+   "done_reason": "stop",
+   "prompt_tokens": 530,
+   "output_tokens": 22,
+   "seconds": 0.89
+  },
+  {
+   "id": "S-1016",
+   "user": "CHANNEL: email\nPRE-QUALIFIED: you finished pre-qualifying on Nov 13\nTRUE THING (from PRE-QUALIFIED): you finished pre-qualifying on Nov 13",
+   "raw": "{first_name}, you finished pre-qualifying on Nov 13.",
+   "text": "{first_name}, you finished pre-qualifying on Nov 13.",
+   "done_reason": "stop",
+   "prompt_tokens": 480,
+   "output_tokens": 17,
+   "seconds": 0.72
+  },
+  {
+   "id": "S-1017",
+   "user": "CHANNEL: text\nCAR: 2019 Mazda CX-5 Grand Touring, Green, 22,154 miles\nLISTED FEATURES: Power liftgate; Power moonroof; Leather seats; Heated front seats; Blind spot monitor; Adaptive cruise control\nSEATS: 5 seats\nDRIVETRAIN: FWD or AWD\nSTEPS LEFT: Pick a delivery time\nTRUE THING (from STEPS LEFT): you still need to pick a delivery time",
+   "raw": "{first_name}, the 2019 Mazda CX-5 Grand Touring is ready for your chosen delivery time.",
+   "text": "{first_name}, the 2019 Mazda CX-5 Grand Touring is ready for your chosen delivery time.",
+   "done_reason": "stop",
+   "prompt_tokens": 540,
+   "output_tokens": 26,
+   "seconds": 1.06
+  },
+  {
+   "id": "S-1018",
+   "user": "CHANNEL: text\nYOUR CAR: 2016 Subaru Forester 2.5i, Green, 112,769 miles\nOFFER: a trade-in offer on your car\nOFFER ENDS: Nov 27\nBRING: the title; both keys\nTRUE THING (from OFFER ENDS): your trade-in offer ends Nov 27",
+   "raw": "{first_name}, your trade-in offer ends Nov 27.",
+   "text": "{first_name}, your trade-in offer ends Nov 27.",
+   "done_reason": "stop",
+   "prompt_tokens": 520,
+   "output_tokens": 15,
+   "seconds": 0.71
+  },
+  {
+   "id": "S-1019",
+   "user": "CHANNEL: text\nYOUR CAR: 2015 Toyota Camry LE, Blue, 87,567 miles\nOFFER: an offer to buy your car\nOFFER ENDS: ended on Nov 21\nBRING: the title; both keys; your driver's license\nTRUE THING (from OFFER ENDS): the offer for your car ended on Nov 21",
+   "raw": "{first_name}, the offer for your car ended on Nov 21.",
+   "text": "{first_name}, the offer for your car ended on Nov 21.",
+   "done_reason": "stop",
+   "prompt_tokens": 523,
+   "output_tokens": 17,
+   "seconds": 0.79
+  }
+ ]
+}

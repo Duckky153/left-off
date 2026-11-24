@@ -1,0 +1,14 @@
+{
+  "what_this_is": "The writer's settings, recorded in every run and fingerprinted in the lock.",
+  "model": "qwen3-vl:4b-instruct",
+  "prompt": "v9",
+  "questions": "lo-q7",
+  "temperature": 0,
+  "seed": 7,
+  "num_predict": 120,
+  "num_ctx": 4096,
+  "drafts_suffix": {
+    "scored": "-after-change"
+  },
+  "writer_sees_next_step": false
+}
